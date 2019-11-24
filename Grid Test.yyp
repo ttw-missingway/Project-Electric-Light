@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "023bb5ee-399f-44be-be78-e7f3c1836f7c",
+            "Value": {
+                "id": "7d3eaec8-84e1-4755-bec2-67ce0a428234",
+                "resourcePath": "scripts\/selectActor\/selectActor.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "032379fb-d7c4-4536-ae30-c5acc190a008",
             "Value": {
                 "id": "9771f784-797e-4946-b342-f058af9f2133",
@@ -668,6 +676,14 @@
                 "id": "54f98668-29a8-4865-8b9c-d1b2a6799820",
                 "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ko.lproj\/Bluetooth.searchTerms.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "3e92cc4a-95e5-440d-a467-ae774439e4ec",
+            "Value": {
+                "id": "97e6bb34-366d-471e-9de8-b676bde2ec32",
+                "resourcePath": "scripts\/activeParty\/activeParty.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1484,6 +1500,14 @@
                 "id": "403f0317-db16-4889-9296-63b286ea7ce9",
                 "resourcePath": "views\/8c990a35-a42a-421c-a7a1-ade944010e46.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8cd1eebb-d5ad-485b-ab73-38a1d3493683",
+            "Value": {
+                "id": "4897f89e-09ef-4cde-853d-6f95d96e5791",
+                "resourcePath": "scripts\/battleStateMachine\/battleStateMachine.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2441,16 +2465,19 @@
     ],
     "script_order": [
         "acb12a89-95c6-49c1-871d-7dc6b5175e80",
-        "891302a9-1906-4d0f-becb-666e5ae1869c",
         "824a57a6-404c-4f65-8bc6-4a77e3ed2a6b",
+        "891302a9-1906-4d0f-becb-666e5ae1869c",
         "d7fadbfa-310d-4767-8845-86f1547c8e83",
         "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
         "a6ec5262-b849-4080-b88c-ea345d599896",
         "4be5f6df-13e8-42ee-aea7-01aee15d1bfc",
+        "3e92cc4a-95e5-440d-a467-ae774439e4ec",
         "218275dd-1348-4745-a02f-d82683ce84ee",
         "458cc7cc-d00b-4f80-9ab4-1e46325f31c1",
         "91682a4e-5808-4968-b039-037f8b27002f",
-        "fe162f05-cfdf-450b-9a25-a7050de8059e"
+        "fe162f05-cfdf-450b-9a25-a7050de8059e",
+        "8cd1eebb-d5ad-485b-ab73-38a1d3493683",
+        "023bb5ee-399f-44be-be78-e7f3c1836f7c"
     ],
     "tutorial": ""
 }

@@ -4,4 +4,4 @@
 //Move Player
 if !global.attackInProgress && !global.gameplayFreeze{
 	if global.actorActive[myChar]{
-		moveSelectedActor();}}
+		battleStateMachine();}}

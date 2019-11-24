@@ -1,9 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//TIMERS CODE
-actorTimers();
+keyboardMap();
 
+//initialize
 
-
-//ACTOR ABILITY 0 CODE
+battleState = "actorSelect";

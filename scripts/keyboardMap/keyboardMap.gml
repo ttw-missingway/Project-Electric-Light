@@ -1,12 +1,10 @@
-#macro		keyLeft		vk_left
-#macro		keyRight	vk_right
-#macro		keyUp		vk_up
-#macro		keyDown		vk_down
-#macro		keyA		ord("Z")
-#macro		keyB		ord("X")
-#macro		keyL		ord("A")
-#macro		keyR		ord("S")
-#macro		keyStart	vk_return
-#macro		keyOption	vk_shift
-
-#macro		second		60
+keyLeft	=	vk_left;
+keyRight =	vk_right;
+keyUp	=	vk_up;
+keyDown	=	vk_down;
+keyA	=	ord("Z");
+keyB	=	ord("X");
+keyL	=	ord("A");
+keyR	=	ord("S");
+keyStart =	vk_return;
+keyOption =	vk_shift;
