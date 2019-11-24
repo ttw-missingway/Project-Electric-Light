@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "218275dd-1348-4745-a02f-d82683ce84ee",
+            "Value": {
+                "id": "c7d2ca3f-50b2-4846-a546-14d6e46590dd",
+                "resourcePath": "scripts\/actorTimers\/actorTimers.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "21becf46-fc51-4632-b643-3a3d7bb7a6b5",
             "Value": {
                 "id": "61b1c61f-5792-4b9c-9cd9-410502233ea0",
@@ -751,6 +759,14 @@
             }
         },
         {
+            "Key": "458cc7cc-d00b-4f80-9ab4-1e46325f31c1",
+            "Value": {
+                "id": "6f44d724-39cc-4875-b0f0-86cba46a2619",
+                "resourcePath": "scripts\/battleStates\/battleStates.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "45df6fe0-68dc-437d-8438-ad4b76f90e34",
             "Value": {
                 "id": "9d175732-4450-45d5-9c92-6322c6c3c9da",
@@ -788,6 +804,14 @@
                 "id": "71cd90cc-9437-4652-a396-dc2994dd2d2f",
                 "resourcePath": "views\/4b1328d6-e55a-4606-9d6e-4aaf45c6f7d6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4be5f6df-13e8-42ee-aea7-01aee15d1bfc",
+            "Value": {
+                "id": "6c10c7d3-641d-430e-9014-d26c8a415bee",
+                "resourcePath": "scripts\/enemyStats\/enemyStats.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -935,6 +959,14 @@
             }
         },
         {
+            "Key": "5b0f9c89-f0c4-47cd-992a-cd4a9b203c04",
+            "Value": {
+                "id": "31d87b24-54f3-4701-8492-6c4cac21b8ad",
+                "resourcePath": "views\/5b0f9c89-f0c4-47cd-992a-cd4a9b203c04.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5c3748dd-ed22-4b82-a8f8-8871bcd2bc39",
             "Value": {
                 "id": "839a6ba7-4893-4978-8dee-41cd55832bac",
@@ -1028,6 +1060,14 @@
                 "id": "c2a1baba-555c-4d8d-abf5-94b46c770db8",
                 "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt_PT.lproj\/BluetoothPref.strings.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "6295680c-b7a4-477c-bb04-8856e190d19d",
+            "Value": {
+                "id": "6f31fe4f-eb82-4993-afb9-29a1b5b321d7",
+                "resourcePath": "objects\/oDataSheets\/oDataSheets.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1295,6 +1335,14 @@
             }
         },
         {
+            "Key": "7d6b2478-f8cc-41bd-93f9-53be97571b7c",
+            "Value": {
+                "id": "6f4382ef-21fb-4733-a0e2-fe279729e9ec",
+                "resourcePath": "views\/7d6b2478-f8cc-41bd-93f9-53be97571b7c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7ec45920-975d-493b-8726-225d260a97e1",
             "Value": {
                 "id": "dfda828c-dadf-4f15-b212-a469335044ec",
@@ -1340,6 +1388,14 @@
                 "id": "2d0c4e36-23bf-4996-ade7-26bf7925779f",
                 "resourcePath": "sprites\/sNodePlayer\/sNodePlayer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "824a57a6-404c-4f65-8bc6-4a77e3ed2a6b",
+            "Value": {
+                "id": "a1d2c5c1-6c78-4d6c-981b-1063c8892182",
+                "resourcePath": "scripts\/abilitySheet\/abilitySheet.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1455,6 +1511,14 @@
             }
         },
         {
+            "Key": "91682a4e-5808-4968-b039-037f8b27002f",
+            "Value": {
+                "id": "6f6cc9ec-4684-4470-8c8d-fcd74ad79e7c",
+                "resourcePath": "scripts\/actorAbility\/actorAbility.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "929ff22c-a805-4c7c-bb20-091af5cbccac",
             "Value": {
                 "id": "1c9de692-fd88-44fb-b65e-a37af2ef85ca",
@@ -1562,7 +1626,7 @@
             "Key": "a6ec5262-b849-4080-b88c-ea345d599896",
             "Value": {
                 "id": "710e3724-f4de-43cd-ba0d-ad393d3a4003",
-                "resourcePath": "scripts\/script4\/script4.yy",
+                "resourcePath": "scripts\/actorsStats\/actorsStats.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1930,7 +1994,7 @@
             "Key": "d0300637-3ca9-43ce-adb8-6b2bd9374663",
             "Value": {
                 "id": "bf9d75ce-ad60-42be-8b78-3e2ac8f55d9d",
-                "resourcePath": "objects\/oActorController\/oActorController.yy",
+                "resourcePath": "objects\/oActorsContr\/oActorsContr.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1996,6 +2060,14 @@
                 "id": "4fc2e7e1-edaa-4b5b-8764-94c2367fae12",
                 "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_CN.lproj\/Localizable.strings.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d7fadbfa-310d-4767-8845-86f1547c8e83",
+            "Value": {
+                "id": "a4b59fdb-b2dc-4d5f-aa3b-d069c98c9e20",
+                "resourcePath": "scripts\/keywords\/keywords.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2124,6 +2196,14 @@
                 "id": "f6ed6dbb-60b0-4ad8-8912-13a1201fb38c",
                 "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt_PT.lproj\/InfoPlist.strings.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e97613b4-32d9-4247-bd96-13a16ef7deb6",
+            "Value": {
+                "id": "1b64f01b-4d6e-4901-9e00-201692d01377",
+                "resourcePath": "views\/e97613b4-32d9-4247-bd96-13a16ef7deb6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2271,6 +2351,14 @@
             }
         },
         {
+            "Key": "fa5a4b1c-9c4c-4b4a-a6e7-5e48d48f9eef",
+            "Value": {
+                "id": "753525ca-0fad-45a1-9813-0de6f6f6c6a9",
+                "resourcePath": "objects\/oBattleContr\/oBattleContr.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fdef030b-8362-4701-b1f1-45f5e01cd330",
             "Value": {
                 "id": "7ba837fa-0d2d-41ae-825c-8a613f830d54",
@@ -2320,11 +2408,17 @@
         }
     ],
     "script_order": [
-        "fe162f05-cfdf-450b-9a25-a7050de8059e",
         "acb12a89-95c6-49c1-871d-7dc6b5175e80",
         "891302a9-1906-4d0f-becb-666e5ae1869c",
+        "824a57a6-404c-4f65-8bc6-4a77e3ed2a6b",
+        "d7fadbfa-310d-4767-8845-86f1547c8e83",
         "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
-        "a6ec5262-b849-4080-b88c-ea345d599896"
+        "a6ec5262-b849-4080-b88c-ea345d599896",
+        "4be5f6df-13e8-42ee-aea7-01aee15d1bfc",
+        "218275dd-1348-4745-a02f-d82683ce84ee",
+        "458cc7cc-d00b-4f80-9ab4-1e46325f31c1",
+        "91682a4e-5808-4968-b039-037f8b27002f",
+        "fe162f05-cfdf-450b-9a25-a7050de8059e"
     ],
     "tutorial": ""
 }

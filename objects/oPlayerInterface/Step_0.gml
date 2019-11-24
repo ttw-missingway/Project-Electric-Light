@@ -1,3 +1,7 @@
 /// @description 
 // You can write your code in this editor
-moveSelectedActor();
+
+//Move Player
+if !global.attackInProgress && !global.gameplayFreeze{
+	if global.actorActive[myChar]{
+		moveSelectedActor();}}

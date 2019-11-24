@@ -1,3 +1,5 @@
+
+
 if keyboard_check_pressed(keyLeft){
 	if ds_grid_get(oGridController.newGrid,global.playerPositionX-1,global.playerPositionY) = "vacant"{
 		ds_grid_set(oGridController.newGrid,global.playerPositionX-1,global.playerPositionY, "player");

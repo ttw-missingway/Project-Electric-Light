@@ -1,0 +1,2 @@
+global.attackInProgress = false; //used when an attack is taking place all other actions and cooldowns are paused
+global.gameplayFreeze	= false; //used for dialogue that happens during certain fights or for cutscenes

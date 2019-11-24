@@ -2,10 +2,10 @@
     "id": "d0300637-3ca9-43ce-adb8-6b2bd9374663",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oActorController",
+    "name": "oActorsContr",
     "eventList": [
         {
-            "id": "fa3166fc-075b-409b-ba6b-dad7b844be02",
+            "id": "de717e2a-8637-4dd6-8ae7-27c2701c169b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

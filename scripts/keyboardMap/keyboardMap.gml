@@ -8,3 +8,5 @@
 #macro		keyR		ord("S")
 #macro		keyStart	vk_return
 #macro		keyOption	vk_shift
+
+#macro		second		60
