@@ -1,0 +1,15 @@
+Through The Woods Layer Flow
+
+
+Outline
+Static Layer 
+	(constants, character sheets, ability sheets, etc.)
+Fluid Layer 
+	(changing variables, unlockables, customization, etc.)
+Calculations Layer 
+	(takes info from fluid layer and static layer when interactions happen and sends 
+	them to the grid layer)
+Data Map Layer
+	(data chart that short hands all info necessary for visual presentation.)
+Interface/ Visual Layer
+	(Layer that allows player interaction)

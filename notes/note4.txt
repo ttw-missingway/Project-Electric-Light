@@ -1,0 +1,50 @@
+Through The Woods Skill List 
+(In tiers of priority)
+
+First Wave (necessary for testing other things) Abilities:
+	Attack
+	Guard
+	Pyra 
+
+Second Wave
+	Attack (Light, Medium, Heavy)
+	Pyra (Minor, Major, Magnus)
+	Dodge
+	Protect
+	Counter (Flat)
+	Genera (minor, major, magnus)
+	
+Third Wave Signature Abilities:
+	Flash Light (Art)
+	Pangur Ban (Aisling)
+	Rexarang (Kaikua)
+	Swan Song (Rim)
+	Raw Meat Salad (Krusk)
+	Bubble Shield (Diedre)
+	Self-Destruct (Unit)
+	Pilfer (Giles)
+	Guardian (Jesper)
+
+Fourth Wave:
+	Nimbus (minor, major, magnus)
+	Luna (minor, major, magnus)
+	Helio (minor, major, magnus)
+	Regen
+	Auto-Life
+	Haste
+	Slow
+	Damage Buff
+	Damage Nerf
+	Armor Buff
+	Armor Nerf
+	Stun Hex
+	Madness Hex
+	Blind Hex
+	Burn Hex
+
+Fifth Wave Link Abilities:
+
+Sixth Wave Gap filling:
+
+Seventh Wave luxury:
+

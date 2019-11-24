@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "19961b48-c736-420a-9c6e-c7e0e2b0ccb9",
+            "Value": {
+                "id": "5db56c66-8c73-4253-845b-0096db921e05",
+                "resourcePath": "notes\/Grid System.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "1a81f4c0-8738-4f47-941e-e898741214e9",
             "Value": {
                 "id": "689de90b-4a1e-4c33-b18a-0ebe008a8752",
@@ -596,6 +604,14 @@
                 "id": "4ce787d5-4c52-4767-951a-1580cbf7e32c",
                 "resourcePath": "views\/39a657dd-fa77-4503-ba4b-27f44bf42bbd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "39ac7296-348b-4ecd-9510-0953bea28f7c",
+            "Value": {
+                "id": "81900abb-154c-4c5a-8af8-d2c61219fa17",
+                "resourcePath": "notes\/Skill List.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -1359,14 +1375,6 @@
             }
         },
         {
-            "Key": "7fcedc92-3763-4d79-9e88-211787b57734",
-            "Value": {
-                "id": "ec504cf0-bcfb-48b6-ab27-e7077dde13bd",
-                "resourcePath": "notes\/note0.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "7ff93c40-1161-4e5e-8def-1c9616b613ba",
             "Value": {
                 "id": "a817dfd0-506d-48c0-9d0c-6f2d1f4db54c",
@@ -1591,6 +1599,14 @@
             }
         },
         {
+            "Key": "a0053bec-4d83-4d85-8e93-88f811eadcdc",
+            "Value": {
+                "id": "f7a3275b-3f39-4d8c-9448-0d1ba5d93ff9",
+                "resourcePath": "notes\/Zodiac.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "a0eaf113-ff91-4bc3-b31d-e7b0148c0a53",
             "Value": {
                 "id": "198585c7-1649-4238-8197-703513e9c6a6",
@@ -1708,6 +1724,14 @@
                 "id": "c3b38ebe-9386-4af1-ba23-1cc559fc7a7f",
                 "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/German.lproj\/BluetoothPref.strings.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "ae99be97-aaba-462a-971b-c0ec3d9182f1",
+            "Value": {
+                "id": "97355ef5-52b9-4937-9695-63191ada5d6a",
+                "resourcePath": "notes\/Game Design Outline.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -1972,6 +1996,14 @@
                 "id": "5fa0e900-e69d-43b0-9644-74b6ca395ff8",
                 "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/en_GB.lproj\/Localizable.strings.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "ceb18416-bfc9-4570-b61b-f1947091d6a2",
+            "Value": {
+                "id": "b11808ce-677d-4c8c-be04-8ed1249ad9c3",
+                "resourcePath": "notes\/Layer Flow.yy",
+                "resourceType": "GMNotes"
             }
         },
         {

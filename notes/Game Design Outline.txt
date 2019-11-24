@@ -1,0 +1,23 @@
+Through The Woods Game Design Outline
+
+-Game occurs in real time
+-Player toggles through actors with L and R 
+-All actors have a menu that can be customized outside of battle
+-This contains MOVE plus 4 more options of the players choice.
+-This can include ATTACK, MAGIC, SPECIAL ATTACK, DOUSE, LINK, DEFEND, and GUARD
+-All characters have a unique list of learned abilities that fall within one of those seven categories.
+-If the actor is selectable (not stunned, active, or dead) the actor can then move freely and select an action. 
+-Once an action is selected, the player is asked to confirm their selection, during this time the player can choose to perform the action once, or repeatedly. 
+-The actor will then become ‘active’ while performing the action and will not be able to be selected until no longer active.
+-All actors have a strain meter that builds as the actor blocks incoming damage with defending. The strain meter will wait once receiving strain and then slowly decrease as strain is added. If the strain meter is filled up completely the shield breaks and the actor is stunned. Certain special moves require a certain level of strain to perform and will reset the bar to 0 once performed successfully.
+-When any actor is taking their action, for that duration, all actors are inactive (this gives the feel of a turn based RPG).
+-All actions have a cool down and the player must wait for the cool down to expire before the actor can be used.
+-All cool down timers are paused while actions occur and resume once the action has been performed.
+-Magic and big enemy attacks must be channelled. The cool down for these are generally pretty low but the actor must wait until the channel time expires before the move is performed. Big enemy attacks have indicators on which squares will be affected.
+-The player may obtain from giving an actor an action for however long the player likes, the AI however will always perform an action as soon as its cool downs expire
+-Cooldowns for player’s actors as well as enemy actors are displayed in the UI
+-Health for the player’s actors is also displayed as well as strain meters. 
+-Enemys do not have strain meters and health bars for enemies are not visible.
+-Melee abilities must be adjacent to enemy actors to be performed. Ranged abilities can be from anywhere.
+-When fighting a Sealed Spirit the objective changes somewhat. The Boss does not actually take damage but instead will reveal its seal somewhere on the grid when it would take damage. The seal will then fade and become untargettable overtime based on how much damage it would have taken. The player can keep it targetable for longer with dousing. The seal must be targeted with electric light to be destroyed and has variable health. Once the seal is destroyed the Spirit is destroyed too.
+-attacks can be charged to be light, medium, or heavy. Light attacks deal reduced damage but have a shorter cool down, heavier attacks deal more damage but have longer 

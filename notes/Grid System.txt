@@ -1,0 +1,25 @@
+Through The Woods The Grid System
+
+The grid is organized as a data structure
+The grid contains keywords that reference what is occupying that cell
+The keyword will be an actor’s name, an obstacle, a seal, or vacant
+There are nodule objects that can be moved on the map to visually represent the cells, this will allow flexibility in designing the different stages
+The actors will move to the object nodules when their name appears on a different cell on the grid automatically.
+Interacting with the UI will reassign cells on the grid
+There is a separate grid that is used for selection. This grid exists as an exact copy of the main grid until the player decides to make a selection, this grid will make changes to indicate what the player is ABOUT to select. This will allow the UI to show the player what will happen without committing the decision until the player is ready.
+Once the player commits to the selection the main grid will copy its information from the SELECTION GRID.
+The AI does not interact with the SELECTION GRID. Instead all AI decisions are reflected instantly on the MAIN GRID.
+If an obstacle would be spawned on a cell that is already occupied one of two things happens: 
+1. The obstacle is ‘non-essential’ and the obstacle will not be added
+2. The obstacle is ‘essential’ and the obstacle will be added to the first vacant adjacent cell to its target cell, starting to the rightmost cell and rotating clockwise. If no vacant cell exists adjacent to its target cell it will locate any vacant cell and target that cell instead. If no vacant cells exist at all, a random non-essential obstacle will be destroyed and replaced with the essential obstacle. If no vacant cells exist and no non-essential obstacles exist, a non-player actor will be selected randomly, destroyed, and replaced with the essential obstacle. Due to the complicated nature of essential obstacles only SEALS and other objects of extreme importance should be labeled as such.
+All entries in the MAIN GRID link to other objects. These objects should be detailed in their own script pages. The string that references each object is called the KEYWORD. Each KEYWORD is entirely unique to one class of objects. Multiple instances of a class of objects can exist on a grid but all instances will have behavior that matches only its class of objects.
+All actor class objects are static and non changing and will contain the following values:
+Health
+Range Type (melee, or ranged only)
+Attack Damage
+Attack Cooldown
+Strain Limit
+All abilities able to be learned (these are ABILITY KEYWORDS)
+Archetype (creates greater diversity in how damage is calculated)
+All linked attacks with all characters
+Connecting the static layer (character sheets, ability sheets, archetype sheets) to the grid layer is the fluid layer which tracks the health, modifiers, current actor abilities, equipped actor abilities
