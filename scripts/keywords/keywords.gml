@@ -6,3 +6,4 @@
 #macro		ltAtk		0
 
 #macro		second		60
+#macro		empty		99

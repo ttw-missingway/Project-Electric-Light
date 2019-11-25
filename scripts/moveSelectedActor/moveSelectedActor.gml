@@ -23,3 +23,9 @@ if keyboard_check_pressed(keyDown){
 		ds_grid_set(oGridController.newGrid,global.actorPositionX[argument0],global.actorPositionY[argument0]+1, global.actorKeyword[argument0]);
 		ds_grid_set(oGridController.newGrid,global.actorPositionX[argument0],global.actorPositionY[argument0], "vacant");
 		global.actorPositionY[argument0]++;}}
+		
+if keyboard_check_pressed(keyB){
+	battleState = "actorSelect";}
+	
+if keyboard_check_pressed(keyA){
+	battleState = "actorAttack";}

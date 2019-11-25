@@ -3,10 +3,8 @@ switch battleState {
 		selectActor();
 		break;}
 	case "actorMove": {
-		moveSelectedActor(global.activeSlot);
+		moveSelectedActor(global.actorInSlot[global.activeSlot]);
 		break;}
 	case "actorAttack": {
-		actorAbility(global.activeSlot, ltAtk, myEnemy);
+		actorAbility(global.actorInSlot[global.activeSlot], ltAtk, myEnemy);
 		break;}}
-		
-		

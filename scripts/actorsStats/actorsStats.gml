@@ -20,8 +20,6 @@ global.actorAbilitySlot[0,0]		= "Light Attack"; //Attack strings should be styli
 global.actorAbilitySlot[0,1]		= "Guard";
 global.actorAbilitySlot[0,2]		= "Pyra Minor"; //basic lamp light attack
 global.actorAbilitySlot[0,3]		= "Auto-Regen"; //passive ability
-global.actorActive[0]				= true;
-global.actorCD[0]					= -1;
 global.actorPositionX[0]			= 2;
 global.actorPositionY[0]			= 2;
 
@@ -48,7 +46,5 @@ global.actorAbilitySlot[1,0]		= "Light Attack"; //Attack strings should be styli
 global.actorAbilitySlot[1,1]		= "Guard";
 global.actorAbilitySlot[1,2]		= "Pyra Minor"; //basic lamp light attack
 global.actorAbilitySlot[1,3]		= "Auto-Regen"; //passive ability
-global.actorActive[1]				= true;
-global.actorCD[1]					= -1;
 global.actorPositionX[1]			= 2;
 global.actorPositionY[1]			= 3;

@@ -10,5 +10,7 @@ if keyboard_check_pressed(keyRight){
 	else{
 		global.activeSlot = 0;}}
 		
-if keyboard_check_pressed(keyA){
-	battleState = "actorMove";}
+if global.actorActiveInSlot[global.activeSlot]{
+	if keyboard_check_pressed(keyA){
+		battleState = "actorMove";}}
+	
