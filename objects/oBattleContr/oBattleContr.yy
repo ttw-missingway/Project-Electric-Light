@@ -5,16 +5,6 @@
     "name": "oBattleContr",
     "eventList": [
         {
-            "id": "4b433081-bc3f-435f-a1ba-bec97fd306d1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "fa5a4b1c-9c4c-4b4a-a6e7-5e48d48f9eef"
-        },
-        {
             "id": "6642ffd9-736c-457f-b40a-1929bce53035",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -54,5 +44,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "299a27f0-61c2-48c1-b189-ff19d023a35f",
-    "visible": true
+    "visible": false
 }

@@ -1455,6 +1455,14 @@
             }
         },
         {
+            "Key": "88fa80e9-363b-47e5-aa25-abc7df0c9f69",
+            "Value": {
+                "id": "08d09582-aa7e-49d0-87f9-4fd861a5feec",
+                "resourcePath": "scripts\/activeEnemies\/activeEnemies.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "891302a9-1906-4d0f-becb-666e5ae1869c",
             "Value": {
                 "id": "98794e2e-cc3b-40af-a4a1-6fe8e61ae630",
@@ -1524,6 +1532,14 @@
                 "id": "a03a5135-4213-4c9e-85ec-c912a906a01c",
                 "resourcePath": "views\/8d7989bd-7f55-44d2-8b8c-7b135a0f7adb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d8ba2a2-3c66-4ada-9189-181fcac07108",
+            "Value": {
+                "id": "c44d4b0a-1d7e-4485-86b6-9cc5f49def46",
+                "resourcePath": "objects\/oBattleGUI\/oBattleGUI.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2472,6 +2488,7 @@
         "a6ec5262-b849-4080-b88c-ea345d599896",
         "4be5f6df-13e8-42ee-aea7-01aee15d1bfc",
         "3e92cc4a-95e5-440d-a467-ae774439e4ec",
+        "88fa80e9-363b-47e5-aa25-abc7df0c9f69",
         "218275dd-1348-4745-a02f-d82683ce84ee",
         "458cc7cc-d00b-4f80-9ab4-1e46325f31c1",
         "91682a4e-5808-4968-b039-037f8b27002f",

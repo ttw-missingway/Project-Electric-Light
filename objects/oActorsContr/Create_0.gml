@@ -4,3 +4,4 @@
 actorsStats();
 enemyStats();
 activeParty();
+activeEnemies();

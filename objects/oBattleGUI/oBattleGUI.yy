@@ -1,38 +1,18 @@
 {
-    "id": "759e120d-ec60-4729-a140-be324c871c91",
+    "id": "8d8ba2a2-3c66-4ada-9189-181fcac07108",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oPlayerInterface",
+    "name": "oBattleGUI",
     "eventList": [
         {
-            "id": "c2a4d126-10c7-48bc-bbee-c07e8d55e615",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "759e120d-ec60-4729-a140-be324c871c91"
-        },
-        {
-            "id": "6e8b3a39-2d0b-4bb6-9013-84de98c7894e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "759e120d-ec60-4729-a140-be324c871c91"
-        },
-        {
-            "id": "d6ec9a51-f75f-4240-b3bc-998d16dd6988",
+            "id": "25c1346d-7061-42bd-8f24-7fc99b9aac75",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "759e120d-ec60-4729-a140-be324c871c91"
+            "m_owner": "8d8ba2a2-3c66-4ada-9189-181fcac07108"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -54,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "4deb5fdc-25a5-4c43-82dc-584cd4399764",
-    "visible": false
+    "visible": true
 }
