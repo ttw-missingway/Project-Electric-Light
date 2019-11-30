@@ -4,11 +4,11 @@
 
 global.actorKeyword[myChar]				= "myChar";
 global.actorHP[myChar]					= 10;
-global.actorAtkDmg[myChar]				= 3;
+global.actorStrength[myChar]			= 3;
 global.actorStrain[myChar]				= 0;
 global.actorStatus[myChar]				= "none";
 global.actorDmgMod[myChar]				= 0;
-global.actorArmorMod[myChar]			= 0;
+global.actorArmor[myChar]				= 0;
 global.actorRegen[myChar]				= 0;
 global.actorHaste[myChar]				= 1;		//is a ratio where 1 is normal, less than 1 is slowed, more than 1 is sped up
 global.actorAutoLife[myChar]			= 0;		//binary, 1 yes, 0 no

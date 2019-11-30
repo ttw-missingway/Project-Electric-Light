@@ -1,0 +1,28 @@
+Enemies have three attack archetypes:
+
+1. Melee
+2. Beeline
+3. Volley
+
+Further segmented into two damage types:
+
+1. Physical
+2. Magical
+
+Physical damage is affected by enemy attack damage and ally armor
+Magical damage is affected by the abilities' inherent damage and the ally's zodiac
+			
+			Damage Scale
+			*0.25		*0.5		*0.75		*1			*1.25		*1.5		*1.75
+SUNLIGHT	Coin		Oak			Urn			Sword		Beast		Torch		Spirit
+MOONLIGHT	Spirit		Beast		Torch		Urn			Sword		Oak			Coin
+LAMPLIGHT	Torch		Urn			Spirit		Coin		Sword		Beast		Oak	
+ELECLIGHT	Oak			Sword		Beast		Coin		Spirit		Torch		Urn
+
+COIN		OX--	VVBB
+SPIRIT		XOOX	VVBB
+OAK			OXXO	VVVV
+URN			O-OX	BBVV
+SWORD		-XXO	BBBV
+BEAST		XOXO	BVVB
+TORCH		XOOX	VBVV

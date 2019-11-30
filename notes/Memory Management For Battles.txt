@@ -1,0 +1,1 @@
+Always clear ds_grid and ds_lists at the end of battles

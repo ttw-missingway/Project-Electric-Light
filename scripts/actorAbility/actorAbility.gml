@@ -5,5 +5,5 @@ if keyboard_check_pressed(keyA){
 		global.actorCDInSlot[global.activeSlot]			= global.atkDmgCD[argument1];
 		global.enemyHP[argument2]			-= 
 			floor(
-				(global.actorAtkDmg[argument0] * global.atkDmgMod[argument1]) - global.enemyArmor[argument2]);
+				(global.actorStrength[argument0] * global.atkDmgMod[argument1]) - global.enemyArmor[argument2]);
 		battleState = "actorSelect"}}

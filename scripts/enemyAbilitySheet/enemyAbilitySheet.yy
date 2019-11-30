@@ -1,8 +1,8 @@
 {
-    "id": "acb12a89-95c6-49c1-871d-7dc6b5175e80",
+    "id": "3d2f9132-714c-4858-903a-cb089d461317",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "characterSheet",
+    "name": "enemyAbilitySheet",
     "IsCompatibility": false,
     "IsDnD": false
 }
