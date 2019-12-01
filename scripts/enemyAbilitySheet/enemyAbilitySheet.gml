@@ -8,9 +8,18 @@ global.enemyAtkDmgCD[genMelee]					= 10*second;
 global.enemyAtkActive[genMelee]					= true;
 global.enemyAtkDmgType[genMelee]				= "physical";
 global.enemyAtkDestination[genMelee]			= "unmoving";
-global.enemyAtkTargetType[genMelee]				= "unique";
 global.enemyAtkStateChange[genMelee]			= "none";
-global.enemyAtkArchetype[genMelee]				= "melee";
+global.enemyAtkParent[genMelee]					= "none";
+global.enemyAtkMassive[genMelee]				= false;
+global.enemyAtkStatus[genMelee]					= "none";
+global.enemyAtkTravel[genMelee]					= "volley"; //attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
+
+//Target Cells
+global.enemyAtkGridRelative[genMelee]			= true; //middle lane (2y) is always the relative lane, (1x) is shallow (right next to the enemy), (4x) is deep, (1y) is to the left, (3y) is to the right)
+global.enemyAtkGridMaxCells[genMelee]			= 1;
+global.enemyAtkGridX[genMelee,0]				= 1;
+global.enemyAtkGridY[genMelee,0]				= 2;
+
 
 
 ////////////////////////////////////////////
@@ -26,6 +35,7 @@ global.enemyAtkDestination[genBee]				= "parallel";
 global.enemyAtkTargetType[genBee]				= "grid";
 global.enemyAtkStateChange[genBee]				= "none";
 global.enemyAtkArchetype[genBee]				= "beeline";
+global.enemyAtkMassive[genBee]					= false;
 
 ////////////////////////////////////////////
 /************* Volley **************////////
@@ -40,6 +50,22 @@ global.enemyAtkDestination[genVolley]			= "unmoving";
 global.enemyAtkTargetType[genVolley]			= "unique";
 global.enemyAtkStateChange[genVolley]			= "none";
 global.enemyAtkArchetype[genVolley]				= "volley";
+global.enemyAtkMassive[genVolley]				= false;
+
+////////////////////////////////////////////
+/************* Massive **************///////
+////////////////////////////////////////////
+
+global.enemyAtkKeyword[genMassive]				= "Generic Volley";
+global.enemyAtkDmgMod[genMassive]				= 0.75; //percentage of atk stat used in attack
+global.enemyAtkDmgCD[genMassive]				= 6*second;
+global.enemyAtkActive[genMassive]				= true;
+global.enemyAtkDmgType[genMassive]				= "physical";
+global.enemyAtkDestination[genMassive]			= "unmoving";
+global.enemyAtkTargetType[genMassive]			= "unique";
+global.enemyAtkStateChange[genMassive]			= "none";
+global.enemyAtkArchetype[genMassive]			= "multi";
+global.enemyAtkMassive[genMassive]				= true;
 
 ////////////////////////////////////////////
 /************* Reposition **********////////

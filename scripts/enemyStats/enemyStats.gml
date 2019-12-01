@@ -11,6 +11,7 @@ global.enemyAbility[myEnemy]				= "attack";
 global.enemyPositionX[myEnemy]				= 3;
 global.enemyPositionY[myEnemy]				= 0;
 global.enemyFace[myEnemy]					= "bow";
+global.enemyMassiveCD[myEnemy]				= 3;
 
 global.enemyAttackList[myEnemy]				= ds_list_create();
-ds_list_add(global.enemyAttackList[myEnemy],genMelee,genGuard,genBee,genVolley);
+ds_list_add(global.enemyAttackList[myEnemy],genMelee,genBee,genVolley);

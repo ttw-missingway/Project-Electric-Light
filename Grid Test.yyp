@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "1528bf2e-afa2-4710-b39d-56fd6a258fbb",
+            "Value": {
+                "id": "ad7dd648-eee4-4557-bd8e-5c9a49e0a256",
+                "resourcePath": "scripts\/enemyPerformAttack\/enemyPerformAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "154c1f82-fbec-4781-965d-60e733b6e5bb",
             "Value": {
                 "id": "b9aae02c-92ca-49e6-82fe-c35c1f4aaa6e",
@@ -647,14 +655,6 @@
             }
         },
         {
-            "Key": "39e798cf-d6bd-4181-ae64-cf4ebd40265d",
-            "Value": {
-                "id": "064c34ac-2fb0-43c6-9ae6-d98d3985b95d",
-                "resourcePath": "scripts\/enemyAIStateChange\/enemyAIStateChange.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3a003422-b8ef-4f93-9a75-49d5e0c08727",
             "Value": {
                 "id": "ae86ff2a-db70-4063-9017-2ead90a8acd6",
@@ -708,6 +708,14 @@
                 "id": "54f98668-29a8-4865-8b9c-d1b2a6799820",
                 "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ko.lproj\/Bluetooth.searchTerms.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "3e535217-7a7a-4970-b6ef-1dfae884a9dd",
+            "Value": {
+                "id": "e74f394b-b780-4754-bae3-9965dd401195",
+                "resourcePath": "notes\/Bosses and Unique Mechanics.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
@@ -2071,6 +2079,14 @@
             }
         },
         {
+            "Key": "ca866b98-a1a3-4e4b-beeb-7c2f654f454b",
+            "Value": {
+                "id": "fee15468-1033-4bc2-b613-8165848e8a26",
+                "resourcePath": "scripts\/isPlayerTargettable\/isPlayerTargettable.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cab0f24b-4190-46a0-bd83-e0ec88763135",
             "Value": {
                 "id": "454e8347-a072-4957-aea8-3071e818d970",
@@ -2563,8 +2579,9 @@
         "218275dd-1348-4745-a02f-d82683ce84ee",
         "458cc7cc-d00b-4f80-9ab4-1e46325f31c1",
         "91682a4e-5808-4968-b039-037f8b27002f",
-        "39e798cf-d6bd-4181-ae64-cf4ebd40265d",
         "f7912509-9f43-43a3-b477-5b667c264357",
+        "ca866b98-a1a3-4e4b-beeb-7c2f654f454b",
+        "1528bf2e-afa2-4710-b39d-56fd6a258fbb",
         "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
         "fe162f05-cfdf-450b-9a25-a7050de8059e",
         "023bb5ee-399f-44be-be78-e7f3c1836f7c",

@@ -1,8 +1,8 @@
-global.actorInSlot[0] = myChar2;
+global.actorInSlot[0] = myChar;
 global.actorActiveInSlot[0] = true;
 global.actorCDInSlot[0] = 0;
 
-global.actorInSlot[1] = myChar;
+global.actorInSlot[1] = myChar2;
 global.actorActiveInSlot[1] = true;
 global.actorCDInSlot[1] = 0;
 

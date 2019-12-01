@@ -1,0 +1,1 @@
+global.enemyglobal.enemyAtkDmgCD[argument0] 

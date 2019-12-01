@@ -12,7 +12,7 @@ draw_text(x, y + newLine*3, "Selected Actor: \n" + string(
 //Allies
 for (i=0;i<=2;i++){
 	
-	draw_set_alpha(0.8);
+	draw_set_alpha(0.6);
 	
 	if global.activeSlot = i{
 		draw_set_alpha(1);}

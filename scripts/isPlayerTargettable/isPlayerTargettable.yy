@@ -1,8 +1,8 @@
 {
-    "id": "39e798cf-d6bd-4181-ae64-cf4ebd40265d",
+    "id": "ca866b98-a1a3-4e4b-beeb-7c2f654f454b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "enemyAIStateChange",
+    "name": "isPlayerTargettable",
     "IsCompatibility": false,
     "IsDnD": false
 }
