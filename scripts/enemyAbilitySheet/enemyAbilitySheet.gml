@@ -7,7 +7,8 @@ global.enemyAtkDmgMod[genMelee]					= 1.5; //percentage of atk stat used in atta
 global.enemyAtkDmgCD[genMelee]					= 10*second;
 global.enemyAtkActive[genMelee]					= true;
 global.enemyAtkDmgType[genMelee]				= "physical";
-global.enemyAtkDestination[genMelee]			= "unmoving";
+global.enemyAtkDestinationX[genMelee]			= "none";
+global.enemyAtkDestinationY[genMelee]			= "none";
 global.enemyAtkStateChange[genMelee]			= "none";
 global.enemyAtkParent[genMelee]					= "none";
 global.enemyAtkMassive[genMelee]				= false;
@@ -99,12 +100,12 @@ global.enemyAtkArchetype[genGuard]				= "guard";
 /************* Error ***************////////
 ////////////////////////////////////////////
 
-global.enemyAtkKeyword[69]				= "Error";
-global.enemyAtkDmgMod[69]					= 0; //percentage of atk stat used in attack
-global.enemyAtkDmgCD[69]					= 1*second;
-global.enemyAtkActive[69]					= false;
-global.enemyAtkDmgType[69]				= "Error";
-global.enemyAtkDestination[69]			= "Error";
-global.enemyAtkTargetType[69]				= "Error";
-global.enemyAtkStateChange[69]			= "Error";
-global.enemyAtkArchetype[69]				= "Error";
+global.enemyAtkKeyword[69]						= "Error";
+global.enemyAtkDmgMod[69]						= 0; //percentage of atk stat used in attack
+global.enemyAtkDmgCD[69]						= 1*second;
+global.enemyAtkActive[69]						= false;
+global.enemyAtkDmgType[69]						= "Error";
+global.enemyAtkDestination[69]					= "Error";
+global.enemyAtkTargetType[69]					= "Error";
+global.enemyAtkStateChange[69]					= "Error";
+global.enemyAtkArchetype[69]					= "Error";

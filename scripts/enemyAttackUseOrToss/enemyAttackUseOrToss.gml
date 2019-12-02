@@ -1,4 +1,4 @@
-	switch global.enemyAtkArchetype[argument1]{
+/*	switch global.enemyAtkArchetype[argument1]{
 		case "melee": {
 			var clearPath = 0;
 			switch global.enemyFace[argument0]{
@@ -76,4 +76,13 @@
 					break;}}
 			break;}}
 			
-	return isAttackUseable;
+	return isAttackUseable;*/
+	
+var useOrToss = "use"
+	
+if global.enemyAtkGridMaxCells[argument0] = 1{
+	if ds_grid_get(oGridController.newGrid, global.enemyAtkGridX[argument0,0], global.enemyAtkGridY[argument0,0]) = "vacant"||
+	   ds_grid_get(oGridController.newGrid, global.enemyAtkGridX[argument0,0], global.enemyAtkGridY[argument0,0]) = "obstacle"{
+		   useOrToss = "toss";}}
+
+return useOrToss;
