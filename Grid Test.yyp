@@ -31,83 +31,11 @@
     },
     "resources": [
         {
-            "Key": "00c455c5-a3bd-4a4b-b5cb-0c11ce4ba143",
-            "Value": {
-                "id": "81c6fab2-b745-4e48-8158-5f4a03100cf1",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/GrayUnlockedLock.tif.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "01143a27-fd9c-4d10-822b-941b7f5ee7c7",
-            "Value": {
-                "id": "eb00dcce-1921-49bd-a1ab-8953145eb34b",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pl.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "023bb5ee-399f-44be-be78-e7f3c1836f7c",
             "Value": {
                 "id": "7d3eaec8-84e1-4755-bec2-67ce0a428234",
                 "resourcePath": "scripts\/selectActor\/selectActor.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "032379fb-d7c4-4536-ae30-c5acc190a008",
-            "Value": {
-                "id": "9771f784-797e-4946-b342-f058af9f2133",
-                "resourcePath": "views\/032379fb-d7c4-4536-ae30-c5acc190a008.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "039334ef-4638-487a-b948-124faa640024",
-            "Value": {
-                "id": "c8f9a43a-b8cf-4857-bbad-d55a6a839b09",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/cs.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "03a38059-41e7-4df9-ad60-bc9eeefbd255",
-            "Value": {
-                "id": "2205a7b0-f93d-4c57-a961-04d02dfbe55e",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/tr.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "058e7dca-6492-4498-a2b4-fa79d599efae",
-            "Value": {
-                "id": "27471514-7db9-49b1-879e-faf5204c110b",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hu.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "06171f76-986f-46a8-acc8-fb7fa02cf3a3",
-            "Value": {
-                "id": "79f14346-e928-4391-b448-ffd3d5e66b3a",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "0651ce3e-48dd-4d81-8ef8-874984b1abc5",
-            "Value": {
-                "id": "225fe451-da28-4a49-b6b9-5fc899b3ed73",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_CN.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "0a6b3c7e-f3a2-42ba-ba3e-7d40f84cc76a",
-            "Value": {
-                "id": "55d93e13-45af-4b94-9511-1f152aa73d7c",
-                "resourcePath": "views\/0a6b3c7e-f3a2-42ba-ba3e-7d40f84cc76a.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -119,115 +47,11 @@
             }
         },
         {
-            "Key": "0b02e4b4-16fb-4071-956f-644b8b97071f",
-            "Value": {
-                "id": "e74caa62-1fa1-4c10-b6f0-a36720518baa",
-                "resourcePath": "views\/0b02e4b4-16fb-4071-956f-644b8b97071f.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "0b128962-2c89-4d4b-be12-d01187de319e",
-            "Value": {
-                "id": "5731f136-13d6-4728-9a8d-d9532ae6fc44",
-                "resourcePath": "views\/0b128962-2c89-4d4b-be12-d01187de319e.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "0cac640a-63e2-49cd-956c-c3aa0310b618",
-            "Value": {
-                "id": "39e618af-b7a6-40fc-b26a-748c3f22844b",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/German.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "0dfa65f9-1487-48d6-a88f-3657f4b66ea5",
             "Value": {
                 "id": "2b1454c4-c51a-41ed-92b4-32a82bed0c93",
                 "resourcePath": "objects\/oNodeL2\/oNodeL2.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "0e116f7a-99a8-42d6-816d-2ae6483293ad",
-            "Value": {
-                "id": "bf4df967-351f-4657-a4f8-f75812560f7a",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Spanish.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "0e7e584b-3603-42c0-b9f3-884c0cffe79d",
-            "Value": {
-                "id": "52934c66-e2ca-4c98-a8f2-a562bb9a41d6",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Spanish.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "0ea436bb-d16f-4a8a-bd35-4edf70eaf8c3",
-            "Value": {
-                "id": "b6e00703-afe2-4551-9b3f-e03b32af958e",
-                "resourcePath": "views\/0ea436bb-d16f-4a8a-bd35-4edf70eaf8c3.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "104a5dce-aa45-4d7f-a3c9-af1e24d1a097",
-            "Value": {
-                "id": "203be688-03ea-4f1f-9385-7160ab6f8dec",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Italian.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "12066c9b-1b6f-4d94-a731-2bc54c8cacfb",
-            "Value": {
-                "id": "0c4fd4d9-fe28-4344-82ad-fc569f21f6ec",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_TW.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "121d0adf-5977-4ab9-b92e-7b66bef33124",
-            "Value": {
-                "id": "1b7d9dbb-511b-4ca8-adbc-c9baf2a6f7e3",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Dutch.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "12bd1a45-c4a2-429f-b2d2-57f166fb0c01",
-            "Value": {
-                "id": "45bfd683-0462-4cf0-a0f2-69da51e349ce",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/en_GB.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "139d29a6-5136-41e2-b71a-41e65687aa7b",
-            "Value": {
-                "id": "9aea9e41-9b9c-4ef2-b724-c2eca9a6ac25",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ar.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "13ba77b7-8168-47af-aa0b-799e2f6e1d14",
-            "Value": {
-                "id": "a7969634-dc64-4beb-97eb-f09117a91a84",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/en_GB.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "146890b5-fc2a-4146-a746-0060a583a77e",
-            "Value": {
-                "id": "0a876fb7-11ea-4887-ac7e-e75e1acfddd3",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hr.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -239,30 +63,6 @@
             }
         },
         {
-            "Key": "154c1f82-fbec-4781-965d-60e733b6e5bb",
-            "Value": {
-                "id": "b9aae02c-92ca-49e6-82fe-c35c1f4aaa6e",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/sv.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "15d5f637-f8df-4c19-ac4c-a57bc6626720",
-            "Value": {
-                "id": "1ea5b69e-bb10-4dcc-ba3a-23e9f64a26e5",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/es_419.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "15dcb692-7b2f-46f1-b1ea-7ac77f9de24f",
-            "Value": {
-                "id": "0b0da679-33c2-416a-81e2-c9ca993e5964",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_HK.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "16875178-ac0f-43a0-ba75-cc2330106577",
             "Value": {
                 "id": "11978be2-2813-4e0a-aa45-552f7631aae7",
@@ -271,34 +71,10 @@
             }
         },
         {
-            "Key": "17f4a7dd-e7db-4b21-9e6f-accb8c1adada",
-            "Value": {
-                "id": "717f5625-db09-4aaf-ad6f-7418b037cb9f",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/cs.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "18a079dd-ec1a-40f4-9f0b-810f199ed550",
             "Value": {
                 "id": "6c7cc852-65a1-4407-8e0b-c97ed9d241e1",
                 "resourcePath": "views\/18a079dd-ec1a-40f4-9f0b-810f199ed550.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "18c1e053-4725-4e1d-bdc7-aa6dcb18c7b5",
-            "Value": {
-                "id": "a1d62ae7-b808-4789-9717-100e1a556d89",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hr.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "18cc0c0f-3243-4111-af11-63bddfe25314",
-            "Value": {
-                "id": "3fdf2e02-89c3-4aa6-8784-db0811b46429",
-                "resourcePath": "views\/18cc0c0f-3243-4111-af11-63bddfe25314.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -311,59 +87,11 @@
             }
         },
         {
-            "Key": "1a81f4c0-8738-4f47-941e-e898741214e9",
-            "Value": {
-                "id": "689de90b-4a1e-4c33-b18a-0ebe008a8752",
-                "resourcePath": "views\/1a81f4c0-8738-4f47-941e-e898741214e9.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "1b340a07-6927-4ff6-9e46-eb89454055bf",
-            "Value": {
-                "id": "77d2d530-7c17-4996-9911-288b290cfea9",
-                "resourcePath": "views\/1b340a07-6927-4ff6-9e46-eb89454055bf.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "1c42a28d-d3b9-469d-870b-760a6468695b",
             "Value": {
                 "id": "0fdcd28a-4b03-4e19-ad1f-8001fce73772",
                 "resourcePath": "objects\/oNodeR2\/oNodeR2.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "1cce7668-ad65-4c2a-9c0b-870e72159215",
-            "Value": {
-                "id": "cf9c8dab-28f7-4a8d-918e-005bb9f40d37",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_HK.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "1f328f0b-6e63-45e7-9a09-3acfe0f1bbac",
-            "Value": {
-                "id": "d0e9e5db-38b5-4f56-b1c5-d00e8a5a5cbe",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/vi.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "1f73fb15-5752-46c6-a65d-0406e32de975",
-            "Value": {
-                "id": "69812a66-7ac6-4b6b-b6ea-243b7f11a764",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/BluetoothAqua.tiff.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "1fa65aaa-ebde-41a5-819e-6718a5fe430d",
-            "Value": {
-                "id": "87da94dd-8a20-4850-949c-fdc616c0ab90",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Bluetooth.tiff.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -383,27 +111,11 @@
             }
         },
         {
-            "Key": "2060d634-2837-4299-b17c-2eff9949ea1c",
-            "Value": {
-                "id": "5dce409e-951c-4622-b0e5-de2fee7df713",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/sk.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "218275dd-1348-4745-a02f-d82683ce84ee",
             "Value": {
                 "id": "c7d2ca3f-50b2-4846-a546-14d6e46590dd",
                 "resourcePath": "scripts\/actorTimers\/actorTimers.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "21becf46-fc51-4632-b643-3a3d7bb7a6b5",
-            "Value": {
-                "id": "61b1c61f-5792-4b9c-9cd9-410502233ea0",
-                "resourcePath": "views\/21becf46-fc51-4632-b643-3a3d7bb7a6b5.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -415,14 +127,6 @@
             }
         },
         {
-            "Key": "256b750c-dc5e-4a22-ae1b-c4f28de7919b",
-            "Value": {
-                "id": "bc1a2668-2702-4750-8a7e-3e0f75ba7740",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/French.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "2635939c-9747-440e-9cfe-f8f59036771e",
             "Value": {
                 "id": "e8776119-2ad2-44a1-b471-f9aa9277bca7",
@@ -431,35 +135,11 @@
             }
         },
         {
-            "Key": "26516f4a-74a2-4348-8a7a-602c6b85f8b9",
-            "Value": {
-                "id": "f056daa4-fd6f-4b62-96b7-6154fc584533",
-                "resourcePath": "scripts\/drawBattleMenu\/drawBattleMenu.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "2825c5b2-db88-427a-9776-33f8a96d7b74",
             "Value": {
                 "id": "41e3c443-a875-49dd-a08f-245d2a417bac",
                 "resourcePath": "views\/2825c5b2-db88-427a-9776-33f8a96d7b74.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "28425e42-b09f-48e7-a884-1c1962c602d8",
-            "Value": {
-                "id": "702b0fee-59d9-471c-b05e-c21e9c7c0f72",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Base.lproj\/BluetoothPref.nib.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "296e69ff-1739-4ae6-a104-9c5fe5a362c9",
-            "Value": {
-                "id": "2c1dcb92-4502-4425-a008-086915778cf2",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Dutch.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -479,107 +159,11 @@
             }
         },
         {
-            "Key": "2ac5af03-6000-43f7-844f-d8b9a2ee2d45",
-            "Value": {
-                "id": "a275ebb9-d38f-446a-9dbd-00940c8fe64a",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/uk.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "2ae176d3-144c-45fc-bb13-59369dba2fce",
-            "Value": {
-                "id": "ce24a119-cfa9-4549-8bdc-0c94bc2f4673",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ms.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "2ca1a801-2b73-4a41-ba1c-17c26c936b0a",
-            "Value": {
-                "id": "efc61988-a809-497d-84cb-a0d4961a4e2d",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ms.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "2cb9ac0c-4176-4b90-a8c8-302e21e9e049",
-            "Value": {
-                "id": "94160332-69ca-42d5-bdcd-f3d7fbf7b1a1",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/MacOS\/Bluetooth.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "2db398b6-89aa-464f-8a3a-39d13dee48c3",
-            "Value": {
-                "id": "3a8925a3-8012-4db8-be34-19175cbc7edf",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/es_419.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
             "Value": {
                 "id": "3961e673-afc2-447c-ac16-c98eedac547b",
                 "resourcePath": "scripts\/createBattleGrid\/createBattleGrid.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "2e5ccf22-1a60-4e3e-9090-a1bb3cbc90ec",
-            "Value": {
-                "id": "43fa7ed0-38c9-49e6-ad37-608dd93d8785",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/sk.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "2ea4ce57-2ad1-4a45-ae14-033930c95378",
-            "Value": {
-                "id": "50e1376f-b94f-4098-bd4b-bab06d751b41",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/uk.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "2f544563-f584-4f63-a7ce-7f7cf7b73fe1",
-            "Value": {
-                "id": "dbd96dfa-7996-47ae-9258-2103db0f5483",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/en_GB.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "30b5d216-0be2-4416-82b1-1a737e7438e4",
-            "Value": {
-                "id": "16002f20-fd46-4be3-9d84-cb4cc8f9f0e7",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/French.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "3173568f-f216-4530-bbdc-80d0d18a3eb4",
-            "Value": {
-                "id": "eb1255e9-afc4-4b00-a968-0df10f3b6533",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/fr_CA.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "330fb91b-aaea-4157-ae64-4fb678cc6347",
-            "Value": {
-                "id": "84519f6c-abb9-4ecd-ac1c-799a3f42015a",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ko.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "332a943b-88cf-48c4-a5c7-6ec80ba94315",
-            "Value": {
-                "id": "2a15091f-5394-4b52-9f0d-a872fe5f3059",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Italian.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -591,59 +175,11 @@
             }
         },
         {
-            "Key": "34ee64a3-8ca7-4935-b257-a19820e036b2",
+            "Key": "38094093-9d26-4cda-8d5c-a3f587cb458f",
             "Value": {
-                "id": "0c65621d-d7f2-47de-b463-b99b7f2fc981",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Dutch.lproj\/Bluetooth.searchTerms.yy",
+                "id": "1de1018d-cd94-4157-9574-accea5cb61e6",
+                "resourcePath": "datafiles_yy\/Dylans Tree (02).obj.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "35d5d806-4f77-4e80-b812-fbbd2ebdccf7",
-            "Value": {
-                "id": "a46ba06e-2fa5-4f82-a47c-3b6e49639379",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/he.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "360f0e09-a934-43d9-9bf2-52f827d256d7",
-            "Value": {
-                "id": "c2804b31-83c7-48d4-b214-89c9a80f6144",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/English.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "36be40a7-83a0-446f-bd17-8f660c5524e5",
-            "Value": {
-                "id": "4c22f257-7635-4d9d-ad7f-72f4309f70f8",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Japanese.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "36d435d0-ce32-44ef-ad60-fef0a569bd59",
-            "Value": {
-                "id": "80d455bc-71fe-4848-8837-744c34932919",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ru.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "395679b4-2bd6-4a62-95b9-6f957220e14f",
-            "Value": {
-                "id": "bb52ff50-d3a7-452e-baa3-5eaaaf3297e8",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Italian.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "39a657dd-fa77-4503-ba4b-27f44bf42bbd",
-            "Value": {
-                "id": "4ce787d5-4c52-4767-951a-1580cbf7e32c",
-                "resourcePath": "views\/39a657dd-fa77-4503-ba4b-27f44bf42bbd.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -663,14 +199,6 @@
             }
         },
         {
-            "Key": "3a003422-b8ef-4f93-9a75-49d5e0c08727",
-            "Value": {
-                "id": "ae86ff2a-db70-4063-9017-2ead90a8acd6",
-                "resourcePath": "views\/3a003422-b8ef-4f93-9a75-49d5e0c08727.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "3a2a18ca-dea9-40d5-b549-e1cd20ace9a0",
             "Value": {
                 "id": "62cb2444-9dc6-4cb0-8612-e2d02bdac1ad",
@@ -687,35 +215,11 @@
             }
         },
         {
-            "Key": "3c15b52e-515c-4cf6-a4db-e8651686de2e",
-            "Value": {
-                "id": "cbcae09b-2e7b-426d-b318-9b29e5b012af",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/vi.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "3d2f9132-714c-4858-903a-cb089d461317",
             "Value": {
                 "id": "b9336ac4-e8c6-4851-8964-5c3ce9755168",
                 "resourcePath": "scripts\/enemyAbilitySheet\/enemyAbilitySheet.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "3dc862f8-6410-4e44-9c7a-9dd7c2b7121c",
-            "Value": {
-                "id": "1f02e087-4e2f-4802-a0fe-717a2227fcb0",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/fr_CA.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "3e35aade-230d-4bad-9255-4c0b2e7c9f38",
-            "Value": {
-                "id": "54f98668-29a8-4865-8b9c-d1b2a6799820",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ko.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -735,43 +239,11 @@
             }
         },
         {
-            "Key": "3f9b605c-92f5-489f-ae80-56605995a711",
-            "Value": {
-                "id": "efd68ecb-fd19-46ad-a542-e6cbb2220991",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/en_AU.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "4022bc18-d9c6-44ad-97e2-c4767d39958e",
             "Value": {
                 "id": "bc603e37-dbed-4147-b92a-9137c4bc7282",
                 "resourcePath": "views\/4022bc18-d9c6-44ad-97e2-c4767d39958e.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "41f9723c-db8c-4457-b81a-5015e115728d",
-            "Value": {
-                "id": "9198bbaf-16fe-4a96-a03e-440dafa8e670",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/German.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4235f64a-a3af-43a7-9712-5dd20265a490",
-            "Value": {
-                "id": "062ef8c1-eb98-48c2-8e06-ea29ca964649",
-                "resourcePath": "views\/4235f64a-a3af-43a7-9712-5dd20265a490.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "42478912-99c3-4152-9b32-b502c9ef07ab",
-            "Value": {
-                "id": "9187ae33-3c5d-4c81-a223-5e6153aa9997",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ca.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -791,18 +263,10 @@
             }
         },
         {
-            "Key": "43b27ca9-9b95-42fa-9937-b4fe5bcff20a",
+            "Key": "43f34665-9a6a-4695-8bfd-a2f7c05bde3f",
             "Value": {
-                "id": "9c293b1f-0c0b-4579-86a8-23af1684784d",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/SerialPortSDPRecord.plist.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4435f6a5-78bb-4ecb-b23a-5f7cd424e9ca",
-            "Value": {
-                "id": "98c130ae-50ca-4212-8de4-2c96006f510f",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hu.lproj\/Localizable.strings.yy",
+                "id": "6a686139-a821-4d5e-bd48-3c6525c8cb17",
+                "resourcePath": "datafiles_yy\/Dylans_Tree_02.obj.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -815,35 +279,11 @@
             }
         },
         {
-            "Key": "44b7ec37-4afb-42cf-9797-5b4589e00c27",
-            "Value": {
-                "id": "4241a5f1-366a-4729-bd34-829e24bea0a9",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/el.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "44c994f2-5854-4cee-8802-4746eb553d20",
-            "Value": {
-                "id": "81ccc80d-d562-4d2f-93fb-011a91abf29a",
-                "resourcePath": "views\/44c994f2-5854-4cee-8802-4746eb553d20.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "45254d82-dae8-4b38-8351-ca64f0bb4d7d",
             "Value": {
                 "id": "df5eeee4-af27-4f1a-9e25-406d2d6f4627",
                 "resourcePath": "objects\/oNodeX2\/oNodeX2.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "45561e49-0f6a-475e-9179-9b58c435a1f6",
-            "Value": {
-                "id": "b5bc6fc5-9184-4d1e-93bf-5a7118414a28",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hi.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -863,46 +303,6 @@
             }
         },
         {
-            "Key": "45df6fe0-68dc-437d-8438-ad4b76f90e34",
-            "Value": {
-                "id": "9d175732-4450-45d5-9c92-6322c6c3c9da",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/sv.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "49508a9f-3003-4e73-9513-b4dc96404753",
-            "Value": {
-                "id": "df60cd7b-e5d0-4ca3-baf0-028612f18572",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/GrayLockedLock.tif.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4959a41c-f011-487b-a119-39061549d0d2",
-            "Value": {
-                "id": "e204e2c9-d832-4ac9-8faa-1304f845b293",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4a6951a5-5c56-4d2c-b29a-2b8d2430e9c5",
-            "Value": {
-                "id": "fadea66c-a856-4fc9-893a-e7f22adb0e6d",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt_PT.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4b1328d6-e55a-4606-9d6e-4aaf45c6f7d6",
-            "Value": {
-                "id": "71cd90cc-9437-4652-a396-dc2994dd2d2f",
-                "resourcePath": "views\/4b1328d6-e55a-4606-9d6e-4aaf45c6f7d6.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "4be5f6df-13e8-42ee-aea7-01aee15d1bfc",
             "Value": {
                 "id": "6c10c7d3-641d-430e-9014-d26c8a415bee",
@@ -911,147 +311,11 @@
             }
         },
         {
-            "Key": "4c3576d9-2883-4fb2-b6db-ef8f47c72def",
-            "Value": {
-                "id": "eaab6479-41d1-4f3c-a291-9e5512904927",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ro.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4c5ce5f3-a769-4637-a986-571cc080133a",
-            "Value": {
-                "id": "ee2e2644-c93e-4879-8882-4b39468e9f98",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ru.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4c5ed59d-39a8-4508-9634-c4a6d7a7ffff",
-            "Value": {
-                "id": "8a819f12-195d-4a3f-a65c-14e0ed8d44d2",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/fi.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4ca8f7f4-90a8-49b9-aff2-02c03a6ca123",
-            "Value": {
-                "id": "1da634bf-5b4a-4ca0-aa75-176998e044bf",
-                "resourcePath": "views\/4ca8f7f4-90a8-49b9-aff2-02c03a6ca123.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "4deb5fdc-25a5-4c43-82dc-584cd4399764",
             "Value": {
                 "id": "7b176a2d-a0bc-4868-981d-bf81d49488a2",
                 "resourcePath": "sprites\/sInterfaceContr\/sInterfaceContr.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4e07b8ba-3860-486f-afab-c3db12bd764a",
-            "Value": {
-                "id": "6d82339a-0176-4fcd-80b6-aa7b6d8d320d",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/uk.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4e6c37df-b5b3-4d94-b941-36faccbc8bc3",
-            "Value": {
-                "id": "ec462464-6b04-45bf-b46b-a07245a7a847",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/id.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "4f266834-eda1-4c73-b366-25b28d8dcc76",
-            "Value": {
-                "id": "6fc60f19-fa29-44bb-bf56-a748c39da939",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ca.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "50003820-dd69-4439-9c14-2c2e62143463",
-            "Value": {
-                "id": "d1e45fb3-0b04-4d7a-983b-95508da3eb1a",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hr.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "519a9ba5-c500-42fb-9fe9-bdd8a6bdd276",
-            "Value": {
-                "id": "8cd0f0dd-2433-489e-bc0d-4ad863f18a0f",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/el.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "51fa4554-d63b-4e2c-b32f-9cec8280a0fe",
-            "Value": {
-                "id": "48c5221f-4408-4a00-a372-8c39c911cda3",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Spanish.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "537e0ce7-7f44-4ceb-99f6-e9f860eb08ac",
-            "Value": {
-                "id": "4ad929c7-6f4f-4976-a7ae-418c0d27cc14",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ko.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "5389166d-31b6-4cab-8f5c-af64a5c95fde",
-            "Value": {
-                "id": "b74e43cc-b1d9-4cd5-ae17-38426145dae0",
-                "resourcePath": "views\/5389166d-31b6-4cab-8f5c-af64a5c95fde.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "54c85d9a-22db-423b-bead-fb8171fbf55e",
-            "Value": {
-                "id": "82fe223c-c659-4302-8c36-975ae0bf4372",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hi.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "569192c1-23f0-443e-b144-23008dcba1a6",
-            "Value": {
-                "id": "7eb9fb6b-5fb2-4e1d-bfdc-b09d317be644",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Spanish.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "576ad77b-cf25-40ca-bec8-ceeaf463635e",
-            "Value": {
-                "id": "8b3521b5-4d6c-400e-9fb5-028f9e6b2051",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ro.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "588b804f-7ba9-444d-8803-99962b3cc77c",
-            "Value": {
-                "id": "2357cf37-5b79-4f1c-aba9-6c9589161b43",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/fi.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "59fd5c60-6f10-4205-945a-5397bb256b03",
-            "Value": {
-                "id": "75094457-22ef-4636-b1f9-9be93e574b8f",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_TW.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1071,54 +335,6 @@
             }
         },
         {
-            "Key": "5c3748dd-ed22-4b82-a8f8-8871bcd2bc39",
-            "Value": {
-                "id": "839a6ba7-4893-4978-8dee-41cd55832bac",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/he.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "5c47f49d-ed17-460c-bb1f-507ee6938ec9",
-            "Value": {
-                "id": "8d6f855a-ddf9-4853-8a72-0fa9839ec770",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/vi.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "5c9b88e7-175d-4293-ba91-f31cb623b405",
-            "Value": {
-                "id": "de36abe3-0055-4f0a-b4ed-eda2b36d63aa",
-                "resourcePath": "views\/5c9b88e7-175d-4293-ba91-f31cb623b405.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5dbc7ae7-050c-4cb2-b5f7-7becd0f5fd53",
-            "Value": {
-                "id": "5c4fe66f-c662-4b70-b933-91da43109228",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/th.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "5e1870c5-352d-4a15-a9d0-65cb75aeaec5",
-            "Value": {
-                "id": "0f7a0232-9e0c-41e5-8dc4-c7e5e87a74fd",
-                "resourcePath": "views\/5e1870c5-352d-4a15-a9d0-65cb75aeaec5.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5ebfb05f-7db9-448c-b12c-2cd454aaa2e0",
-            "Value": {
-                "id": "e8907f54-6b2b-468f-88a9-b9339f8e9b15",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/sv.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "5efd5cf4-8d82-4a1b-a142-4b39382a82d3",
             "Value": {
                 "id": "3c1a7af2-f998-42b1-a681-19eb230b496d",
@@ -1127,42 +343,10 @@
             }
         },
         {
-            "Key": "5ffd21d7-05f8-4390-8fab-b79584af0334",
+            "Key": "603ca86c-5e71-4577-9cbb-353844e4a0c4",
             "Value": {
-                "id": "ed6255f9-8b5f-4fb8-bb0d-460c7486bf0b",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/no.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "6052682c-ff8c-4a81-b37c-de97dd75e586",
-            "Value": {
-                "id": "f7caf85e-8bfc-4852-9c59-86dea1f7700c",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pl.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "61dc6061-90ef-456f-a1d7-e652af567d10",
-            "Value": {
-                "id": "842c30c9-078e-4219-ba24-16dd64d33322",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/AppIcon.icns.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "62087ba2-d245-439f-b6a5-f9edaa15f3e0",
-            "Value": {
-                "id": "2f916bca-6cdf-4f43-8796-b17a2b2926a7",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/th.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "622ad4d9-a7b1-4d9b-b2dd-109515ce1fab",
-            "Value": {
-                "id": "c2a1baba-555c-4d8d-abf5-94b46c770db8",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt_PT.lproj\/BluetoothPref.strings.yy",
+                "id": "9f32f52e-e86f-4b5a-887b-17b1658f2bfa",
+                "resourcePath": "datafiles_yy\/Dylans_Tree_03_color.obj.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -1191,83 +375,11 @@
             }
         },
         {
-            "Key": "63a79789-65b0-425b-846a-703f619c900c",
-            "Value": {
-                "id": "03e68536-b931-45da-bd98-4f31ad0317c4",
-                "resourcePath": "views\/63a79789-65b0-425b-846a-703f619c900c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "648e7105-d3ff-477e-a5d9-ff894375ac5a",
-            "Value": {
-                "id": "b17943a1-1e9c-42a2-9730-2181e6aadbf3",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_TW.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "64eddf71-e6b6-49ec-a058-7604af768390",
-            "Value": {
-                "id": "1375fe10-8479-4580-a9f1-e84357fa2994",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/sv.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "6573e603-8ee4-414d-b3b0-c2c08078abdc",
-            "Value": {
-                "id": "90a81108-5ed9-44bf-989f-516748ae0ccd",
-                "resourcePath": "views\/6573e603-8ee4-414d-b3b0-c2c08078abdc.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "659f64f3-9721-4abe-8913-24924c3f5a6f",
-            "Value": {
-                "id": "16fa4e8f-6489-438d-813d-0619454324a1",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/fi.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "6691fbcf-7d6d-4f8e-b703-941fda2ea8f0",
-            "Value": {
-                "id": "c95bd31a-2ef7-49a0-9398-0cd0bd980e0c",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/he.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "68006650-efac-4162-a8f8-bc7c282272cd",
             "Value": {
                 "id": "da54db56-fa69-493c-88a5-4f03e8afd912",
                 "resourcePath": "objects\/oNodeX1\/oNodeX1.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "68da0b9c-cf41-4817-8d7e-8f6bbdd522a3",
-            "Value": {
-                "id": "96498208-891c-44bf-aeed-77a1bd8773b0",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/da.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "6a4788de-df6f-4f7d-b192-41de993de793",
-            "Value": {
-                "id": "ce4b8134-cece-44ed-bc37-29362a48a28c",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/es_419.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "6a7dc445-2424-4cd0-99ca-25ef9df0a91b",
-            "Value": {
-                "id": "d38e4f4c-d05f-42bd-ae5d-3b3c8a49dd09",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/th.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1279,14 +391,6 @@
             }
         },
         {
-            "Key": "6f0cde49-db20-4d9d-8e8c-36d5ee9c0342",
-            "Value": {
-                "id": "8d57a46a-d4ce-47f9-96f2-18cfead5c3e1",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ru.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "6fca812a-5bf0-4964-9439-808ebddd4a7e",
             "Value": {
                 "id": "0beff676-34d8-4b14-a8b5-47d9bed6177c",
@@ -1295,58 +399,10 @@
             }
         },
         {
-            "Key": "6ff569fd-5728-499e-9ddc-419bf10e281e",
+            "Key": "71661ed0-8255-4233-b08a-920e18b6ffe2",
             "Value": {
-                "id": "6130d363-9242-448d-a420-ba0e5505d7c3",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/no.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "705da4c1-eef4-4ff5-b745-6a74820ff68f",
-            "Value": {
-                "id": "cee726db-9a82-4cc1-a8ec-6c056b9b53bf",
-                "resourcePath": "views\/705da4c1-eef4-4ff5-b745-6a74820ff68f.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "709ddfad-805a-4fa4-945d-d90914535e7b",
-            "Value": {
-                "id": "6b1d3dab-97ba-4ce6-ba04-6b9ed4ff7b8c",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hu.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "71781cb4-2570-4bf6-bee8-5d96bd6e5031",
-            "Value": {
-                "id": "773014b3-d0d4-4ac8-a4ef-c633561657ec",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/tr.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "737745c3-cf2e-4f9e-85e5-b5b1a184872a",
-            "Value": {
-                "id": "c78869b3-f999-4cc6-8224-5503c6aaabb4",
-                "resourcePath": "views\/737745c3-cf2e-4f9e-85e5-b5b1a184872a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "74a8d87e-e767-40cb-91d9-3566562a8d51",
-            "Value": {
-                "id": "8172354e-a52c-4c21-b11c-12a7f07ddb13",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_CN.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "755bdcf4-5f66-40dd-83b1-e4ab969e9b16",
-            "Value": {
-                "id": "c3f98acd-0631-4b7e-9756-f30338562316",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Dutch.lproj\/BluetoothPref.strings.yy",
+                "id": "f860f579-1038-4664-b928-c015626b740e",
+                "resourcePath": "datafiles_yy\/Dylans Tree (03 color).obj.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -1367,59 +423,11 @@
             }
         },
         {
-            "Key": "78fe940e-b69d-4ed6-babe-81790ebf9183",
-            "Value": {
-                "id": "a1c8b95a-9175-4981-b1df-ed3ebbcd9630",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/da.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "79621f4d-392d-42e4-9f72-93f6988d97d1",
-            "Value": {
-                "id": "ddb3a7aa-c665-4cee-a9da-e46f35549d6e",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/tr.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "79f9c014-90be-442b-b356-82d2e289b4ac",
-            "Value": {
-                "id": "1d67b15b-b4d8-4eea-9c3b-873b17c38e3f",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/NewBluetoothLogo.icns.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "7a01763c-b066-411c-a316-fc44dfd2afbe",
-            "Value": {
-                "id": "2cf0b97d-5056-4579-a1ee-8697b458615b",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/el.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "7a711916-0cbe-4507-94cf-ebb25550566e",
-            "Value": {
-                "id": "05d2bde5-caef-48b3-a65c-5aa5ff1337a8",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/da.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "7ac591a3-1d56-4791-a92e-57da27c72374",
             "Value": {
                 "id": "c2247221-9771-4939-89ff-37fd49831fe1",
                 "resourcePath": "sprites\/sNodeVacant\/sNodeVacant.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "7b0cca01-d4e1-47c2-ab7b-4aceae12bcef",
-            "Value": {
-                "id": "c6744b55-f844-423c-b439-8245214da47d",
-                "resourcePath": "views\/7b0cca01-d4e1-47c2-ab7b-4aceae12bcef.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1431,50 +439,10 @@
             }
         },
         {
-            "Key": "7d47932a-320d-475b-a619-2e2ed67ac2eb",
-            "Value": {
-                "id": "bd86a424-e930-4339-8a31-06221ac51c45",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_CN.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "7d6b2478-f8cc-41bd-93f9-53be97571b7c",
             "Value": {
                 "id": "6f4382ef-21fb-4733-a0e2-fe279729e9ec",
                 "resourcePath": "views\/7d6b2478-f8cc-41bd-93f9-53be97571b7c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7ec45920-975d-493b-8726-225d260a97e1",
-            "Value": {
-                "id": "dfda828c-dadf-4f15-b212-a469335044ec",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ar.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "7f7468c9-c4e6-4868-b18a-60edf0bae2ef",
-            "Value": {
-                "id": "94958c21-3363-4c49-bbe5-f98c734a5594",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hi.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "7ff93c40-1161-4e5e-8def-1c9616b613ba",
-            "Value": {
-                "id": "a817dfd0-506d-48c0-9d0c-6f2d1f4db54c",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/sk.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "80795be4-63c9-4bad-a41e-3ca95077ff2b",
-            "Value": {
-                "id": "576f7650-3938-41a9-ba78-6df47b480054",
-                "resourcePath": "views\/80795be4-63c9-4bad-a41e-3ca95077ff2b.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1503,30 +471,6 @@
             }
         },
         {
-            "Key": "83d848e9-2958-4630-bb38-4a3c343deb83",
-            "Value": {
-                "id": "cf4c0856-231d-4b37-879a-7484292afbd4",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/French.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "85b099a3-e916-48ba-8555-8811f101e1cc",
-            "Value": {
-                "id": "c01c3ec4-5a39-4168-a6d5-ad87da0bdf6d",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_TW.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "8774d891-030b-41eb-9ce3-a677a6e296ab",
-            "Value": {
-                "id": "a54aa939-e3e5-4c01-b2bb-b46f7ae4f392",
-                "resourcePath": "views\/8774d891-030b-41eb-9ce3-a677a6e296ab.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "88fa80e9-363b-47e5-aa25-abc7df0c9f69",
             "Value": {
                 "id": "08d09582-aa7e-49d0-87f9-4fd861a5feec",
@@ -1551,38 +495,6 @@
             }
         },
         {
-            "Key": "8a3bd9b9-699c-4fff-8d2c-9f667c81e017",
-            "Value": {
-                "id": "5671efce-62d9-4f1b-85e7-fa15686e05da",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Info.plist.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "8a408638-bc3f-4361-9dca-76bf05357961",
-            "Value": {
-                "id": "fc374b68-ca7a-4915-bdb2-a82082da4506",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/fi.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "8c69699e-f602-463e-9669-fa3c80d89cce",
-            "Value": {
-                "id": "30071ff7-2c54-4c5b-b55d-91b323c45df0",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/en_AU.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "8c990a35-a42a-421c-a7a1-ade944010e46",
-            "Value": {
-                "id": "403f0317-db16-4889-9296-63b286ea7ce9",
-                "resourcePath": "views\/8c990a35-a42a-421c-a7a1-ade944010e46.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "8cd1eebb-d5ad-485b-ab73-38a1d3493683",
             "Value": {
                 "id": "4897f89e-09ef-4cde-853d-6f95d96e5791",
@@ -1599,27 +511,11 @@
             }
         },
         {
-            "Key": "8d7989bd-7f55-44d2-8b8c-7b135a0f7adb",
-            "Value": {
-                "id": "a03a5135-4213-4c9e-85ec-c912a906a01c",
-                "resourcePath": "views\/8d7989bd-7f55-44d2-8b8c-7b135a0f7adb.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "8d8ba2a2-3c66-4ada-9189-181fcac07108",
             "Value": {
                 "id": "c44d4b0a-1d7e-4485-86b6-9cc5f49def46",
                 "resourcePath": "objects\/oBattleGUI\/oBattleGUI.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8e40520f-aacb-4d0c-b2ab-99ffa35586c7",
-            "Value": {
-                "id": "ee70900c-11c6-49da-ad86-34914949c4cf",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/English.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1655,107 +551,11 @@
             }
         },
         {
-            "Key": "96a13b5d-8d47-4e22-b837-1b4050b71e50",
-            "Value": {
-                "id": "a5e2d615-ef0f-4329-b60c-9ae291ca7f30",
-                "resourcePath": "views\/96a13b5d-8d47-4e22-b837-1b4050b71e50.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "96a5f127-7c13-4533-9d57-b8c75b5a1813",
-            "Value": {
-                "id": "8c90da23-cd73-4609-bc03-1167d0796a10",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/uk.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "97ec6fd7-3167-4fce-ae56-779095bdd539",
-            "Value": {
-                "id": "b35cb5df-bb95-489d-abe9-74cfcb13aae2",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/he.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "9ae5b999-042f-490d-a6e4-d739fad7e390",
-            "Value": {
-                "id": "b979522b-ae34-4fa2-8063-cfa2854e8f9b",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "9ccb6a69-9969-46b8-bd21-6fd649c8aaab",
-            "Value": {
-                "id": "de689ec5-1e30-4341-b3c7-10c77a9be8ca",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hi.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "9e9741fd-4d51-4622-aaf2-34bc0fca3ca6",
-            "Value": {
-                "id": "7825387a-671e-433c-8642-6a0a438fe6d3",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/th.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "9efca0ac-7298-4f40-94c4-83f1c2800b88",
-            "Value": {
-                "id": "f61bad09-2e81-46e9-9157-ee22e09bb6f6",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hr.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "9fe1db8f-e192-4481-a3d7-33d80a9e2076",
-            "Value": {
-                "id": "a3ee4a6b-f934-4baf-b9ed-26aede3a47b4",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ms.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "a0053bec-4d83-4d85-8e93-88f811eadcdc",
             "Value": {
                 "id": "f7a3275b-3f39-4d8c-9448-0d1ba5d93ff9",
                 "resourcePath": "notes\/Zodiac.yy",
                 "resourceType": "GMNotes"
-            }
-        },
-        {
-            "Key": "a0eaf113-ff91-4bc3-b31d-e7b0148c0a53",
-            "Value": {
-                "id": "198585c7-1649-4238-8197-703513e9c6a6",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ar.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "a3512b6e-c77d-4385-9943-b9e00ef0218a",
-            "Value": {
-                "id": "3aaa249d-e0a9-4827-82ed-6376a46ed688",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/en_AU.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "a4a0dad8-bcf0-4e4c-a776-6fcab7720c0a",
-            "Value": {
-                "id": "39ced19d-5e9b-4924-9a5d-602b134de0ea",
-                "resourcePath": "views\/a4a0dad8-bcf0-4e4c-a776-6fcab7720c0a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a55d8027-73e2-406b-a1c9-d01087c2c9f8",
-            "Value": {
-                "id": "5c5f1bc5-51e4-4189-9ef8-8fc9b2b661c9",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/no.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1767,35 +567,11 @@
             }
         },
         {
-            "Key": "a855ea2e-60e9-4da7-ad4f-a4713a3e28d4",
-            "Value": {
-                "id": "121ad51c-9de6-4c9b-bd1f-c2e9f956eb05",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/vi.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "a96ea3bd-29e8-4dd0-afab-4491fc8f4b7c",
             "Value": {
                 "id": "2d274302-0e6e-4e7c-b8c4-351ef1a2e1c8",
                 "resourcePath": "objects\/oNodeL3\/oNodeL3.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a9d2a0eb-4146-461d-86ed-c2035c52b897",
-            "Value": {
-                "id": "c22bb31a-3f0b-4aa7-b76a-bcde933bf8ee",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pl.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "aa0d169f-37dc-4fe3-ab1c-24792963c645",
-            "Value": {
-                "id": "f9bae053-689c-454f-ba77-a2571eb3d7a1",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ca.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1815,14 +591,6 @@
             }
         },
         {
-            "Key": "adf0b4ab-46c7-499f-8ab2-6ce997428073",
-            "Value": {
-                "id": "8c1de4e5-0ede-432d-91aa-0d2be6eb38fd",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/da.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "ae57fdef-ca34-4322-90b8-f5b780c67d92",
             "Value": {
                 "id": "fff87106-2d8c-4be8-b1d5-e111d926fe5c",
@@ -1831,51 +599,11 @@
             }
         },
         {
-            "Key": "ae7eca36-ed13-4197-b011-ce4d75dfdef0",
-            "Value": {
-                "id": "c3b38ebe-9386-4af1-ba23-1cc559fc7a7f",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/German.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "ae99be97-aaba-462a-971b-c0ec3d9182f1",
             "Value": {
                 "id": "97355ef5-52b9-4937-9695-63191ada5d6a",
                 "resourcePath": "notes\/Game Design Outline.yy",
                 "resourceType": "GMNotes"
-            }
-        },
-        {
-            "Key": "aeb5d9d6-a4c0-4da5-8f5c-713d9258afeb",
-            "Value": {
-                "id": "83abdbe0-19dc-41a5-8ac3-b65ea8fb6144",
-                "resourcePath": "views\/aeb5d9d6-a4c0-4da5-8f5c-713d9258afeb.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "aef5887d-7eec-46b6-a4e9-98e3e6cfd27f",
-            "Value": {
-                "id": "a6d8c730-d4e7-4912-93a7-2093995c0c93",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ko.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "afbad7a4-4808-40de-a071-094eedc2c165",
-            "Value": {
-                "id": "c71702e3-853d-451e-b2f0-64fb8692c418",
-                "resourcePath": "views\/afbad7a4-4808-40de-a071-094eedc2c165.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b00ee482-a6d1-483b-9549-9703cc132230",
-            "Value": {
-                "id": "b7362d3b-082b-4e4e-a173-8293effa6bbb",
-                "resourcePath": "views\/b00ee482-a6d1-483b-9549-9703cc132230.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1892,62 +620,6 @@
                 "id": "e5a01652-20e6-4942-9447-d4d5f50fdb39",
                 "resourcePath": "objects\/oNodeA1\/oNodeA1.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b4579412-368d-4e2a-85ca-d1777c9fd367",
-            "Value": {
-                "id": "9a53d86e-5a99-4cc1-aef9-575c88d05dd9",
-                "resourcePath": "views\/b4579412-368d-4e2a-85ca-d1777c9fd367.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b45fa9c6-f5e6-4002-8acc-51e85a525510",
-            "Value": {
-                "id": "7f73744a-a7ac-4f7b-829b-9ed5daced5b6",
-                "resourcePath": "views\/b45fa9c6-f5e6-4002-8acc-51e85a525510.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b5483bc0-b814-4513-86d0-3f259e88e4f2",
-            "Value": {
-                "id": "7e8a7b28-1cf4-45e7-ac09-b85a02986d39",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/fr_CA.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "b7721af9-0243-4741-b169-b87c7439be19",
-            "Value": {
-                "id": "40eab8ee-0ec6-4b68-ba0a-1e431fa22f4a",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/el.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "b83cb81a-d1a1-40ba-b3ea-2f009739e683",
-            "Value": {
-                "id": "357f7b12-702d-4102-8b65-0916bd2f0235",
-                "resourcePath": "views\/b83cb81a-d1a1-40ba-b3ea-2f009739e683.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b93d96da-296f-41f0-98f6-4b41eac59415",
-            "Value": {
-                "id": "6310b042-6ced-4c72-b077-ea22f4a07864",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/BluetoothLogo.tiff.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "b9ad2b61-3f0f-4171-9242-b87b74fa3394",
-            "Value": {
-                "id": "4de551c8-064d-47fb-9fee-42430499a053",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/tr.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1983,78 +655,6 @@
             }
         },
         {
-            "Key": "bca44e03-a22a-4a3f-af11-3c286d456b5b",
-            "Value": {
-                "id": "ccf04115-10fe-45ee-85b7-1b9a4046a85a",
-                "resourcePath": "views\/bca44e03-a22a-4a3f-af11-3c286d456b5b.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "bd369eea-2375-434c-9125-a4f594d1565b",
-            "Value": {
-                "id": "f6730fe0-376a-4817-88e5-917b6f246ca8",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/cs.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "bd4b3f62-d0fa-43c6-b7fe-9e30ac90909f",
-            "Value": {
-                "id": "c250bebc-576f-4229-bffd-96ef56e39272",
-                "resourcePath": "views\/bd4b3f62-d0fa-43c6-b7fe-9e30ac90909f.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "bd61d102-4baa-4a29-9f98-d087730753ea",
-            "Value": {
-                "id": "bb04d144-951b-47ba-9ee9-4ab2e7972e10",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ca.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "bfd49015-df2c-40a5-9479-79bfd73230e7",
-            "Value": {
-                "id": "e134156b-4319-49b0-8039-31d94febbd2d",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/id.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "c0ebfc35-d830-46bb-98c6-34f88c1e89ea",
-            "Value": {
-                "id": "91227660-7fb5-49c3-8af3-3a524029f5df",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/French.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "c16c1047-f916-45a9-b8fb-d3e2a88192aa",
-            "Value": {
-                "id": "e4a5bee0-c2ef-4b59-a5e9-491a62f7d9f8",
-                "resourcePath": "views\/c16c1047-f916-45a9-b8fb-d3e2a88192aa.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c1dfdf07-1a69-427d-8b46-a92f8a5d31b7",
-            "Value": {
-                "id": "cd887146-8fdd-4df6-8e04-c8e9b454350b",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ru.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "c3153adc-6949-45f6-b584-d974baee6f49",
-            "Value": {
-                "id": "a42559fb-fc57-4e47-bab4-7aa1b56970d5",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/en_AU.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "c519d84e-7d2b-4d2c-a509-b635b11b9801",
             "Value": {
                 "id": "acfa2eb1-f8fa-4b3b-88e6-27abeef87b5f",
@@ -2079,43 +679,11 @@
             }
         },
         {
-            "Key": "c9d855a0-b644-4d59-8247-ebc43df8f135",
-            "Value": {
-                "id": "77af2377-ab54-497a-9a8d-1a1dd9943df8",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Japanese.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "ca866b98-a1a3-4e4b-beeb-7c2f654f454b",
             "Value": {
                 "id": "fee15468-1033-4bc2-b613-8165848e8a26",
                 "resourcePath": "scripts\/enemyAttackUseOrToss\/enemyAttackUseOrToss.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "cab0f24b-4190-46a0-bd83-e0ec88763135",
-            "Value": {
-                "id": "454e8347-a072-4957-aea8-3071e818d970",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ro.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "cd474a3e-7a63-46be-99b3-e7fa2b98eda3",
-            "Value": {
-                "id": "2ca3f777-e523-4dcc-a816-a62b657685a6",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/id.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "ce51e859-2f7f-47d5-a1b3-dd7580da28c5",
-            "Value": {
-                "id": "5fa0e900-e69d-43b0-9644-74b6ca395ff8",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/en_GB.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2135,59 +703,11 @@
             }
         },
         {
-            "Key": "cf95bfe0-2d1b-480c-9eea-a37afbe4aced",
-            "Value": {
-                "id": "9f01be41-705e-422b-b229-705b9e164c36",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Italian.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "d0300637-3ca9-43ce-adb8-6b2bd9374663",
             "Value": {
                 "id": "bf9d75ce-ad60-42be-8b78-3e2ac8f55d9d",
                 "resourcePath": "objects\/oActorsContr\/oActorsContr.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d1071151-5857-4014-9cef-31d36e8e225c",
-            "Value": {
-                "id": "1673f76f-261c-4c24-aab8-9bc4918f8255",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/cs.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "d1837f36-81b5-4725-bc7d-051f3f14282a",
-            "Value": {
-                "id": "5d47592c-7577-45e0-b2ee-648a022fb9e1",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ms.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "d4caf0f7-08fb-4de9-acb9-6dfd51a0fafd",
-            "Value": {
-                "id": "349366c7-ec08-4680-942f-a362dc996c99",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "d5f24849-2a50-4b2c-835f-0262eedc33d7",
-            "Value": {
-                "id": "a818507b-a97e-4699-8b01-8f9495f1dead",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/hu.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "d6c3ceab-3164-4393-884e-8fa5e063cd1e",
-            "Value": {
-                "id": "d05bfcbc-4767-4992-975e-2cbe4491faeb",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ro.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2204,14 +724,6 @@
                 "id": "c08f00fb-2158-4bcc-96e3-912bf749b42f",
                 "resourcePath": "objects\/oNodeB2\/oNodeB2.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d74a30f7-2953-4027-a211-13c1b9da444c",
-            "Value": {
-                "id": "4fc2e7e1-edaa-4b5b-8764-94c2367fae12",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_CN.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2239,38 +751,6 @@
             }
         },
         {
-            "Key": "db31bd98-c01d-4631-9b95-c3b5d9e1721c",
-            "Value": {
-                "id": "ae8b21e4-6b8e-4dd6-92c3-8cc3931508e1",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/id.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "dbdccc09-a0dc-48b9-8873-21e3c1a1d293",
-            "Value": {
-                "id": "875009c0-0130-4ca3-bef7-d0bfed382121",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt_PT.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "dce98d3e-edfe-477a-95d9-e6d06e58abda",
-            "Value": {
-                "id": "5290fa89-6f0c-47d1-ab1c-053d87e3a66c",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pl.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "dcfa6dcd-56a7-46ef-a445-cd06369bbfd4",
-            "Value": {
-                "id": "e8699716-f75e-4f86-b2b4-7fe867dd73bd",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/ar.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "dcfd6218-4f89-4060-a1a6-8d7138e841bd",
             "Value": {
                 "id": "a938a8bf-b28d-4f96-961a-57307db58021",
@@ -2292,30 +772,6 @@
                 "id": "664bc579-abd7-4c30-82e7-ea20c46ce64a",
                 "resourcePath": "objects\/oNodeA2\/oNodeA2.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "e02e8843-1284-4c7f-9437-fd71d8e31710",
-            "Value": {
-                "id": "eddca4e8-31b7-43a9-a1dd-689ca8b2ef50",
-                "resourcePath": "views\/e02e8843-1284-4c7f-9437-fd71d8e31710.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e0e0c03d-fe8f-47c5-be3d-5be4d7b278ba",
-            "Value": {
-                "id": "954ce1bf-6840-4b44-b522-b02370df04df",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/version.plist.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "e2c0d42b-957a-44b8-b9db-98e9ae04580b",
-            "Value": {
-                "id": "0ebba169-feed-423c-8736-dd07f754c0b0",
-                "resourcePath": "views\/e2c0d42b-957a-44b8-b9db-98e9ae04580b.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -2343,67 +799,11 @@
             }
         },
         {
-            "Key": "e6b713f9-0902-4f57-a722-ffa50d51d812",
-            "Value": {
-                "id": "3b99a18d-6705-4328-9c5b-5e659ac88b1d",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/es_419.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "e8f40cb5-2704-4093-a984-64d155281c86",
-            "Value": {
-                "id": "f6ed6dbb-60b0-4ad8-8912-13a1201fb38c",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/pt_PT.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "e97613b4-32d9-4247-bd96-13a16ef7deb6",
             "Value": {
                 "id": "1b64f01b-4d6e-4901-9e00-201692d01377",
                 "resourcePath": "views\/e97613b4-32d9-4247-bd96-13a16ef7deb6.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "eadecfce-d50d-4e8e-ae48-51e3fe760d43",
-            "Value": {
-                "id": "e0489b76-374c-40b9-a3ed-27692b6ff00e",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_HK.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "eb2b21ac-2ef1-4b9e-b5f7-6cd97d102faf",
-            "Value": {
-                "id": "e2cac195-da0c-469e-b0ff-25d3da3039d5",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/fr_CA.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "ecd31e1c-e0ad-477b-b9e6-e495165f824a",
-            "Value": {
-                "id": "f77a2a5c-0395-4175-b23d-09ee46b8602c",
-                "resourcePath": "views\/ecd31e1c-e0ad-477b-b9e6-e495165f824a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "edae76ee-1470-49d6-be51-86de5d0acd77",
-            "Value": {
-                "id": "b469f523-e763-4fb5-b056-43bb69d08e51",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/no.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "ee077064-7b0f-4497-a6ae-c8a9a9b580e4",
-            "Value": {
-                "id": "d8a7318a-cae7-42e7-a45e-922bce0afe07",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Japanese.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2415,66 +815,10 @@
             }
         },
         {
-            "Key": "ee44e417-83bc-4b6a-9fa5-a0df90df38db",
-            "Value": {
-                "id": "3374fc88-8393-4cd7-985a-1d983d7d4b52",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Key_16.tiff.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "ef6d477b-9b78-47ab-afaf-e1355b5135ee",
-            "Value": {
-                "id": "fa75e3f0-ef5f-47e8-b8f0-5ebe934338c7",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/Japanese.lproj\/BluetoothPref.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "efc55a34-2777-444b-a860-d0cc64268867",
             "Value": {
                 "id": "b96efc3f-ffc6-46d1-b6e3-490a88d473fc",
                 "resourcePath": "views\/efc55a34-2777-444b-a860-d0cc64268867.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f049a2b5-a536-40a3-9fce-19a363b41feb",
-            "Value": {
-                "id": "a6e468b1-9ddb-4f95-be06-ad7e169f62bf",
-                "resourcePath": "views\/f049a2b5-a536-40a3-9fce-19a363b41feb.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f056b5ee-b2d3-4b6f-97aa-af34687db8da",
-            "Value": {
-                "id": "85f6bd31-625c-4cad-92ff-e4fcc8e83474",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/PalmSerialPortSDPRecord.plist.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "f24ed9bc-9ac4-4413-99a5-912c3af5a130",
-            "Value": {
-                "id": "6b5b6c93-3008-4535-a888-bbb88f94d4df",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/_CodeSignature\/CodeResources.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "f289474c-4d1b-49d5-ad15-d0d695c5c457",
-            "Value": {
-                "id": "1b88f2e5-3ee0-4167-acf0-8b759d5b3046",
-                "resourcePath": "views\/f289474c-4d1b-49d5-ad15-d0d695c5c457.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f36a912e-bdac-4ae1-aba3-38ef21c4cdf0",
-            "Value": {
-                "id": "8ab75b59-39d0-47e5-9991-ce6600ba9cbb",
-                "resourcePath": "views\/f36a912e-bdac-4ae1-aba3-38ef21c4cdf0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2492,30 +836,6 @@
                 "id": "ebb04dc9-42fa-422a-aa71-2dda60f53049",
                 "resourcePath": "scripts\/enemySelectAttack\/enemySelectAttack.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f8592939-db50-40a0-9795-fd27be34fc60",
-            "Value": {
-                "id": "e137aa92-3762-47d6-8d3d-e6354fee7b96",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/sk.lproj\/InfoPlist.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "f95ff3f4-8178-422d-8cae-0838b2c43881",
-            "Value": {
-                "id": "383d64b6-ef59-43a2-ae50-2012a9efe04c",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/German.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "fa2109a0-78bc-4db0-b13c-da2f86a43c9a",
-            "Value": {
-                "id": "428d5cc7-7c32-4971-81cf-861fab53cdf9",
-                "resourcePath": "views\/fa2109a0-78bc-4db0-b13c-da2f86a43c9a.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -2540,30 +860,6 @@
                 "id": "754224fa-3d3f-4ce9-8185-25792c55f301",
                 "resourcePath": "scripts\/moveSelectedActor\/moveSelectedActor.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "febc1d48-4cb1-4f33-8749-8c342437532f",
-            "Value": {
-                "id": "5d0d9fe6-e66a-4141-af58-3edd7ffa41f4",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/zh_HK.lproj\/Bluetooth.searchTerms.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "fef55f98-f309-4921-9e4f-3e036aa320a7",
-            "Value": {
-                "id": "1f46cc2f-89f3-4fb2-81bc-ab991dee3e38",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/English.lproj\/Localizable.strings.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "ff3c80f3-c731-435d-a591-e048ef4ddda9",
-            "Value": {
-                "id": "7d12b1e8-6892-402b-8f39-ee6fd2e39260",
-                "resourcePath": "datafiles_yy\/Bluetooth.prefPane\/Contents\/Resources\/BluetoothIcon.tiff.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2595,8 +891,7 @@
         "fe162f05-cfdf-450b-9a25-a7050de8059e",
         "023bb5ee-399f-44be-be78-e7f3c1836f7c",
         "8cd1eebb-d5ad-485b-ab73-38a1d3493683",
-        "4573270d-1ae5-4caf-a6ad-97cef5f48bdf",
-        "26516f4a-74a2-4348-8a7a-602c6b85f8b9"
+        "4573270d-1ae5-4caf-a6ad-97cef5f48bdf"
     ],
     "tutorial": ""
 }

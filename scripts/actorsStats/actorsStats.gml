@@ -30,7 +30,7 @@ global.actorPositionY[myChar]			= 2;
 
 global.actorKeyword[myChar2]			= "myChar2";
 global.actorHP[myChar2]					= 10;
-global.actorAtkDmg[myChar2]				= 3;
+global.actorStrength[myChar2]			= 3;
 global.actorStrain[myChar2]				= 0;
 global.actorStatus[myChar2]				= "none";
 global.actorDmgMod[myChar2]				= 0;
@@ -46,8 +46,8 @@ global.actorAbilitySlot[myChar2,0]		= "Light Attack"; //Attack strings should be
 global.actorAbilitySlot[myChar2,1]		= "Guard";
 global.actorAbilitySlot[myChar2,2]		= "Pyra Minor"; //basic lamp light attack
 global.actorAbilitySlot[myChar2,3]		= "Auto-Regen"; //passive ability
-global.actorPositionX[myChar2]			= 2;
-global.actorPositionY[myChar2]			= 3;
+global.actorPositionX[myChar2]			= 3;
+global.actorPositionY[myChar2]			= 2;
 
 //*********//
 //*Empty***//

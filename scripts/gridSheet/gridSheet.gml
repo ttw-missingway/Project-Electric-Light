@@ -2,6 +2,9 @@
 ///////////GRID//////////////////
 /////////////////////////////////
 
+//ERROR
+global.cellKeyword[0]					= "error";
+
 //VACANT (ally movable, enemy not)
 global.cellEnemyTargetClass[vacant]		= "untargetable";
 global.cellPlayerTargetClass[vacant]	= "untargetable";
@@ -74,4 +77,5 @@ for (i=myChar; i<=myChar2; i++){
 	
 global.cellKeyword[myChar]					= "myChar";
 global.cellKeyword[myChar2]					= "myChar2";
+global.cellKeyword[myEnemy]					= "myEnemy";
 
