@@ -16,3 +16,8 @@ for (w = 0; w<= ds_grid_width(newGrid); w++){
 ds_grid_set(newGrid, global.actorPositionX[myChar], global.actorPositionY[myChar], myChar);
 ds_grid_set(newGrid, global.actorPositionX[myChar2], global.actorPositionY[myChar2], myChar2);
 ds_grid_set(newGrid, global.enemyPositionX[myEnemy], global.enemyPositionY[myEnemy], myEnemy);
+
+//Highlight Table
+for (i=0; i<=5; i++){
+for (j=0; j<=5; j++){
+global.highlightTable[i, j] = false;}}

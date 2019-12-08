@@ -13,6 +13,14 @@ global.cellEnemyMovementClass[vacant]   = "unmovable";
 global.cellObstacleClass[vacant]		= "noObstacle";
 global.cellKeyword[vacant]				= "vacant";
 
+//HIGHLIGHT (ally movable, enemy not)
+global.cellEnemyTargetClass[highlight]		= "untargetable";
+global.cellPlayerTargetClass[highlight]	= "untargetable";
+global.cellPlayerMovementClass[highlight]	= "moveable";
+global.cellEnemyMovementClass[highlight]   = "unmovable";
+global.cellObstacleClass[highlight]		= "noObstacle";
+global.cellKeyword[highlight]				= "vacant";
+
 //NO ACCESS  (enemy moveable, ally not)
 global.cellEnemyTargetClass[noAccess]   = "untargetable";
 global.cellPlayerTargetClass[noAccess]	= "untargetable";

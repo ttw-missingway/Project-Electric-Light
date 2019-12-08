@@ -78,11 +78,35 @@
 			
 	return isAttackUseable;*/
 	
-var useOrToss = "use"
+useOrToss = "use"
 	
 if global.enemyAtkGridMaxCells[argument0] = 1{
-	if ds_grid_get(oGridController.newGrid, global.enemyAtkGridX[argument0,0], global.enemyAtkGridY[argument0,0]) = "vacant"||
-	   ds_grid_get(oGridController.newGrid, global.enemyAtkGridX[argument0,0], global.enemyAtkGridY[argument0,0]) = "obstacle"{
-		   useOrToss = "toss";}}
+	if global.enemyAtkGridRelative[argument0] = false{
+		if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, global.enemyAtkGridX[argument0,0], global.enemyAtkGridY[argument0,0])] = "untargetable"{
+			useOrToss = "toss";}}
+	else{
+		switch global.enemyFace[argument1]{
+			case "bow":{
+				if 
+				ds_grid_get(oGridController.newGrid, 
+				global.enemyPositionX[argument1] + global.enemyAtkGridY[argument0, 0], 
+				global.enemyPositionY[argument1] + global.enemyAtkGridX[argument0, 0]) = vacant{
+					useOrToss = "toss";}
+				break;}
+			case "port":{
+				if 
+				ds_grid_get(oGridController.newGrid, 
+				global.enemyAtkGridX[argument0, 0], 
+				global.enemyPositionY[argument1] + global.enemyAtkGridY[argument0, 0]) = vacant{
+					useOrToss = "toss";}
+				break;}
+			case "starboard":{
+				if 
+				ds_grid_get(oGridController.newGrid, 
+				global.enemyPositionX[argument1] - global.enemyAtkGridX[argument0, 0], 
+				global.enemyPositionY[argument1] - global.enemyAtkGridY[argument0, 0]) = vacant{
+					useOrToss = "toss";}
+				break;}}}}
+	
 
 return useOrToss;

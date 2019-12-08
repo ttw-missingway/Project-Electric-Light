@@ -8,6 +8,8 @@ switch ds_grid_get(oGridController.newGrid,cellx,celly){
 	case myChar2:
 	case myChar:		{sprite_index = sNodePlayer; break;}}
 	
+if global.highlightTable[cellx,celly] = true {sprite_index = sNodeHighlight;}
+	
 	
 draw_set_halign(fa_center);
 

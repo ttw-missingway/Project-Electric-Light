@@ -16,10 +16,39 @@ global.enemyAtkStatus[genMelee]					= "none";
 global.enemyAtkTravel[genMelee]					= "volley"; //attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
 
 //Target Cells
-global.enemyAtkGridRelative[genMelee]			= true; //middle lane (2y) is always the relative lane, (1x) is shallow (right next to the enemy), (4x) is deep, (1y) is to the left, (3y) is to the right)
+global.enemyAtkGridRelative[genMelee]			= true; //0 is the relative lane, 1 is shallow, 4 is deep on the x axis.
 global.enemyAtkGridMaxCells[genMelee]			= 1;
 global.enemyAtkGridX[genMelee,0]				= 1;
-global.enemyAtkGridY[genMelee,0]				= 2;
+global.enemyAtkGridY[genMelee,0]				= 0;
+
+////////////////////////////////////////////
+/*********** Magical Volley ********////////
+////////////////////////////////////////////
+
+global.enemyAtkKeyword[genVolleyMagic]				= "Magical Volley";
+global.enemyAtkDmgMod[genVolleyMagic]				= 2; //percentage of atk stat used in attack
+global.enemyAtkDmgCD[genVolleyMagic]				= 12*second;
+global.enemyAtkActive[genVolleyMagic]				= true;
+global.enemyAtkDmgType[genVolleyMagic]				= "magical";
+global.enemyAtkDestinationX[genVolleyMagic]			= "none";
+global.enemyAtkDestinationY[genVolleyMagic]			= "none";
+global.enemyAtkStateChange[genVolleyMagic]			= "none";
+global.enemyAtkParent[genVolleyMagic]				= "none";
+global.enemyAtkMassive[genVolleyMagic]				= false;
+global.enemyAtkStatus[genVolleyMagic]				= "none";
+global.enemyAtkTravel[genVolleyMagic]				= "volley"; //attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
+
+//Target Cells
+global.enemyAtkGridRelative[genVolleyMagic]			= true; //0 is the relative lane, 1 is shallow, 4 is deep on the x axis.
+global.enemyAtkGridMaxCells[genVolleyMagic]			= 4;
+global.enemyAtkGridX[genVolleyMagic,0]				= 1;
+global.enemyAtkGridY[genVolleyMagic,0]				= 0;
+global.enemyAtkGridX[genVolleyMagic,1]				= 1;
+global.enemyAtkGridY[genVolleyMagic,1]				= 1;
+global.enemyAtkGridX[genVolleyMagic,2]				= 1;
+global.enemyAtkGridY[genVolleyMagic,2]				= -1;
+global.enemyAtkGridX[genVolleyMagic,3]				= 2;
+global.enemyAtkGridY[genVolleyMagic,3]				= 0;
 
 
 
@@ -38,20 +67,6 @@ global.enemyAtkStateChange[genBee]				= "none";
 global.enemyAtkArchetype[genBee]				= "beeline";
 global.enemyAtkMassive[genBee]					= false;
 
-////////////////////////////////////////////
-/************* Volley **************////////
-////////////////////////////////////////////
-
-global.enemyAtkKeyword[genVolley]				= "Generic Volley";
-global.enemyAtkDmgMod[genVolley]				= 0.75; //percentage of atk stat used in attack
-global.enemyAtkDmgCD[genVolley]					= 6*second;
-global.enemyAtkActive[genVolley]				= true;
-global.enemyAtkDmgType[genVolley]				= "physical";
-global.enemyAtkDestination[genVolley]			= "unmoving";
-global.enemyAtkTargetType[genVolley]			= "unique";
-global.enemyAtkStateChange[genVolley]			= "none";
-global.enemyAtkArchetype[genVolley]				= "volley";
-global.enemyAtkMassive[genVolley]				= false;
 
 ////////////////////////////////////////////
 /************* Massive **************///////

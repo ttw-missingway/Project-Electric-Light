@@ -3,3 +3,5 @@
 
 cellx = 4;
 celly = 1;
+
+drawHighlight = false;

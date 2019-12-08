@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "6a940701-2067-4ee8-9476-b0efc5c668ca",
+            "Value": {
+                "id": "1be7c8c5-2be5-4792-8ede-0a54616bb282",
+                "resourcePath": "scripts\/indicateAttack\/indicateAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6c358208-7775-4245-851a-e6ed9779b03a",
             "Value": {
                 "id": "3d411989-08cb-4714-b6fc-a9a59b356289",
@@ -551,6 +559,22 @@
             }
         },
         {
+            "Key": "97249c5e-8749-4db6-8d56-24c87fadcaab",
+            "Value": {
+                "id": "9863ea95-6579-4e07-88f0-c1fd7cc3526e",
+                "resourcePath": "scripts\/randomizeEnemyPosition\/randomizeEnemyPosition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9f95ea8c-b5cc-488d-b9fe-638f7efc4287",
+            "Value": {
+                "id": "496ea90d-3322-4b9d-803f-740030c44fa0",
+                "resourcePath": "scripts\/addTargetablePlayers\/addTargetablePlayers.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a0053bec-4d83-4d85-8e93-88f811eadcdc",
             "Value": {
                 "id": "f7a3275b-3f39-4d8c-9448-0d1ba5d93ff9",
@@ -572,6 +596,14 @@
                 "id": "2d274302-0e6e-4e7c-b8c4-351ef1a2e1c8",
                 "resourcePath": "objects\/oNodeL3\/oNodeL3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ab59cbc2-136d-4eb4-80aa-0ccd2990c0b8",
+            "Value": {
+                "id": "974e9e98-7f08-4ef6-a280-2eaac72092b1",
+                "resourcePath": "sprites\/sNodeHighlight\/sNodeHighlight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -887,7 +919,10 @@
         "f7912509-9f43-43a3-b477-5b667c264357",
         "ca866b98-a1a3-4e4b-beeb-7c2f654f454b",
         "1528bf2e-afa2-4710-b39d-56fd6a258fbb",
+        "6a940701-2067-4ee8-9476-b0efc5c668ca",
+        "9f95ea8c-b5cc-488d-b9fe-638f7efc4287",
         "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
+        "97249c5e-8749-4db6-8d56-24c87fadcaab",
         "fe162f05-cfdf-450b-9a25-a7050de8059e",
         "023bb5ee-399f-44be-be78-e7f3c1836f7c",
         "8cd1eebb-d5ad-485b-ab73-38a1d3493683",

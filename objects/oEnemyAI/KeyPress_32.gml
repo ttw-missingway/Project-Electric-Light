@@ -13,6 +13,10 @@ for (i=0; i<enemyCountMax; i++){
 	if global.enemyActiveInSlot[i]{
 		enemySelectAttack(global.enemyInSlot[i]);}}*/
 		
+for (i=0; i<=5; i++){
+	for (j=0; j<= 5; j++){
+		global.highlightTable[i, j] = false;}}
+		
 enemySelectAttack(myEnemy);
 
 clearPathExample = 0;

@@ -7,6 +7,7 @@
 
 #macro		second		60
 #macro		empty		69
+#macro		highlight	420
 
 //Enemy Movement
 #macro		bow			0
@@ -14,15 +15,15 @@
 #macro		port		2
 
 //Enemy Attacks
-#macro		genMelee		0
-#macro		genBee			1
-#macro		genVolley		2
-#macro		genVolleyMagic	3
-#macro		genMassive		4
-#macro		genReposition	5
-#macro		genGuard		6
-#macro		genCounter		7
-#macro		genHeal			8
+#macro		genMelee		500
+#macro		genBee			501
+#macro		genVolley		502
+#macro		genVolleyMagic	503
+#macro		genMassive		504
+#macro		genReposition	505
+#macro		genGuard		506
+#macro		genCounter		507
+#macro		genHeal			508
 
 //grid
 #macro		vacant			100

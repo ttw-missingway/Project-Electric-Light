@@ -21,19 +21,50 @@ global.enemyAtkGridY[genMelee,0]				= 2;*/
 //\\//\\//FIND TARGET///\\//\\//
 //\\//\\//\\//\\//\\//\\//\\//\\
 
-var totalRecipients;
+totalRecipients = 0;
+
+for (j=0; j<13; j++){
+	damageRecipient[j] = 0;}
+
+
 
 for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
-	if global.cellTargetClass[
-		ds_grid_get(
-			oGridController.newGrid, 
-			global.enemyAtkGridX[argument0, i], 
-			global.enemyAtkGridY[argument0, i])] = "targetable" {
-				totalRecipients++;
-				damageRecipient[i] = ds_grid_get(
-					oGridController.newGrid, 
-					global.enemyAtkGridX[argument0, i],
-					global.enemyAtkGridY[argument0, i]);}}
+	
+	
+	if global.enemyAtkGridRelative = false{
+		
+		var getTargetX = global.enemyAtkGridX[argument0, i];
+		var getTargetY = global.enemyAtkGridY[argument0, i];
+		
+		addTargetablePlayers(getTargetX, getTargetY);}
+		
+	else {
+		
+		switch global.enemyFace[argument1]{
+			
+			case "bow": {
+				var getTargetX = global.enemyPositionX[argument1] + global.enemyAtkGridY[argument0, i];
+				var getTargetY = global.enemyPositionY[argument1] + global.enemyAtkGridX[argument0, i];
+
+				addTargetablePlayers(getTargetX, getTargetY);
+				
+				break;}
+				
+			case "port": {
+				var getTargetX = global.enemyAtkGridX[argument0, i];
+				var getTargetY = global.enemyPositionY[argument1] + global.enemyAtkGridY[argument0, i];
+				
+				addTargetablePlayers(getTargetX, getTargetY);
+				
+				break;}
+				
+			case "starboard": {
+				var getTargetX = global.enemyPositionX[argument1] - global.enemyAtkGridX[argument0, i];
+				var getTargetY = global.enemyPositionY[argument1] - global.enemyAtkGridY[argument0, i];
+				
+				addTargetablePlayers(getTargetX, getTargetY);
+				
+				break;}}}}
 					
 		
 
@@ -60,5 +91,7 @@ if global.enemyAtkDestinationX[argument0] != "none" {
 //\\//\\//\\//\\//\\//\\//\\//\\
 
 for (i=0; i<=totalRecipients; i++){
-	global.actorHP[i] -= (global.enemyAtkDmgMod[argument0]*global.enemyStrength[argument1]);}
-	
+	for (j=0; j<13; j++){
+		if damageRecipient != 0{
+			global.actorHP[damageRecipient[j]] -= 1;}}}
+	//global.actorHP[damageRecipient[i]] -= floor((global.enemyAtkDmgMod[argument0] * global.enemyStrength[argument1]));}

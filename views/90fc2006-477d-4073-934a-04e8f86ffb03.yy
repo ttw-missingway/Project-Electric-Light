@@ -6,7 +6,9 @@
     "children": [
         "f7912509-9f43-43a3-b477-5b667c264357",
         "ca866b98-a1a3-4e4b-beeb-7c2f654f454b",
-        "1528bf2e-afa2-4710-b39d-56fd6a258fbb"
+        "1528bf2e-afa2-4710-b39d-56fd6a258fbb",
+        "6a940701-2067-4ee8-9476-b0efc5c668ca",
+        "9f95ea8c-b5cc-488d-b9fe-638f7efc4287"
     ],
     "filterType": "GMScript",
     "folderName": "AI",
