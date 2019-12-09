@@ -5,16 +5,6 @@
     "name": "oEnemyAI",
     "eventList": [
         {
-            "id": "78d97594-00db-4838-8beb-09016e28a19e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 32,
-            "eventtype": 9,
-            "m_owner": "439cb4f4-f399-4c99-8809-fdf8ceb08142"
-        },
-        {
             "id": "c3636696-df6e-4f81-a1e8-e9d1ceb01b6a",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -42,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 82,
             "eventtype": 9,
+            "m_owner": "439cb4f4-f399-4c99-8809-fdf8ceb08142"
+        },
+        {
+            "id": "f229b43a-ae46-487d-8122-687a7451c7ff",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "439cb4f4-f399-4c99-8809-fdf8ceb08142"
         }
     ],

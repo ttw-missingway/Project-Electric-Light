@@ -4,11 +4,11 @@
 
 global.enemyAtkKeyword[genMelee]				= "Generic Melee";
 global.enemyAtkDmgMod[genMelee]					= 1.5; //percentage of atk stat used in attack
-global.enemyAtkDmgCD[genMelee]					= 10*second;
+global.enemyAtkDmgCD[genMelee]					= 2*second;
+global.enemyAtkPreCD[genMelee]					= 2*second;
 global.enemyAtkActive[genMelee]					= true;
 global.enemyAtkDmgType[genMelee]				= "physical";
-global.enemyAtkDestinationX[genMelee]			= "none";
-global.enemyAtkDestinationY[genMelee]			= "none";
+global.enemyAtkDestination[genMelee]			= "none";
 global.enemyAtkStateChange[genMelee]			= "none";
 global.enemyAtkParent[genMelee]					= "none";
 global.enemyAtkMassive[genMelee]				= false;
@@ -27,11 +27,11 @@ global.enemyAtkGridY[genMelee,0]				= 0;
 
 global.enemyAtkKeyword[genVolleyMagic]				= "Magical Volley";
 global.enemyAtkDmgMod[genVolleyMagic]				= 2; //percentage of atk stat used in attack
-global.enemyAtkDmgCD[genVolleyMagic]				= 12*second;
+global.enemyAtkDmgCD[genVolleyMagic]				= 4*second;
+global.enemyAtkPreCD[genVolleyMagic]				= 4*second;
 global.enemyAtkActive[genVolleyMagic]				= true;
 global.enemyAtkDmgType[genVolleyMagic]				= "magical";
-global.enemyAtkDestinationX[genVolleyMagic]			= "none";
-global.enemyAtkDestinationY[genVolleyMagic]			= "none";
+global.enemyAtkDestination[genVolleyMagic]			= "adjLeft";
 global.enemyAtkStateChange[genVolleyMagic]			= "none";
 global.enemyAtkParent[genVolleyMagic]				= "none";
 global.enemyAtkMassive[genVolleyMagic]				= false;
@@ -50,22 +50,64 @@ global.enemyAtkGridY[genVolleyMagic,2]				= -1;
 global.enemyAtkGridX[genVolleyMagic,3]				= 2;
 global.enemyAtkGridY[genVolleyMagic,3]				= 0;
 
-
-
 ////////////////////////////////////////////
-/************* Beeline ************////////
+/***********     Beam       ********////////
 ////////////////////////////////////////////
 
-global.enemyAtkKeyword[genBee]					= "Generic Beeline";
-global.enemyAtkDmgMod[genBee]					= 1; //percentage of atk stat used in attack
-global.enemyAtkDmgCD[genBee]					= 15*second;
+global.enemyAtkKeyword[beam]				= "Beam";
+global.enemyAtkDmgMod[beam]					= 2; //percentage of atk stat used in attack
+global.enemyAtkDmgCD[beam]					= 4*second;
+global.enemyAtkPreCD[beam]					= 4*second;
+global.enemyAtkActive[beam]					= true;
+global.enemyAtkDmgType[beam]				= "magical";
+global.enemyAtkDestination[beam]			= "adjRight";
+global.enemyAtkStateChange[beam]			= "none";
+global.enemyAtkParent[beam]					= "none";
+global.enemyAtkMassive[beam]				= false;
+global.enemyAtkStatus[beam]					= "none";
+global.enemyAtkTravel[beam]					= "volley"; //attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
+
+//Target Cells
+global.enemyAtkGridRelative[beam]			= true; //0 is the relative lane, 1 is shallow, 4 is deep on the x axis.
+global.enemyAtkGridMaxCells[beam]			= 4;
+global.enemyAtkGridX[beam,0]				= 1;
+global.enemyAtkGridY[beam,0]				= 0;
+global.enemyAtkGridX[beam,1]				= 2;
+global.enemyAtkGridY[beam,1]				= 0;
+global.enemyAtkGridX[beam,2]				= 3;
+global.enemyAtkGridY[beam,2]				= 0;
+global.enemyAtkGridX[beam,3]				= 4;
+global.enemyAtkGridY[beam,3]				= 0;
+
+////////////////////////////////////////////
+/***********     Beeline    ********////////
+////////////////////////////////////////////
+
+global.enemyAtkKeyword[genBee]					= "Beeline";
+global.enemyAtkDmgMod[genBee]					= 2; //percentage of atk stat used in attack
+global.enemyAtkDmgCD[genBee]					= 4*second;
+global.enemyAtkPreCD[genBee]					= 4*second;
 global.enemyAtkActive[genBee]					= true;
-global.enemyAtkDmgType[genBee]					= "physical";
-global.enemyAtkDestination[genBee]				= "parallel";
-global.enemyAtkTargetType[genBee]				= "grid";
+global.enemyAtkDmgType[genBee]					= "magical";
+global.enemyAtkDestination[genBee]				= "random"; //adjacent left = adjLeft, adjacent right = adjRight, parallel = parallel, random = random, match player X = matchX, match player Y = matchY
 global.enemyAtkStateChange[genBee]				= "none";
-global.enemyAtkArchetype[genBee]				= "beeline";
+global.enemyAtkParent[genBee]					= "none";
 global.enemyAtkMassive[genBee]					= false;
+global.enemyAtkStatus[genBee]					= "none";
+global.enemyAtkTravel[genBee]					= "volley"; //attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
+
+//Target Cells
+global.enemyAtkGridRelative[genBee]			= true; //0 is the relative lane, 1 is shallow, 4 is deep on the x axis.
+global.enemyAtkGridMaxCells[genBee]			= 4;
+global.enemyAtkGridX[genBee,0]				= 1;
+global.enemyAtkGridY[genBee,0]				= 0;
+global.enemyAtkGridX[genBee,1]				= 2;
+global.enemyAtkGridY[genBee,1]				= 0;
+global.enemyAtkGridX[genBee,2]				= 3;
+global.enemyAtkGridY[genBee,2]				= 0;
+global.enemyAtkGridX[genBee,3]				= 4;
+global.enemyAtkGridY[genBee,3]				= 0;
+
 
 
 ////////////////////////////////////////////

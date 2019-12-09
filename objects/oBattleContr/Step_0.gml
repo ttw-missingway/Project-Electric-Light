@@ -3,6 +3,7 @@
 
 //TIMERS CODE
 actorTimers();
+enemyTimers();
 
 
 

@@ -13,4 +13,7 @@ else{
 
 
 if enemyAttackUseOrToss(currentAttack, argument0) = "use"{
-	indicateAttack(currentAttack,argument0);} 
+	indicateAttack(currentAttack,argument0);
+	global.enemyActiveInSlot[argument1] = false;
+	global.enemyPreCDInSlot[argument1] = global.enemyAtkPreCD[currentAttack];
+	global.enemyAttackLoadedInSlot[argument1] = currentAttack;} 

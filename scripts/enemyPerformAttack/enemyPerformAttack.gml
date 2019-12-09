@@ -22,6 +22,8 @@ global.enemyAtkGridY[genMelee,0]				= 2;*/
 //\\//\\//\\//\\//\\//\\//\\//\\
 
 totalRecipients = 0;
+bugTest = true;
+
 
 for (j=0; j<13; j++){
 	damageRecipient[j] = 0;}
@@ -72,17 +74,98 @@ for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 //\\//\\//MOVE ACTORS///\\//\\//
 //\\//\\//\\//\\//\\//\\//\\//\\
 
-if global.enemyAtkDestinationX[argument0] != "none" {
+ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1], noAccess);
+
+switch global.enemyAtkDestination[argument0]{
 	
-	ds_grid_set(oGridController.newGrid,
-		global.enemyPositionX[argument1],
-		global.enemyPositionY[argument1],
-		noAccess);
+	case "none": {break;}
+	
+	case "adjLeft": {
+		switch global.enemyFace[argument1]{
+			case "bow":{
+				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1]+1, global.enemyPositionY[argument1]) = noAccess{
+					global.enemyPositionX[argument1]++;}
+				break;}
+			case "port":{
+				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1]-1) = noAccess{
+					global.enemyPositionY[argument1]--;}
+				break;}
+			case "starboard":{
+				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1]+1) = noAccess{
+					global.enemyPositionY[argument1]++;}
+				break;}}
+		break;}
 		
-	ds_grid_set(oGridController.newGrid,
-		global.enemyAtkDestinationX[argument0],
-		global.enemyAtkDestinationY[argument0],
-		argument1);}
+	case "adjRight": {
+		switch global.enemyFace[argument1]{
+			case "bow":{
+				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1]-1, global.enemyPositionY[argument1]) = noAccess{
+					global.enemyPositionX[argument1]--;}
+				break;}
+			case "port":{
+				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1]+1) = noAccess{
+					global.enemyPositionY[argument1]++;}
+				break;}
+			case "starboard":{
+				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1]-1) = noAccess{
+					global.enemyPositionY[argument1]--;}
+				break;}}
+		break;}
+		
+	case "parallel": {
+		switch global.enemyFace[argument1]{
+			case "port":{
+				if ds_grid_get(oGridController.newGrid, 5, global.enemyPositionY[argument1]) = noAccess{
+					global.enemyPositionX[argument1] = 5;}
+				break;}
+			case "starboard":{
+				if ds_grid_get(oGridController.newGrid, 0, global.enemyPositionY[argument1]) = noAccess{
+					global.enemyPositionX[argument1] = 0;}
+				break;}}
+		break;}
+		
+	case "random":{
+		randomizeEnemyPosition(argument1);
+		break;}
+		
+	case "match": {
+		newTargetX[0]=0;
+		newTargetY[0]=0;
+		newTargetX[1]=0;
+		newTargetY[1]=0;
+		newTargetX[2]=0;
+		newTargetY[2]=0;
+		maxK = 0;
+		var k = 0;
+		
+		for (i=0; i<5; i++){
+			for (j=0; j<4; j++){
+				if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, i, j)] = "targetable"{
+					k++;
+					maxK++;
+					newTargetX[k] = i;
+					newTargetY[k] = j;
+					}}}
+		
+		k = irandom_range(1, maxK);
+					
+		switch global.enemyFace[argument1]{
+			case "bow":{
+				if ds_grid_get(oGridController.newGrid, newTargetX[k], 0) = noAccess{
+					global.enemyPositionX[argument1] = newTargetX[k];}
+				break;}
+			case "port":{
+				if ds_grid_get(oGridController.newGrid, 0, newTargetY[k]) = noAccess{
+					global.enemyPositionY[argument1] = newTargetY[k];}
+				break;}
+			case "starboard":{
+				if ds_grid_get(oGridController.newGrid, 5, newTargetY[k]) = noAccess{
+					global.enemyPositionY[argument1] = newTargetY[k];}
+				break;}}
+		break;}}
+		
+ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1], argument1);
+			
 
 
 
@@ -92,6 +175,10 @@ if global.enemyAtkDestinationX[argument0] != "none" {
 
 for (i=0; i<=totalRecipients; i++){
 	for (j=0; j<13; j++){
-		if damageRecipient != 0{
-			global.actorHP[damageRecipient[j]] -= 1;}}}
-	//global.actorHP[damageRecipient[i]] -= floor((global.enemyAtkDmgMod[argument0] * global.enemyStrength[argument1]));}
+		if damageRecipient[j] != 0{
+			global.enemyAttackLoadedInSlot[argument2] = empty;
+			global.actorHP[damageRecipient[j]] -= floor((global.enemyAtkDmgMod[argument0] * global.enemyStrength[argument1]));
+			damageRecipient[j] = 0;}}}
+			
+global.enemyCDInSlot[argument2] = global.enemyAtkDmgCD[argument0];
+
