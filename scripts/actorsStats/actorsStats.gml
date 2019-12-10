@@ -23,18 +23,17 @@ global.actorAbilitySlot[myChar,3]		= "Auto-Regen"; //passive ability
 global.actorPositionX[myChar]			= 2;
 global.actorPositionY[myChar]			= 2;
 
-
 //*********//
-//*MyChar2*//
+//*MyChar2**//
 //*********//
 
-global.actorKeyword[myChar2]			= "myChar2";
+global.actorKeyword[myChar2]				= "myChar2";
 global.actorHP[myChar2]					= 10;
 global.actorStrength[myChar2]			= 3;
 global.actorStrain[myChar2]				= 0;
 global.actorStatus[myChar2]				= "none";
 global.actorDmgMod[myChar2]				= 0;
-global.actorArmorMod[myChar2]			= 0;
+global.actorArmor[myChar2]				= 0;
 global.actorRegen[myChar2]				= 0;
 global.actorHaste[myChar2]				= 1;		//is a ratio where 1 is normal, less than 1 is slowed, more than 1 is sped up
 global.actorAutoLife[myChar2]			= 0;		//binary, 1 yes, 0 no
@@ -48,6 +47,8 @@ global.actorAbilitySlot[myChar2,2]		= "Pyra Minor"; //basic lamp light attack
 global.actorAbilitySlot[myChar2,3]		= "Auto-Regen"; //passive ability
 global.actorPositionX[myChar2]			= 3;
 global.actorPositionY[myChar2]			= 2;
+
+
 
 //*********//
 //*Empty***//

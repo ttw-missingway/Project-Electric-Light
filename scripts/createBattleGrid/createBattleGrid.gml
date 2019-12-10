@@ -1,6 +1,6 @@
 ///createBattleGrid(player1,
 
-newGrid = ds_grid_create(6, 4);
+newGrid = ds_grid_create(6, 5);
 
 for (w = 0; w <= ds_grid_width(newGrid); w++){
 	for (h = 0; h <= ds_grid_height(newGrid); h++){
@@ -17,7 +17,29 @@ ds_grid_set(newGrid, global.actorPositionX[myChar], global.actorPositionY[myChar
 ds_grid_set(newGrid, global.actorPositionX[myChar2], global.actorPositionY[myChar2], myChar2);
 ds_grid_set(newGrid, global.enemyPositionX[myEnemy], global.enemyPositionY[myEnemy], myEnemy);
 
+ds_grid_set(newGrid, 1, 1, crate);
+ds_grid_set(newGrid, 1, 2, crate);
+ds_grid_set(newGrid, 1, 3, crate);
+ds_grid_set(newGrid, 2, 1, crate);
+ds_grid_set(newGrid, 2, 3, crate);
+ds_grid_set(newGrid, 3, 1, crate);
+ds_grid_set(newGrid, 3, 3, crate);
+ds_grid_set(newGrid, 4, 1, crate);
+ds_grid_set(newGrid, 4, 2, crate);
+ds_grid_set(newGrid, 4, 3, crate);
+
+ds_grid_set(newGrid, 0, 0, oob);
+ds_grid_set(newGrid, 5, 0, oob);
+ds_grid_set(newGrid, 0, 4, oob);
+ds_grid_set(newGrid, 1, 4, oob);
+ds_grid_set(newGrid, 2, 4, oob);
+ds_grid_set(newGrid, 3, 4, oob);
+ds_grid_set(newGrid, 4, 4, oob);
+ds_grid_set(newGrid, 5, 4, oob);
+
+
 //Highlight Table
 for (i=0; i<=5; i++){
-for (j=0; j<=5; j++){
-global.highlightTable[i, j] = false;}}
+	for (j=0; j<=5; j++){
+		global.highlightTable[i, j] = false;
+		global.highlightTableBee[i, j] = false;}}

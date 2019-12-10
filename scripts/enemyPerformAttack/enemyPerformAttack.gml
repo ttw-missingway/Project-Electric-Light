@@ -32,13 +32,10 @@ for (j=0; j<13; j++){
 
 for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 	
-	
 	if global.enemyAtkGridRelative = false{
 		
 		var getTargetX = global.enemyAtkGridX[argument0, i];
-		var getTargetY = global.enemyAtkGridY[argument0, i];
-		
-		addTargetablePlayers(getTargetX, getTargetY);}
+		var getTargetY = global.enemyAtkGridY[argument0, i];}
 		
 	else {
 		
@@ -46,27 +43,27 @@ for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 			
 			case "bow": {
 				var getTargetX = global.enemyPositionX[argument1] + global.enemyAtkGridY[argument0, i];
-				var getTargetY = global.enemyPositionY[argument1] + global.enemyAtkGridX[argument0, i];
-
-				addTargetablePlayers(getTargetX, getTargetY);
-				
+				var getTargetY = global.enemyPositionY[argument1] + global.enemyAtkGridX[argument0, i];				
 				break;}
 				
 			case "port": {
 				var getTargetX = global.enemyAtkGridX[argument0, i];
 				var getTargetY = global.enemyPositionY[argument1] + global.enemyAtkGridY[argument0, i];
-				
-				addTargetablePlayers(getTargetX, getTargetY);
-				
 				break;}
 				
 			case "starboard": {
 				var getTargetX = global.enemyPositionX[argument1] - global.enemyAtkGridX[argument0, i];
 				var getTargetY = global.enemyPositionY[argument1] - global.enemyAtkGridY[argument0, i];
+				break;}}}
 				
-				addTargetablePlayers(getTargetX, getTargetY);
-				
-				break;}}}}
+	if global.enemyAtkTravel[argument0] = "volley"{
+		collideWithObstacles(getTargetX, getTargetY);
+		addTargetablePlayers(getTargetX, getTargetY);}
+		
+	if global.enemyAtkTravel[argument0] = "beeline"{
+		if onlyTargetFound = false{
+			collideWithObstacles(getTargetX, getTargetY);
+			addTargetablePlayers(getTargetX, getTargetY);}}}
 					
 		
 
@@ -116,11 +113,13 @@ switch global.enemyAtkDestination[argument0]{
 		switch global.enemyFace[argument1]{
 			case "port":{
 				if ds_grid_get(oGridController.newGrid, 5, global.enemyPositionY[argument1]) = noAccess{
-					global.enemyPositionX[argument1] = 5;}
+					global.enemyPositionX[argument1] = 5;
+					global.enemyFace[argument1] = "starboard";}
 				break;}
 			case "starboard":{
 				if ds_grid_get(oGridController.newGrid, 0, global.enemyPositionY[argument1]) = noAccess{
-					global.enemyPositionX[argument1] = 0;}
+					global.enemyPositionX[argument1] = 0;
+					global.enemyFace[argument1] = "port";}
 				break;}}
 		break;}
 		
@@ -165,7 +164,14 @@ switch global.enemyAtkDestination[argument0]{
 		break;}}
 		
 ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1], argument1);
+
+//\\//\\//\\//\\//\\//\\//\\//\\
+//\\//\\// CHANGE STATE \\//\\//
+//\\//\\//\\//\\//\\//\\//\\//\\
 			
+global.enemyState[argument1] = global.enemyAtkStateChange[argument0];
+if global.enemyAtkStateChange[argument0] = "counter"{
+	global.enemyCounterType[argument1] = global.enemyAtkCounterType[argument0];}
 
 
 
@@ -181,4 +187,4 @@ for (i=0; i<=totalRecipients; i++){
 			damageRecipient[j] = 0;}}}
 			
 global.enemyCDInSlot[argument2] = global.enemyAtkDmgCD[argument0];
-
+onlyTargetFound = false; //only for beeline

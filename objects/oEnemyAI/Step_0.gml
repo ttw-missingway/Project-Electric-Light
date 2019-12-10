@@ -4,7 +4,6 @@
 //for (i=0; i<=10; i++){
 
 	if global.enemyActiveInSlot[0] = true{
-		randomizeEnemyPosition(myEnemy);
 		enemySelectAttack(myEnemy, 0);}
 
 	if global.enemyAttackPerformInSlot[0] = true{

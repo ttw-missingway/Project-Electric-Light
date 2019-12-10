@@ -9,6 +9,7 @@ currentAttack = 0;
 useOrToss = 0;
 totalRecipients = 0;
 maxK = 0;
+onlyTargetFound = false; //beeline only
 
 for (i=0; i<10; i++){
 	loadChoices[i] = 69;

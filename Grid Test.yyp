@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "27ea7756-3a86-4c61-9081-ee1c49914162",
+            "Value": {
+                "id": "71aecf90-a6cc-401b-83d5-45df296dc6e9",
+                "resourcePath": "scripts\/collideWithObstacles\/collideWithObstacles.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2825c5b2-db88-427a-9776-33f8a96d7b74",
             "Value": {
                 "id": "41e3c443-a875-49dd-a08f-245d2a417bac",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "5965c7e8-80e8-4971-95b6-ecb13860de14",
+            "Value": {
+                "id": "ffd3581e-96ae-4826-8e91-8a027dfc3f9d",
+                "resourcePath": "sprites\/sNodeCrate\/sNodeCrate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b0f9c89-f0c4-47cd-992a-cd4a9b203c04",
             "Value": {
                 "id": "31d87b24-54f3-4701-8492-6c4cac21b8ad",
@@ -519,6 +535,14 @@
             }
         },
         {
+            "Key": "8aaa2ea5-83a2-47c0-8f14-2e41cfe27a93",
+            "Value": {
+                "id": "d3b96f9d-2bd5-4d13-bd8e-70e8a6a1b216",
+                "resourcePath": "sprites\/sNodeHighlightBee\/sNodeHighlightBee.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8cd1eebb-d5ad-485b-ab73-38a1d3493683",
             "Value": {
                 "id": "4897f89e-09ef-4cde-853d-6f95d96e5791",
@@ -575,11 +599,27 @@
             }
         },
         {
+            "Key": "96d1b4ad-d5b1-474b-b9c2-67b67f1c692a",
+            "Value": {
+                "id": "9179f08a-0318-41ca-ac23-aae05b085bfe",
+                "resourcePath": "scripts\/enemyPerformCounter\/enemyPerformCounter.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "97249c5e-8749-4db6-8d56-24c87fadcaab",
             "Value": {
                 "id": "9863ea95-6579-4e07-88f0-c1fd7cc3526e",
                 "resourcePath": "scripts\/randomizeEnemyPosition\/randomizeEnemyPosition.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9c6c7574-af71-4b52-bfec-39a861fb9e2f",
+            "Value": {
+                "id": "02499fd2-32f2-4278-9f9b-eed9f1122a58",
+                "resourcePath": "sprites\/sNodeEnemyCounter\/sNodeEnemyCounter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -668,6 +708,14 @@
                 "id": "e5a01652-20e6-4942-9447-d4d5f50fdb39",
                 "resourcePath": "objects\/oNodeA1\/oNodeA1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b26fbf0e-05db-4491-9af2-8e7987c88050",
+            "Value": {
+                "id": "c68cfc8e-32ff-43e4-9393-af31eb17777b",
+                "resourcePath": "sprites\/sNodeEnemyGuard\/sNodeEnemyGuard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -947,13 +995,15 @@
         "1528bf2e-afa2-4710-b39d-56fd6a258fbb",
         "6a940701-2067-4ee8-9476-b0efc5c668ca",
         "9f95ea8c-b5cc-488d-b9fe-638f7efc4287",
+        "96d1b4ad-d5b1-474b-b9c2-67b67f1c692a",
+        "27ea7756-3a86-4c61-9081-ee1c49914162",
         "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
         "97249c5e-8749-4db6-8d56-24c87fadcaab",
         "fe162f05-cfdf-450b-9a25-a7050de8059e",
         "023bb5ee-399f-44be-be78-e7f3c1836f7c",
         "8cd1eebb-d5ad-485b-ab73-38a1d3493683",
-        "4573270d-1ae5-4caf-a6ad-97cef5f48bdf",
-        "14a05ead-1a11-4060-a366-6c4ca4bebe0d"
+        "14a05ead-1a11-4060-a366-6c4ca4bebe0d",
+        "4573270d-1ae5-4caf-a6ad-97cef5f48bdf"
     ],
     "tutorial": ""
 }

@@ -11,7 +11,8 @@ if !global.attackInProgress && !global.gameplayFreeze{
 			global.enemyPreCDInSlot[i] = -1;
 			for (j=0; j<=5; j++){
 				for (k=0; k<=4 ; k++){
-					global.highlightTable[j, k] = false;}}
+					global.highlightTable[j, k] = false;
+					global.highlightTableBee[j, k] = false;}}
 			global.enemyAttackPerformInSlot[i] = true;
 			}}
 
@@ -22,4 +23,6 @@ if !global.attackInProgress && !global.gameplayFreeze{
 			global.enemyCDInSlot[i]--;}
 		if global.enemyCDInSlot[i] = 0{
 			global.enemyActiveInSlot[i] = true;
-			global.enemyCDInSlot[i] = -1;}}}
+			global.enemyCDInSlot[i] = -1;
+			if global.enemyState[global.enemyInSlot[i]] != "none" { 
+				global.enemyState[global.enemyInSlot[i]] = "none"; }}}}
