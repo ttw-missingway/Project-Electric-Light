@@ -6,5 +6,5 @@ actorTimers();
 enemyTimers();
 
 
+actorStatusCalculator();
 
-//ACTOR ABILITY 0 CODE

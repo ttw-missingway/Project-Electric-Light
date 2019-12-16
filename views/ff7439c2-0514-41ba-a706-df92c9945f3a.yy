@@ -9,7 +9,8 @@
         "891302a9-1906-4d0f-becb-666e5ae1869c",
         "d7fadbfa-310d-4767-8845-86f1547c8e83",
         "33df5d14-6558-4939-b149-0b2a2c9b46d2",
-        "413543a8-3f6f-47b3-beb5-5b692fe42147"
+        "413543a8-3f6f-47b3-beb5-5b692fe42147",
+        "7084541c-baa7-41cb-936a-bbe0c46bb0f5"
     ],
     "filterType": "GMScript",
     "folderName": "Static Layer",

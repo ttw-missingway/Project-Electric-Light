@@ -67,7 +67,7 @@ global.enemyAtkStateChange[beam]			= "none";
 global.enemyAtkCounterType[beam]			= "NA";
 global.enemyAtkParent[beam]					= "none";
 global.enemyAtkMassive[beam]				= false;
-global.enemyAtkStatus[beam]					= "none";
+global.enemyAtkStatus[beam]					= "burn";
 global.enemyAtkTravel[beam]					= "volley"; //attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
 
 //Target Cells

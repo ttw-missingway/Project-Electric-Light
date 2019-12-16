@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "4a5795c6-1879-4632-b3a4-b531b8bd9271",
+            "Value": {
+                "id": "bd526457-4024-4d12-801e-38ca845d251b",
+                "resourcePath": "sprites\/sBurnIcon\/sBurnIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4be5f6df-13e8-42ee-aea7-01aee15d1bfc",
             "Value": {
                 "id": "6c10c7d3-641d-430e-9014-d26c8a415bee",
@@ -436,6 +444,14 @@
                 "id": "0beff676-34d8-4b14-a8b5-47d9bed6177c",
                 "resourcePath": "objects\/oNodeL1\/oNodeL1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7084541c-baa7-41cb-936a-bbe0c46bb0f5",
+            "Value": {
+                "id": "239c0ef6-10c4-45a5-b169-88754611f140",
+                "resourcePath": "scripts\/actorSheet\/actorSheet.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -620,6 +636,14 @@
                 "id": "02499fd2-32f2-4278-9f9b-eed9f1122a58",
                 "resourcePath": "sprites\/sNodeEnemyCounter\/sNodeEnemyCounter.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9d5ce254-b874-4382-b830-2ba9e213f664",
+            "Value": {
+                "id": "358109cd-b1b1-48e5-bbcf-feb7260a1388",
+                "resourcePath": "scripts\/actorStatusCalculator\/actorStatusCalculator.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -982,10 +1006,12 @@
         "d7fadbfa-310d-4767-8845-86f1547c8e83",
         "33df5d14-6558-4939-b149-0b2a2c9b46d2",
         "413543a8-3f6f-47b3-beb5-5b692fe42147",
+        "7084541c-baa7-41cb-936a-bbe0c46bb0f5",
         "a6ec5262-b849-4080-b88c-ea345d599896",
         "4be5f6df-13e8-42ee-aea7-01aee15d1bfc",
         "3e92cc4a-95e5-440d-a467-ae774439e4ec",
         "88fa80e9-363b-47e5-aa25-abc7df0c9f69",
+        "9d5ce254-b874-4382-b830-2ba9e213f664",
         "218275dd-1348-4745-a02f-d82683ce84ee",
         "f640783e-d81a-4f8a-a192-6ef46ed171ad",
         "458cc7cc-d00b-4f80-9ab4-1e46325f31c1",

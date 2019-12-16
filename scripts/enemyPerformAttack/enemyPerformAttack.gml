@@ -172,7 +172,7 @@ ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], global.en
 global.enemyState[argument1] = global.enemyAtkStateChange[argument0];
 if global.enemyAtkStateChange[argument0] = "counter"{
 	global.enemyCounterType[argument1] = global.enemyAtkCounterType[argument0];}
-
+	
 
 
 //\\//\\//\\//\\//\\//\\//\\//\\
@@ -184,7 +184,20 @@ for (i=0; i<=totalRecipients; i++){
 		if damageRecipient[j] != 0{
 			global.enemyAttackLoadedInSlot[argument2] = empty;
 			global.actorHP[damageRecipient[j]] -= floor((global.enemyAtkDmgMod[argument0] * global.enemyStrength[argument1]));
+			global.actorStatus[damageRecipient[j]] = global.enemyAtkStatus[argument0];
 			damageRecipient[j] = 0;}}}
+			
+	
+
+
+
+
+
+	
+//\\//\\//\\//\\//\\//\\//\\//\\
+//\\//\\// APPLY STATUS \\//\\//
+//\\//\\//\\//\\//\\//\\//\\//\\
+
 			
 global.enemyCDInSlot[argument2] = global.enemyAtkDmgCD[argument0];
 onlyTargetFound = false; //only for beeline

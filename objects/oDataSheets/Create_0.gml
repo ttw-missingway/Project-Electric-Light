@@ -6,3 +6,4 @@ enemyAbilitySheet();
 keywords();
 gridSheet();
 enemySheet();
+actorSheet();

@@ -20,6 +20,9 @@ for (i=0;i<=2;i++){
 	draw_text(x + newColumn*(i+1), y, "Party " + string(i+1) + ":" + string(
 		global.actorKeyword[
 			global.actorInSlot[i]]));
+			
+	if global.actorStatus[global.actorInSlot[i]] = "burn"{
+		draw_sprite(sBurnIcon, 0, x + newColumn*(i+1) + 64, y + 42);}
 		
 	draw_text(x + newColumn*(i+1), y + newLine, "HP: " + string(
 		global.actorHP[
@@ -27,6 +30,7 @@ for (i=0;i<=2;i++){
 		
 	draw_text(x + newColumn*(i+1), y + newLine*2, "CD: " + string(
 		global.actorCDInSlot[i]));
+		
 		
 	draw_set_alpha(1);}
 

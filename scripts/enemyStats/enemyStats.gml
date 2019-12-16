@@ -16,4 +16,4 @@ global.enemyCounterType[myEnemy]			= "flat";
 global.enemyMassiveCD[myEnemy]				= 3;
 
 global.enemyAttackList[myEnemy]				= ds_list_create();
-ds_list_add(global.enemyAttackList[myEnemy], genBee, genMelee, genVolleyMagic, beam);
+ds_list_add(global.enemyAttackList[myEnemy], beam);
