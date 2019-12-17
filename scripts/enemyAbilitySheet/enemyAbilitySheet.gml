@@ -69,6 +69,10 @@ global.enemyAtkParent[beam]					= "none";
 global.enemyAtkMassive[beam]				= false;
 global.enemyAtkStatus[beam]					= "madness";
 global.enemyAtkTravel[beam]					= "volley"; //attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
+global.enemyAtkBuffType[beam]				= "armor"; //strength, armor, CD, evasion
+global.enemyAtkBuffTarget[beam]				= "all enemies"; //self, grid, all enemies, all actors
+global.enemyAtkBuffValue[beam]				= 10 //can be negative to act as a nerf
+
 
 //Target Cells
 global.enemyAtkGridRelative[beam]			= true; //0 is the relative lane, 1 is shallow, 4 is deep on the x axis.

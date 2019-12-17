@@ -173,6 +173,101 @@ global.enemyState[argument1] = global.enemyAtkStateChange[argument0];
 if global.enemyAtkStateChange[argument0] = "counter"{
 	global.enemyCounterType[argument1] = global.enemyAtkCounterType[argument0];}
 	
+//\\//\\//\\//\\//\\//\\//\\//\\
+//\\//\\  NERF AND BUFF \\//\\//
+//\\//\\//\\//\\//\\//\\//\\//\\
+			
+switch global.enemyAtkBuffTarget[argument0]{
+	case "self": {
+		switch global.enemyAtkBuffType[argument0]{
+			case "strength": {
+				global.enemyStrength[argument1] += global.enemyAtkBuffValue[argument0];
+				break;}
+			case "cd": {
+				global.enemyCDReduction[argument1] += global.enemyAtkBuffValue[argument0];
+				break;}
+			case "armor": {
+				global.enemyArmor[argument1] += global.enemyAtkBuffValue[argument0];
+				break;}
+			case "evasion": {
+				global.enemyEvasion[argument1] += global.enemyAtkBuffValue[argument0];
+				break;}}
+		break;}
+		
+	case "grid": {
+		switch global.enemyAtkBuffType[argument0]{
+			case "strength": {
+					for (j=0; j<13; j++){
+						if damageRecipient[j] != 0{
+							global.actorStrength[damageRecipient[j]] += global.enemyAtkBuffValue[argument0];}}
+				break;}
+			case "cd": {
+					for (j=0; j<13; j++){
+						if damageRecipient[j] != 0{
+							global.actorCDReduction[damageRecipient[j]] += global.enemyAtkBuffValue[argument0];}}
+				break;}
+			case "armor": {
+
+					for (j=0; j<13; j++){
+						if damageRecipient[j] != 0{
+							global.actorArmor[damageRecipient[j]] += global.enemyAtkBuffValue[argument0];}}
+				break;}
+			case "evasion": {
+
+					for (j=0; j<13; j++){
+						if damageRecipient[j] != 0{
+							global.actorEvasion[damageRecipient[j]] += global.enemyAtkBuffValue[argument0];}}
+				break;}}
+		break;}
+		
+	case "all enemies": {
+		switch global.enemyAtkBuffType[argument0]{
+			case "strength": {
+					for (i=0; i<11; i++){
+						if global.enemyInSlot[i] != empty{
+							global.enemyStrength[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
+				break;}
+			case "cd": {
+					for (i=0; i<11; i++){
+						if global.enemyInSlot[i] != empty{
+							global.enemyCDReduction[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
+				break;}
+			case "armor": {
+					for (i=0; i<11; i++){
+						if global.enemyInSlot[i] != empty{
+							global.enemyArmor[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
+				break;}
+			case "evasion": {
+					for (i=0; i<11; i++){
+						if global.enemyInSlot[i] != empty{
+							global.enemyEvasion[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
+				break;}}
+		break;}
+		
+	case "all actors": {
+		switch global.enemyAtkBuffType[argument0]{
+			case "strength": {
+					for (i=0; i<3; i++){
+						if global.actorInSlot[i] != empty{
+							global.actorStrength[global.actorInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
+				break;}
+			case "cd": {
+					for (i=0; i<3; i++){
+						if global.actorInSlot[i] != empty{
+							global.actorCDReduction[global.actorInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
+				break;}
+			case "armor": {
+					for (i=0; i<3; i++){
+						if global.actorInSlot[i] != empty{
+							global.actorArmor[global.actorInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
+				break;}
+			case "evasion": {
+					for (i=0; i<3; i++){
+						if global.actorInSlot[i] != empty{
+							global.actorEvasion[global.actorInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
+				break;}}
+		break;}}
+			
 
 
 //\\//\\//\\//\\//\\//\\//\\//\\
@@ -187,11 +282,6 @@ for (i=0; i<=totalRecipients; i++){
 			global.actorStatus[damageRecipient[j]] = global.enemyAtkStatus[argument0];
 			damageRecipient[j] = 0;}}}
 			
-	
-
-
-
-
 
 	
 //\\//\\//\\//\\//\\//\\//\\//\\

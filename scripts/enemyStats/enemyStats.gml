@@ -12,6 +12,7 @@ global.enemyPositionX[myEnemy]				= 0;
 global.enemyPositionY[myEnemy]				= 2;
 global.enemyCounterType[myEnemy]			= "flat";
 global.enemyEvasion[myEnemy]				= 0.0; //percentage
+global.enemyCDReduction[myEnemy]			= 0;
 
 
 global.enemyMassiveCD[myEnemy]				= 3;

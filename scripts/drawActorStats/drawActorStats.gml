@@ -1,5 +1,5 @@
 var newLine = 16;
-var newColumn = 264;
+var newColumn = 124;
 
 draw_text(x, y, "State: \n" + string(
 	oPlayerInterface.battleState));
@@ -43,17 +43,49 @@ for (i=0;i<=2;i++){
 	draw_text(x + newColumn*(i+1), y + newLine*2, "CD: " + string(
 		global.actorCDInSlot[i]));
 		
+	draw_set_alpha(0.8);
+		
+	draw_text(x + newColumn*(i+1), y + newLine*3, "Strength: " + string(
+		global.actorStrength[global.actorInSlot[i]]));
+		
+	draw_text(x + newColumn*(i+1), y + newLine*4, "CDR: " + string(
+		global.actorCDReduction[global.actorInSlot[i]]));		
+		
+	draw_text(x + newColumn*(i+1), y + newLine*5, "Evasion: " + string(
+		global.actorEvasion[global.actorInSlot[i]]));	
+		
+	draw_text(x + newColumn*(i+1), y + newLine*6, "Armor: " + string(
+		global.actorArmor[global.actorInSlot[i]]));	
+		
 		
 	draw_set_alpha(1);}
 
 //Enemies
-	draw_text(x + newColumn, y + newLine*4, "Enemy " + string(1) + ":" + string(
+	draw_set_color(c_red);
+	draw_set_alpha(0.8);
+	
+	draw_text(x + newColumn*4, y, "Enemy " + string(1) + ":" + string(
 		global.enemyKeyword[
 			global.enemyInSlot[0]]));
 		
-	draw_text(x + newColumn, y + newLine*5, "HP: " + string(
+	draw_text(x + newColumn*4, y + newLine, "HP: " + string(
 		global.enemyHP[
 			global.enemyInSlot[0]]));
 		
-	draw_text(x + newColumn, y + newLine*6, "CD: " + string(
+	draw_text(x + newColumn*4, y + newLine*2, "CD: " + string(
 		global.enemyCDInSlot[0]));
+		
+	draw_text(x + newColumn*4, y + newLine*3, "Strength: " + string(
+		global.enemyStrength[global.enemyInSlot[0]]));
+		
+	draw_text(x + newColumn*4, y + newLine*4, "CDR: " + string(
+		global.enemyCDReduction[global.enemyInSlot[0]]));		
+		
+	draw_text(x + newColumn*4, y + newLine*5, "Evasion: " + string(
+		global.enemyEvasion[global.enemyInSlot[0]]));	
+		
+	draw_text(x + newColumn*4, y + newLine*6, "Armor: " + string(
+		global.enemyArmor[global.enemyInSlot[0]]));	
+		
+	draw_set_alpha(1);
+	draw_set_color(c_white);

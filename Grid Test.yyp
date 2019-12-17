@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "952644d6-e454-4b7d-888c-c28990187c0c",
+            "Value": {
+                "id": "a127f8e0-1740-43d2-9bcf-2456554c8fe9",
+                "resourcePath": "fonts\/fSmall\/fSmall.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "96d1b4ad-d5b1-474b-b9c2-67b67f1c692a",
             "Value": {
                 "id": "9179f08a-0318-41ca-ac23-aae05b085bfe",

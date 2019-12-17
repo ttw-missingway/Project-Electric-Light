@@ -23,6 +23,8 @@ global.actorAbilitySlot[myChar,3]		= "Auto-Regen"; //passive ability
 global.actorPositionX[myChar]			= 2;
 global.actorPositionY[myChar]			= 2;
 global.actorState[myChar]				= "none";
+global.actorEvasion[myChar]				= 0.0;
+global.actorCDReduction[myChar]			= 0;
 
 //*********//
 //*MyChar2**//
@@ -49,6 +51,8 @@ global.actorAbilitySlot[myChar2,3]		= "Auto-Regen"; //passive ability
 global.actorPositionX[myChar2]			= 3;
 global.actorPositionY[myChar2]			= 2;
 global.actorState[myChar2]				= "none";
+global.actorEvasion[myChar2]				= 0.0;
+global.actorCDReduction[myChar2]			= 0;
 
 
 
@@ -77,3 +81,5 @@ global.actorAbilitySlot[empty,3]		= "none"; //passive ability
 global.actorPositionX[empty]			= 0;
 global.actorPositionY[empty]			= 0;
 global.actorState[empty]				= "none";
+global.actorEvasion[empty]				= 0.0;
+global.actorCDReduction[empty]			= 0;
