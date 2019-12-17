@@ -2,8 +2,8 @@
 
 #macro		myChar		300
 #macro		myChar2		301
-#macro		myEnemy		302
-#macro		ltAtk		303
+#macro		myEnemy		600
+#macro		ltAtk		700
 
 #macro		second		60
 #macro		empty		69

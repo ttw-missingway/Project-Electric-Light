@@ -11,8 +11,9 @@ global.enemyFace[myEnemy]					= "port";
 global.enemyPositionX[myEnemy]				= 0;
 global.enemyPositionY[myEnemy]				= 2;
 global.enemyCounterType[myEnemy]			= "flat";
+global.enemyEvasion[myEnemy]				= 0.0; //percentage
 
-		
+
 global.enemyMassiveCD[myEnemy]				= 3;
 
 global.enemyAttackList[myEnemy]				= ds_list_create();

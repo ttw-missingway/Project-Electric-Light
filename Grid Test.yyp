@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "000a3938-4239-4b8b-8964-a7b9b4619225",
+            "Value": {
+                "id": "789e6e57-15e8-4979-82f8-96baeed9a199",
+                "resourcePath": "scripts\/performHitChance\/performHitChance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "023bb5ee-399f-44be-be78-e7f3c1836f7c",
             "Value": {
                 "id": "7d3eaec8-84e1-4755-bec2-67ce0a428234",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "380e6498-0b54-42a0-8e26-ef9c0923e532",
+            "Value": {
+                "id": "a2985d05-8cbf-4fb7-8389-92be04b3bdc5",
+                "resourcePath": "sprites\/sMadnessIcon\/sMadnessIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39ac7296-348b-4ecd-9510-0953bea28f7c",
             "Value": {
                 "id": "81900abb-154c-4c5a-8af8-d2c61219fa17",
@@ -340,6 +356,14 @@
                 "id": "6c10c7d3-641d-430e-9014-d26c8a415bee",
                 "resourcePath": "scripts\/enemyStats\/enemyStats.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c226c99-4eea-441b-9233-83eec02572ad",
+            "Value": {
+                "id": "601984e2-bccc-4d55-9878-bf68bee3d2fa",
+                "resourcePath": "sprites\/sParalyzeIcon\/sParalyzeIcon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -607,6 +631,14 @@
             }
         },
         {
+            "Key": "92628198-fe35-4593-9092-7d76d47683e7",
+            "Value": {
+                "id": "5eece06c-f1dd-4569-b33b-77b91c39e2c8",
+                "resourcePath": "sprites\/sStunnedIcon\/sStunnedIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "929ff22c-a805-4c7c-bb20-091af5cbccac",
             "Value": {
                 "id": "1c9de692-fd88-44fb-b65e-a37af2ef85ca",
@@ -668,6 +700,14 @@
                 "id": "710e3724-f4de-43cd-ba0d-ad393d3a4003",
                 "resourcePath": "scripts\/actorsStats\/actorsStats.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a9560846-694f-45d4-9af8-9987a6dcfcf6",
+            "Value": {
+                "id": "edd4690e-9bde-4e39-b774-2ca9bb4096ce",
+                "resourcePath": "sprites\/sBlindnessIcon\/sBlindnessIcon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1023,6 +1063,7 @@
         "9f95ea8c-b5cc-488d-b9fe-638f7efc4287",
         "96d1b4ad-d5b1-474b-b9c2-67b67f1c692a",
         "27ea7756-3a86-4c61-9081-ee1c49914162",
+        "000a3938-4239-4b8b-8964-a7b9b4619225",
         "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
         "97249c5e-8749-4db6-8d56-24c87fadcaab",
         "fe162f05-cfdf-450b-9a25-a7050de8059e",

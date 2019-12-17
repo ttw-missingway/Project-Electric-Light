@@ -24,6 +24,18 @@ for (i=0;i<=2;i++){
 	if global.actorStatus[global.actorInSlot[i]] = "burn"{
 		draw_sprite(sBurnIcon, 0, x + newColumn*(i+1) + 64, y + 42);}
 		
+	if global.actorStatus[global.actorInSlot[i]] = "paralyze"{
+		draw_sprite(sParalyzeIcon, 0, x + newColumn*(i+1) + 64, y + 42);}
+		
+	if global.actorStatus[global.actorInSlot[i]] = "stunned"{
+		draw_sprite(sStunnedIcon, 0, x + newColumn*(i+1) + 64, y + 42);}
+		
+	if global.actorStatus[global.actorInSlot[i]] = "blind"{
+		draw_sprite(sBlindnessIcon, 0, x + newColumn*(i+1) + 64, y + 42);}
+		
+	if global.actorStatus[global.actorInSlot[i]] = "madness"{
+		draw_sprite(sMadnessIcon, 0, x + newColumn*(i+1) + 64, y + 42);}
+		
 	draw_text(x + newColumn*(i+1), y + newLine, "HP: " + string(
 		global.actorHP[
 			global.actorInSlot[i]]));

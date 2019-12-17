@@ -6,3 +6,5 @@ keyboardMap();
 //initialize
 
 battleState = "actorSelect";
+enemyTargetted = "noone";
+randomSelection = 69;
