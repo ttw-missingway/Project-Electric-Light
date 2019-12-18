@@ -9,6 +9,9 @@ currentAttack = 0;
 useOrToss = 0;
 totalRecipients = 0;
 maxK = 0;
+drawMe[0] = 69;
+drawMe[1] = 69;
+drawMe[2] = 69;
 onlyTargetFound = false; //beeline only
 
 for (i=0; i<10; i++){

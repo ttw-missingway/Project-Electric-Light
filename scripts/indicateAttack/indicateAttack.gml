@@ -15,7 +15,7 @@ for (j=0; j<13; j++){
 for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 	
 	
-	if global.enemyAtkGridRelative = false{
+	if global.enemyAtkGridRelative[argument0] = false{
 		
 		var getTargetX = global.enemyAtkGridX[argument0, i];
 		var getTargetY = global.enemyAtkGridY[argument0, i];}
