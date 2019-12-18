@@ -64,7 +64,15 @@ for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 	if global.enemyAtkTravel[argument0] = "beeline"{
 		if onlyTargetFound = false{
 			collideWithObstacles(getTargetX, getTargetY);
-			addTargetablePlayers(getTargetX, getTargetY);}}}
+			addTargetablePlayers(getTargetX, getTargetY);}}
+			
+	//\\//\\//\\//\\//\\//\\//\\//\\
+	//\\//\\/ CREATE OBSTACLES /\\//
+	//\\//\\//\\//\\//\\//\\//\\//\\
+			
+	if global.enemyAtkObstacleCreate[argument0] != "none"{
+		if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, getTargetX, getTargetY)] = "moveable"{
+			ds_grid_set(oGridController.newGrid, getTargetX, getTargetY, global.enemyAtkObstacleCreate[argument0]);}}}
 					
 		
 
