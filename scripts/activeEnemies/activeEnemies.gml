@@ -6,8 +6,8 @@ global.enemyAttackLoadedInSlot[0] = empty;
 global.enemyAttackPerformInSlot[0] = false;
 global.enemyBurnTimerInSlot[0] = 0;
 
-global.enemyInSlot[1] = empty;
-global.enemyActiveInSlot[1] = false;
+global.enemyInSlot[1] = myEnemy2;
+global.enemyActiveInSlot[1] = true;
 global.enemyCDInSlot[1] = -1;
 global.enemyPreCDInSlot[1] = -1;
 global.enemyAttackLoadedInSlot[1] = empty;

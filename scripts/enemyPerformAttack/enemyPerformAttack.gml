@@ -22,10 +22,11 @@ global.enemyAtkGridY[genMelee,0]				= 2;*/
 //\\//\\//\\//\\//\\//\\//\\//\\
 
 totalRecipients = 0;
-bugTest = true;
+
 
 
 for (j=0; j<13; j++){
+	
 	damageRecipient[j] = 0;}
 
 
@@ -34,7 +35,7 @@ for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 	
 	if global.enemyAtkGridRelative[argument0] = false{
 		
-		bugTest = 1;
+		
 		var getTargetX = global.enemyAtkGridX[argument0, i];
 		var getTargetY = global.enemyAtkGridY[argument0, i];}
 		

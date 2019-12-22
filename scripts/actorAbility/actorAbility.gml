@@ -39,6 +39,16 @@ if keyboard_check_pressed(keyA){
 				else if global.enemyState[enemyTargetted] = "counter" {
 					global.enemyHP[enemyTargetted]								-= baseDamage;
 					enemyPerformCounter(baseDamage, enemyTargetted, argument0);}
+					
+				else if global.enemyState[enemyTargetted] = "magic immune" {
+					if global.atkDmgType[argument1] != "magic"{
+						global.enemyHP[enemyTargetted]								-= baseDamage;
+						enemyPerformCounter(baseDamage, enemyTargetted, argument0);}}
+				else if global.enemyState[enemyTargetted] = "physical immune" {
+					if global.atkDmgType[argument1] != "physical"{
+						global.enemyHP[enemyTargetted]								-= baseDamage;
+						enemyPerformCounter(baseDamage, enemyTargetted, argument0);}}
+				else if global.enemyState[enemyTargetted] = "invulnerable" {}
 			
 				else {
 					global.enemyHP[enemyTargetted]								-= baseDamage;}}

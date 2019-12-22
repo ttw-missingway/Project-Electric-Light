@@ -4,8 +4,9 @@ if !global.attackInProgress && !global.gameplayFreeze{
 	
 //Enemy Has Selected Attack And Is Now Waiting To Perform It
 	
-	for (i=0; i<10; i++){
+	for (i=0; i<=10; i++){
 		if global.enemyPreCDInSlot[i] > 0 {
+			bugTest = 1;
 			global.enemyPreCDInSlot[i]--;}
 		if global.enemyPreCDInSlot[i] = 0{
 			global.enemyPreCDInSlot[i] = -1;
@@ -18,9 +19,10 @@ if !global.attackInProgress && !global.gameplayFreeze{
 
 //Enemy Has Performed Attack And Is Now Waiting To Act Again
 
-	for (i=0; i<10; i++){
+	for (i=0; i<=10; i++){
 		if global.enemyCDInSlot[i] > 0 {
-			global.enemyCDInSlot[i]--;}
+			global.enemyCDInSlot[i]--;
+			bugTest = true;}
 		if global.enemyCDInSlot[i] = 0{
 			global.enemyActiveInSlot[i] = true;
 			global.enemyCDInSlot[i] = -1;

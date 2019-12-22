@@ -19,3 +19,25 @@ global.enemyMassiveCD[myEnemy]				= 3;
 
 global.enemyAttackList[myEnemy]				= ds_list_create();
 ds_list_add(global.enemyAttackList[myEnemy], beam);
+
+//***********//
+//*MyEnemy2**//
+//***********//
+
+global.enemyHP[myEnemy2]					= 10;
+global.enemyStrength[myEnemy2]				= 3;
+global.enemyArmor[myEnemy2]					= 1;
+global.enemyState[myEnemy2]					= "none";
+global.enemyStatus[myEnemy2]				= "none";
+global.enemyFace[myEnemy2]					= "starboard";
+global.enemyPositionX[myEnemy2]				= 5;
+global.enemyPositionY[myEnemy2]				= 3;
+global.enemyCounterType[myEnemy2]			= "flat";
+global.enemyEvasion[myEnemy2]				= 0.0; //percentage
+global.enemyCDReduction[myEnemy2]			= 0;
+
+
+global.enemyMassiveCD[myEnemy2]				= 3;
+
+global.enemyAttackList[myEnemy2]			= ds_list_create();
+ds_list_add(global.enemyAttackList[myEnemy2], beam);

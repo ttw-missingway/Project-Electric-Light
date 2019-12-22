@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//for (i=0; i<=10; i++){
 
-	if global.enemyActiveInSlot[0] = true{
-		enemySelectAttack(myEnemy, 0);}
+for (m=0; m<=10; m++){
+	if global.enemyActiveInSlot[m] = true{
+		enemySelectAttack(global.enemyInSlot[m], m);}
 
-	if global.enemyAttackPerformInSlot[0] = true{
-		enemyPerformAttack(global.enemyAttackLoadedInSlot[0], global.enemyInSlot[0], 0);
-		global.enemyAttackPerformInSlot[0] = false;}
+	if global.enemyAttackPerformInSlot[m] = true{
+		enemyPerformAttack(global.enemyAttackLoadedInSlot[m], global.enemyInSlot[m], m);
+		global.enemyAttackPerformInSlot[m] = false;}}
 		

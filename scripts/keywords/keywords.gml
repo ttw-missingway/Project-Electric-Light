@@ -3,6 +3,7 @@
 #macro		myChar		300
 #macro		myChar2		301
 #macro		myEnemy		600
+#macro		myEnemy2	601
 #macro		ltAtk		700
 
 #macro		second		60

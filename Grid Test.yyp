@@ -831,6 +831,14 @@
             }
         },
         {
+            "Key": "c53868e9-9339-4da0-b57f-11117826b915",
+            "Value": {
+                "id": "66adb4d9-d9c8-460c-9e9a-100c1ca1edd2",
+                "resourcePath": "scripts\/drawEnemiesNode\/drawEnemiesNode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c7d674ff-4dd6-42b3-828a-6bbe8d4490e7",
             "Value": {
                 "id": "719a3804-4f0e-4c74-be4f-c2a0644efd62",
@@ -1074,6 +1082,7 @@
         "000a3938-4239-4b8b-8964-a7b9b4619225",
         "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
         "97249c5e-8749-4db6-8d56-24c87fadcaab",
+        "c53868e9-9339-4da0-b57f-11117826b915",
         "fe162f05-cfdf-450b-9a25-a7050de8059e",
         "023bb5ee-399f-44be-be78-e7f3c1836f7c",
         "8cd1eebb-d5ad-485b-ab73-38a1d3493683",

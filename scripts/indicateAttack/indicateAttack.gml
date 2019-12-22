@@ -35,8 +35,8 @@ for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 				break;}
 				
 			case "starboard": {
-				var getTargetX = global.enemyPositionX[argument1] - global.enemyAtkGridX[argument0, i];
-				var getTargetY = global.enemyPositionY[argument1] - global.enemyAtkGridY[argument0, i];			
+				var getTargetX = max(0, global.enemyPositionX[argument1] - global.enemyAtkGridX[argument0, i]);
+				var getTargetY = max(0, global.enemyPositionY[argument1] - global.enemyAtkGridY[argument0, i]);			
 				break;}}}
 				
 	if global.enemyAtkTravel[argument0] = "volley"{
