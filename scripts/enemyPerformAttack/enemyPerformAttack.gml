@@ -434,5 +434,6 @@ for (i=0; i<=totalRecipients; i++){
 //\\//\\//\\//\\//\\//\\//\\//\\
 
 			
-global.enemyCDInSlot[argument2] = global.enemyAtkDmgCD[argument0];
+global.enemyCDInSlot[argument2] = global.enemyAtkDmgCD[argument0] * global.enemyCDReduction[argument1];
 onlyTargetFound = false; //only for beeline
+global.enemyAttackInProgress = false;

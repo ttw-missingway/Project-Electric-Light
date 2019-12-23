@@ -4,6 +4,15 @@
 #macro		myChar2		301
 #macro		myEnemy		600
 #macro		myEnemy2	601
+#macro		myEnemy3	602
+#macro		myEnemy4	603
+#macro		myEnemy5	604
+#macro		myEnemy6	605
+#macro		myEnemy7	606
+#macro		myEnemy8	607
+#macro		myEnemy9	608
+#macro		myEnemy10	609
+#macro		myEnemy11	610
 #macro		ltAtk		700
 
 #macro		second		60

@@ -17,6 +17,9 @@ ds_grid_set(newGrid, global.actorPositionX[myChar], global.actorPositionY[myChar
 ds_grid_set(newGrid, global.actorPositionX[myChar2], global.actorPositionY[myChar2], myChar2);
 ds_grid_set(newGrid, global.enemyPositionX[myEnemy], global.enemyPositionY[myEnemy], myEnemy);
 ds_grid_set(newGrid, global.enemyPositionX[myEnemy2], global.enemyPositionY[myEnemy2], myEnemy2);
+ds_grid_set(newGrid, global.enemyPositionX[myEnemy3], global.enemyPositionY[myEnemy3], myEnemy3);
+ds_grid_set(newGrid, global.enemyPositionX[myEnemy4], global.enemyPositionY[myEnemy4], myEnemy4);
+
 
 ds_grid_set(newGrid, 1, 1, crate);
 

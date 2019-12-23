@@ -2,11 +2,18 @@
 // You can write your code in this editor
 
 
-for (m=0; m<=10; m++){
-	if global.enemyActiveInSlot[m] = true{
-		enemySelectAttack(global.enemyInSlot[m], m);}
+var m = ds_queue_head(enemyAttackOrder);
 
-	if global.enemyAttackPerformInSlot[m] = true{
+if m != undefined{
+	
+	if global.enemyAttackInProgress = false{
+		if global.enemyActiveInSlot[m] = true{
+			global.enemyAttackInProgress = true;
+			enemySelectAttack(global.enemyInSlot[m], m);}}
+
+
+	if global.enemyAttackPerformInSlot[m] = true {
 		enemyPerformAttack(global.enemyAttackLoadedInSlot[m], global.enemyInSlot[m], m);
-		global.enemyAttackPerformInSlot[m] = false;}}
+		global.enemyAttackPerformInSlot[m] = false;
+		ds_queue_dequeue(oEnemyAI.enemyAttackOrder);}}
 		

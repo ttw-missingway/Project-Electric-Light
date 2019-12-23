@@ -40,7 +40,7 @@ for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 				break;}}}
 				
 	if global.enemyAtkTravel[argument0] = "volley"{
-		global.highlightTable[getTargetX,getTargetY] = true;}
+		global.highlightTable[getTargetX, getTargetY] = true;}
 		
 	if global.enemyAtkTravel[argument0] = "beeline"{
-		global.highlightTableBee[getTargetX,getTargetY] = true;}}
+		global.highlightTableBee[getTargetX, getTargetY] = true;}}

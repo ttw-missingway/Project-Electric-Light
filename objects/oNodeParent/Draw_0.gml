@@ -6,6 +6,8 @@ switch ds_grid_get(oGridController.newGrid,cellx,celly){
 	case noAccess:		{sprite_index = sNodeNoAccess; break;}
 	case myEnemy:		{drawEnemiesNode(myEnemy); break;}
 	case myEnemy2:		{drawEnemiesNode(myEnemy2); break;}
+	case myEnemy3:		{drawEnemiesNode(myEnemy3); break;}
+	case myEnemy4:		{drawEnemiesNode(myEnemy4); break;}
 	case myChar2:
 	case myChar:		{sprite_index = sNodePlayer; break;}
 	case crate:			{sprite_index = sNodeCrate; break;}}

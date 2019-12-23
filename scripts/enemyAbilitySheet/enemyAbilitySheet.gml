@@ -58,8 +58,8 @@ global.enemyAtkGridY[genVolleyMagic,3]				= 0;
 
 global.enemyAtkKeyword[beam]				= "Beam";
 global.enemyAtkDmgMod[beam]					= 2; //percentage of atk stat used in attack
-global.enemyAtkDmgCD[beam]					= 4*second;
-global.enemyAtkPreCD[beam]					= 4*second;
+global.enemyAtkDmgCD[beam]					= 8*second;
+global.enemyAtkPreCD[beam]					= 2*second;
 global.enemyAtkActive[beam]					= true;
 global.enemyAtkDmgType[beam]				= "magical";
 global.enemyAtkDestination[beam]			= "random";

@@ -6,7 +6,6 @@ if !global.attackInProgress && !global.gameplayFreeze{
 	
 	for (i=0; i<=10; i++){
 		if global.enemyPreCDInSlot[i] > 0 {
-			bugTest = 1;
 			global.enemyPreCDInSlot[i]--;}
 		if global.enemyPreCDInSlot[i] = 0{
 			global.enemyPreCDInSlot[i] = -1;
@@ -26,5 +25,6 @@ if !global.attackInProgress && !global.gameplayFreeze{
 		if global.enemyCDInSlot[i] = 0{
 			global.enemyActiveInSlot[i] = true;
 			global.enemyCDInSlot[i] = -1;
+			ds_queue_enqueue(oEnemyAI.enemyAttackOrder, i);
 			if global.enemyState[global.enemyInSlot[i]] != "none" { 
 				global.enemyState[global.enemyInSlot[i]] = "none"; }}}}

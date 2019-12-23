@@ -93,8 +93,6 @@ for (i=myChar; i<=myChar2; i++){
 	
 global.cellKeyword[myChar]					= "myChar";
 global.cellKeyword[myChar2]					= "myChar2";
-global.cellKeyword[myEnemy]					= "myEnemy";
-global.cellKeyword[myEnemy2]				= "myEnemy2";
 
 //////////////////
 ///ENEMIES////////
@@ -102,7 +100,8 @@ global.cellKeyword[myEnemy2]				= "myEnemy2";
 
 //MY ENEMY
 
-for (i=myEnemy; i<=myEnemy2; i++){
+for (i=myEnemy; i<=myEnemy5; i++){
+	global.cellKeyword[i]					= "MyEnemy" + string(i-myEnemy);
 	global.cellEnemyTargetClass[i]			= "targetable";
 	global.cellPlayerTargetClass[i]			= "targetable";
 	global.cellPlayerMovementClass[i]		= "unmoveable";
