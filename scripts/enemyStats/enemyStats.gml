@@ -21,7 +21,7 @@ global.enemyCDReduction[i]				= 1;
 global.enemyMassiveCD[i]				= 3;
 
 global.enemyAttackList[i]				= ds_list_create();
-ds_list_add(global.enemyAttackList[i], beam);}
+ds_list_add(global.enemyAttackList[i], heal);}
 }
 
 for (i=myEnemy5; i<myEnemy8; i++){

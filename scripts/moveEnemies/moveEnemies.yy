@@ -1,8 +1,8 @@
 {
-    "id": "0e9792d6-1418-4780-b6eb-92c7b5ed05e2",
+    "id": "1bc8fa52-34bc-45aa-b813-5171de516239",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "translateRelativeGrid",
+    "name": "moveEnemies",
     "IsCompatibility": false,
     "IsDnD": false
 }

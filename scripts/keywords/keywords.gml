@@ -35,6 +35,7 @@
 #macro		genCounter		507
 #macro		genHeal			508
 #macro		beam			509
+#macro		heal			510
 
 //grid
 #macro		vacant			100

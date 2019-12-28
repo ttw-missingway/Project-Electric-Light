@@ -28,8 +28,13 @@ totalRecipients = 0;
 for (j=0; j<13; j++){
 	
 	damageRecipient[j] = 0;}
+	
+for (j=0; j<10; j++){
+	
+	supportRecipient[j] = 0;}
 
 
+if global.enemyAtkSupport[argument0] = false{
 
 for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 	
@@ -73,242 +78,43 @@ for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 			
 	if global.enemyAtkObstacleCreate[argument0] != "none"{
 		if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, getTargetX, getTargetY)] = "moveable"{
-			ds_grid_set(oGridController.newGrid, getTargetX, getTargetY, global.enemyAtkObstacleCreate[argument0]);}}}
-					
-		
+			ds_grid_set(oGridController.newGrid, getTargetX, getTargetY, global.enemyAtkObstacleCreate[argument0]);}}}}
+else{
+	
+	//\\//\\//\\//\\//\\//\\//\\//\\
+	//\\//\\/ SUPPORT ATTACK \//\\//
+	//\\//\\//\\//\\//\\//\\//\\//\\
+	
+	if global.enemyAtkSupportTarget[argument0] = "all"{
+		for (i=0; i<10; i++){
+			if global.enemyInSlot[i] != empty{
+				supportRecipient[i] = global.enemyInSlot[i];
+				totalRecipients++;}}}
+	if global.enemyAtkSupportTarget[argument0] = "boss"{
+		supportRecipient[0] = global.enemyInSlot[0];
+		totalRecipients++;}
+	if global.enemyAtkSupportTarget[argument0] = "self"{
+		supportRecipient[0] = argument1;
+		totalRecipients++;}
+	if global.enemyAtkSupportTarget[argument0] = "random"{
+		var enemySelect = empty;
+		while (enemySelect = empty){
+			enemySelect = global.enemyInSlot[irandom_range(0,9)];}
+		supportRecipient[0] = global.enemyInSlot[enemySelect];
+		totalRecipients++;}}
+
 
 //\\//\\//\\//\\//\\//\\//\\//\\
 //\\//\\//MOVE ACTORS///\\//\\//
 //\\//\\//\\//\\//\\//\\//\\//\\
 
-if global.enemyAtkPushGlobal[argument0] = true{
-	
-	switch global.enemyAtkPush[argument0]{
-		case "north": {
-			for(i=0; i<global.enemyAtkPushForce[argument0]; i++){
-				for (j=1; j<5; j++){
-					for (h=1; h<4; h++){
-						if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, j, h)] = "targetable"{
-							if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, j, h-1)] = "moveable"{
-								var saveMe = ds_grid_get(oGridController.newGrid, j, h);
-								ds_grid_set(oGridController.newGrid, j, h, vacant);
-								if global.cellMainClass[saveMe] = "player"{
-									global.actorPositionY[saveMe]--;}
-								ds_grid_set(oGridController.newGrid, j, h-1, saveMe);}}}}}
-			break;}
-		case "west": {
-			for(i=0; i<global.enemyAtkPushForce[argument0]; i++){
-				for (j=1; j<5; j++){
-					for (h=1; h<4; h++){
-						if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, j, h)] = "targetable"{
-							if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, j-1, h)] = "moveable"{
-								var saveMe = ds_grid_get(oGridController.newGrid, j, h);
-								ds_grid_set(oGridController.newGrid, j, h, vacant);
-								if global.cellMainClass[saveMe] = "player"{
-									global.actorPositionX[saveMe]--;}
-								ds_grid_set(oGridController.newGrid, j-1, h, saveMe);}}}}}
-			break;}
-		case "south": {
-			for(i=0; i<global.enemyAtkPushForce[argument0]; i++){
-				for (j=1; j<5; j++){
-					for (h=1; h<4; h++){
-						if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, j, h)] = "targetable"{
-							if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, j, h+1)] = "moveable"{
-								var saveMe = ds_grid_get(oGridController.newGrid, j, h);
-								ds_grid_set(oGridController.newGrid, j, h, vacant);
-								if global.cellMainClass[saveMe] = "player"{
-									global.actorPositionY[saveMe]++;}
-								ds_grid_set(oGridController.newGrid, j, h+1, saveMe);}}}}}
-			break;}
-		case "east": {
-			for(i=0; i<global.enemyAtkPushForce[argument0]; i++){
-				for (j=1; j<5; j++){
-					for (h=1; h<4; h++){
-						if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, j, h)] = "targetable"{
-							if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, j+1, h)] = "moveable"{
-								var saveMe = ds_grid_get(oGridController.newGrid, j, h);
-								ds_grid_set(oGridController.newGrid, j, h, vacant);
-								if global.cellMainClass[saveMe] = "player"{
-									global.actorPositionX[saveMe]++;}
-								ds_grid_set(oGridController.newGrid, j+1, h, saveMe);}}}}}
-			break;}}}
-else{
-	switch global.enemyFace[argument1]{
-		case "bow":{
-			switch global.enemyAtkPush[argument0]{
-				case "north":{
-					for(j=0; j<global.enemyAtkPushForce[argument0]; j++){
-						for (i=1; i<4; i++){
-							if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], i)] = "targetable"{
-								if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], i+1)] = "moveable"{
-									var saveMe = ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], i);
-									ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], i, vacant);
-									if global.cellMainClass[saveMe] = "player"{
-										global.actorPositionY[saveMe]++;}
-									ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], i+1, saveMe);}}}}
-					break;}
-				case "south":{
-					for(j=0; j<global.enemyAtkPushForce[argument0]; j++){
-						for (i=1; i<4; i++){
-							if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], i)] = "targetable"{
-								if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], i-1)] = "moveable"{
-									var saveMe = ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], i);
-									ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], i, vacant);
-									if global.cellMainClass[saveMe] = "player"{
-										global.actorPositionY[saveMe]--;}
-									ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], i-1, saveMe);}}}}
-					break;}}
-			break;}
-			
-		case "port":{
-			switch global.enemyAtkPush[argument0]{
-				case "north":{
-					for(j=0; j<global.enemyAtkPushForce[argument0]; j++){
-						for (i=1; i<5; i++){
-							if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, i, global.enemyPositionY[argument1])] = "targetable"{
-								if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, i+1,global.enemyPositionY[argument1])] = "moveable"{
-									var saveMe = ds_grid_get(oGridController.newGrid, i, global.enemyPositionY[argument1]);
-									ds_grid_set(oGridController.newGrid, i, global.enemyPositionY[argument1], vacant);
-									if global.cellMainClass[saveMe] = "player"{
-										global.actorPositionX[saveMe]++;}
-									ds_grid_set(oGridController.newGrid, i+1, global.enemyPositionY[argument1], saveMe);}}}}
-					break;}
-				case "south":{
-					for(j=0; j<global.enemyAtkPushForce[argument0]; j++){
-						for (i=1; i<5; i++){
-							if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, i, global.enemyPositionY[argument1])] = "targetable"{
-								if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, i-1,global.enemyPositionY[argument1])] = "moveable"{
-									var saveMe = ds_grid_get(oGridController.newGrid, i, global.enemyPositionY[argument1]);
-									ds_grid_set(oGridController.newGrid, i, global.enemyPositionY[argument1], vacant);
-									if global.cellMainClass[saveMe] = "player"{
-										global.actorPositionX[saveMe]--;}
-									ds_grid_set(oGridController.newGrid, i-1, global.enemyPositionY[argument1], saveMe);}}}}
-					break;}}
-			break;}	
-			
-		case "starboard":{
-			switch global.enemyAtkPush[argument0]{
-				case "north":{
-					for(j=0; j<global.enemyAtkPushForce[argument0]; j++){
-						for (i=1; i<5; i++){
-							if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, i, global.enemyPositionY[argument1])] = "targetable"{
-								if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, i-1,global.enemyPositionY[argument1])] = "moveable"{
-									var saveMe = ds_grid_get(oGridController.newGrid, i, global.enemyPositionY[argument1]);
-									ds_grid_set(oGridController.newGrid, i, global.enemyPositionY[argument1], vacant);
-									if global.cellMainClass[saveMe] = "player"{
-										global.actorPositionX[saveMe]--;}
-									ds_grid_set(oGridController.newGrid, i-1, global.enemyPositionY[argument1], saveMe);}}}}
-					break;}
-				case "south":{
-					for(j=0; j<global.enemyAtkPushForce[argument0]; j++){
-						for (i=4; i>0; i--){
-							if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, i, global.enemyPositionY[argument1])] = "targetable"{
-								if global.cellPlayerMovementClass[ds_grid_get(oGridController.newGrid, i+1,global.enemyPositionY[argument1])] = "moveable"{
-									var saveMe = ds_grid_get(oGridController.newGrid, i, global.enemyPositionY[argument1]);
-									ds_grid_set(oGridController.newGrid, i, global.enemyPositionY[argument1], vacant);
-									if global.cellMainClass[saveMe] = "player"{
-										global.actorPositionX[saveMe]++;}
-									ds_grid_set(oGridController.newGrid, i+1, global.enemyPositionY[argument1], saveMe);}}}}
-					break;}}
-			break;}}}
+pushPullActors(argument0, argument1);
 
 //\\//\\//\\//\\//\\//\\//\\//\\
 //\\//\\  MOVE ENEMIES /\\//\\//
 //\\//\\//\\//\\//\\//\\//\\//\\
 
-ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1], noAccess);
-
-switch global.enemyAtkDestination[argument0]{
-	
-	case "none": {break;}
-	
-	case "adjLeft": {
-		switch global.enemyFace[argument1]{
-			case "bow":{
-				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1]+1, global.enemyPositionY[argument1]) = noAccess{
-					global.enemyPositionX[argument1]++;}
-				break;}
-			case "port":{
-				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1]-1) = noAccess{
-					global.enemyPositionY[argument1]--;}
-				break;}
-			case "starboard":{
-				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1]+1) = noAccess{
-					global.enemyPositionY[argument1]++;}
-				break;}}
-		break;}
-		
-	case "adjRight": {
-		switch global.enemyFace[argument1]{
-			case "bow":{
-				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1]-1, global.enemyPositionY[argument1]) = noAccess{
-					global.enemyPositionX[argument1]--;}
-				break;}
-			case "port":{
-				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1]+1) = noAccess{
-					global.enemyPositionY[argument1]++;}
-				break;}
-			case "starboard":{
-				if ds_grid_get(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1]-1) = noAccess{
-					global.enemyPositionY[argument1]--;}
-				break;}}
-		break;}
-		
-	case "parallel": {
-		switch global.enemyFace[argument1]{
-			case "port":{
-				if ds_grid_get(oGridController.newGrid, 5, global.enemyPositionY[argument1]) = noAccess{
-					global.enemyPositionX[argument1] = 5;
-					global.enemyFace[argument1] = "starboard";}
-				break;}
-			case "starboard":{
-				if ds_grid_get(oGridController.newGrid, 0, global.enemyPositionY[argument1]) = noAccess{
-					global.enemyPositionX[argument1] = 0;
-					global.enemyFace[argument1] = "port";}
-				break;}}
-		break;}
-		
-	case "random":{
-		randomizeEnemyPosition(argument1);
-		break;}
-		
-	case "match": {
-		newTargetX[0]=0;
-		newTargetY[0]=0;
-		newTargetX[1]=0;
-		newTargetY[1]=0;
-		newTargetX[2]=0;
-		newTargetY[2]=0;
-		maxK = 0;
-		var k = 0;
-		
-		for (i=0; i<5; i++){
-			for (j=0; j<4; j++){
-				if global.cellPlayerTargetClass[ds_grid_get(oGridController.newGrid, i, j)] = "targetable"{
-					k++;
-					maxK++;
-					newTargetX[k] = i;
-					newTargetY[k] = j;
-					}}}
-		
-		k = irandom_range(1, maxK);
-					
-		switch global.enemyFace[argument1]{
-			case "bow":{
-				if ds_grid_get(oGridController.newGrid, newTargetX[k], 0) = noAccess{
-					global.enemyPositionX[argument1] = newTargetX[k];}
-				break;}
-			case "port":{
-				if ds_grid_get(oGridController.newGrid, 0, newTargetY[k]) = noAccess{
-					global.enemyPositionY[argument1] = newTargetY[k];}
-				break;}
-			case "starboard":{
-				if ds_grid_get(oGridController.newGrid, 5, newTargetY[k]) = noAccess{
-					global.enemyPositionY[argument1] = newTargetY[k];}
-				break;}}
-		break;}}
-		
-ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], global.enemyPositionY[argument1], argument1);
+moveEnemies(argument0, argument1);
 
 //\\//\\//\\//\\//\\//\\//\\//\\
 //\\//\\// CHANGE STATE \\//\\//
@@ -317,120 +123,32 @@ ds_grid_set(oGridController.newGrid, global.enemyPositionX[argument1], global.en
 global.enemyState[argument1] = global.enemyAtkStateChange[argument0];
 if global.enemyAtkStateChange[argument0] = "counter"{
 	global.enemyCounterType[argument1] = global.enemyAtkCounterType[argument0];}
-	
-//\\//\\//\\//\\//\\//\\//\\//\\
-//\\//\\  NERF AND BUFF \\//\\//
-//\\//\\//\\//\\//\\//\\//\\//\\
-			
-switch global.enemyAtkBuffTarget[argument0]{
-	case "self": {
-		switch global.enemyAtkBuffType[argument0]{
-			case "strength": {
-				global.enemyStrength[argument1] += global.enemyAtkBuffValue[argument0];
-				break;}
-			case "cd": {
-				global.enemyCDReduction[argument1] += global.enemyAtkBuffValue[argument0];
-				break;}
-			case "armor": {
-				global.enemyArmor[argument1] += global.enemyAtkBuffValue[argument0];
-				break;}
-			case "evasion": {
-				global.enemyEvasion[argument1] += global.enemyAtkBuffValue[argument0];
-				break;}}
-		break;}
-		
-	case "grid": {
-		switch global.enemyAtkBuffType[argument0]{
-			case "strength": {
-					for (j=0; j<13; j++){
-						if damageRecipient[j] != 0{
-							global.actorStrength[damageRecipient[j]] += global.enemyAtkBuffValue[argument0];}}
-				break;}
-			case "cd": {
-					for (j=0; j<13; j++){
-						if damageRecipient[j] != 0{
-							global.actorCDReduction[damageRecipient[j]] += global.enemyAtkBuffValue[argument0];}}
-				break;}
-			case "armor": {
-
-					for (j=0; j<13; j++){
-						if damageRecipient[j] != 0{
-							global.actorArmor[damageRecipient[j]] += global.enemyAtkBuffValue[argument0];}}
-				break;}
-			case "evasion": {
-
-					for (j=0; j<13; j++){
-						if damageRecipient[j] != 0{
-							global.actorEvasion[damageRecipient[j]] += global.enemyAtkBuffValue[argument0];}}
-				break;}}
-		break;}
-		
-	case "all enemies": {
-		switch global.enemyAtkBuffType[argument0]{
-			case "strength": {
-					for (i=0; i<10; i++){
-						if global.enemyInSlot[i] != empty{
-							global.enemyStrength[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
-				break;}
-			case "cd": {
-					for (i=0; i<10; i++){
-						if global.enemyInSlot[i] != empty{
-							global.enemyCDReduction[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
-				break;}
-			case "armor": {
-					for (i=0; i<10; i++){
-						if global.enemyInSlot[i] != empty{
-							global.enemyArmor[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
-				break;}
-			case "evasion": {
-					for (i=0; i<10; i++){
-						if global.enemyInSlot[i] != empty{
-							global.enemyEvasion[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
-				break;}}
-		break;}
-		
-	case "all actors": {
-		switch global.enemyAtkBuffType[argument0]{
-			case "strength": {
-					for (i=0; i<3; i++){
-						if global.actorInSlot[i] != empty{
-							global.actorStrength[global.actorInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
-				break;}
-			case "cd": {
-					for (i=0; i<3; i++){
-						if global.actorInSlot[i] != empty{
-							global.actorCDReduction[global.actorInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
-				break;}
-			case "armor": {
-					for (i=0; i<3; i++){
-						if global.actorInSlot[i] != empty{
-							global.actorArmor[global.actorInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
-				break;}
-			case "evasion": {
-					for (i=0; i<3; i++){
-						if global.actorInSlot[i] != empty{
-							global.actorEvasion[global.actorInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
-				break;}}
-		break;}}
-			
-
 
 //\\//\\//\\//\\//\\//\\//\\//\\
 //\\//\\// APPLY DMG ///\\//\\//
 //\\//\\//\\//\\//\\//\\//\\//\\
 
+if global.enemyAtkSupport[argument0] = false{
 for (i=0; i<=totalRecipients; i++){
 	for (j=0; j<13; j++){
 		if damageRecipient[j] != 0{
+			nerfAllies(argument0);
 			global.enemyAttackLoadedInSlot[argument2] = empty;
 			global.actorHP[damageRecipient[j]] -= floor((global.enemyAtkDmgMod[argument0] * global.enemyStrength[argument1]));
 			global.actorStatus[damageRecipient[j]] = global.enemyAtkStatus[argument0];
-			damageRecipient[j] = 0;}}}
-			
+			damageRecipient[j] = 0;}}}}
+else{
+for (i=0; i<=totalRecipients; i++){
+	for (j=0; j<10; j++){
+		if supportRecipient[j] != 0{
+			buffEnemies(argument0);
+			global.enemyAttackLoadedInSlot[argument2] = empty;
+			global.enemyHP[supportRecipient[j]] += global.enemyAtkHealAmount[argument0];
+			supportRecipient[j] = 0;}}}}
 
 	
 //\\//\\//\\//\\//\\//\\//\\//\\
-//\\//\\// APPLY STATUS \\//\\//
+//\\//\\// RETURN TO DEFAULT \\/
 //\\//\\//\\//\\//\\//\\//\\//\\
 
 			

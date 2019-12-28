@@ -27,7 +27,7 @@ ds_grid_set(newGrid, global.enemyPositionX[myEnemy9], global.enemyPositionY[myEn
 ds_grid_set(newGrid, global.enemyPositionX[myEnemy10], global.enemyPositionY[myEnemy10], myEnemy10);
 
 
-ds_grid_set(newGrid, 1, 1, crate);
+//ds_grid_set(newGrid, 1, 1, crate);
 
 ds_grid_set(newGrid, 2, 3, crate);
 

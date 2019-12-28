@@ -12,7 +12,11 @@
         "96d1b4ad-d5b1-474b-b9c2-67b67f1c692a",
         "27ea7756-3a86-4c61-9081-ee1c49914162",
         "0e9792d6-1418-4780-b6eb-92c7b5ed05e2",
-        "d9f38d4b-f10f-406e-8a16-863d3fa4b498"
+        "d9f38d4b-f10f-406e-8a16-863d3fa4b498",
+        "51561f44-4a0a-4bbf-9483-c92e45f0610c",
+        "3fc8636c-fece-4f86-950c-a4b3b25e18d7",
+        "600b1f08-6802-4056-ac30-468e60323c1b",
+        "1bc8fa52-34bc-45aa-b813-5171de516239"
     ],
     "filterType": "GMScript",
     "folderName": "AI",
