@@ -368,22 +368,22 @@ switch global.enemyAtkBuffTarget[argument0]{
 	case "all enemies": {
 		switch global.enemyAtkBuffType[argument0]{
 			case "strength": {
-					for (i=0; i<11; i++){
+					for (i=0; i<10; i++){
 						if global.enemyInSlot[i] != empty{
 							global.enemyStrength[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
 				break;}
 			case "cd": {
-					for (i=0; i<11; i++){
+					for (i=0; i<10; i++){
 						if global.enemyInSlot[i] != empty{
 							global.enemyCDReduction[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
 				break;}
 			case "armor": {
-					for (i=0; i<11; i++){
+					for (i=0; i<10; i++){
 						if global.enemyInSlot[i] != empty{
 							global.enemyArmor[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
 				break;}
 			case "evasion": {
-					for (i=0; i<11; i++){
+					for (i=0; i<10; i++){
 						if global.enemyInSlot[i] != empty{
 							global.enemyEvasion[global.enemyInSlot[i]] += global.enemyAtkBuffValue[argument0];}}
 				break;}}

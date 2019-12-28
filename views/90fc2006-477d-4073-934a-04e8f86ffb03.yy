@@ -10,7 +10,9 @@
         "6a940701-2067-4ee8-9476-b0efc5c668ca",
         "9f95ea8c-b5cc-488d-b9fe-638f7efc4287",
         "96d1b4ad-d5b1-474b-b9c2-67b67f1c692a",
-        "27ea7756-3a86-4c61-9081-ee1c49914162"
+        "27ea7756-3a86-4c61-9081-ee1c49914162",
+        "0e9792d6-1418-4780-b6eb-92c7b5ed05e2",
+        "d9f38d4b-f10f-406e-8a16-863d3fa4b498"
     ],
     "filterType": "GMScript",
     "folderName": "AI",

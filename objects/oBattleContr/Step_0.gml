@@ -7,4 +7,4 @@ enemyTimers();
 
 
 actorStatusCalculator();
-
+healthAndDeath();

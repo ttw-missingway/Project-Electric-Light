@@ -3,5 +3,5 @@
 
 //Move Player
 if !global.attackInProgress && !global.gameplayFreeze{
-		battleStateMachine();}
+		showBaseDamage = battleStateMachine();}
 		

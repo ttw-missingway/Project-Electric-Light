@@ -1,6 +1,5 @@
 
 	
-	
 switch battleState {
 	case "actorSelect": {
 		selectActor();

@@ -100,7 +100,7 @@ global.cellKeyword[myChar2]					= "myChar2";
 
 //MY ENEMY
 
-for (i=myEnemy; i<=myEnemy5; i++){
+for (i=myEnemy; i<=myEnemy11; i++){
 	global.cellKeyword[i]					= "MyEnemy" + string(i-myEnemy);
 	global.cellEnemyTargetClass[i]			= "targetable";
 	global.cellPlayerTargetClass[i]			= "targetable";

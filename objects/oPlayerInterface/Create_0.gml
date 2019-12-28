@@ -8,3 +8,4 @@ keyboardMap();
 battleState = "actorSelect";
 enemyTargetted = "noone";
 randomSelection = 69;
+baseDamage = 0;

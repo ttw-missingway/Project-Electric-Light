@@ -62,19 +62,19 @@ global.enemyAtkDmgCD[beam]					= 8*second;
 global.enemyAtkPreCD[beam]					= 2*second;
 global.enemyAtkActive[beam]					= true;
 global.enemyAtkDmgType[beam]				= "magical";
-global.enemyAtkDestination[beam]			= "random";
+global.enemyAtkDestination[beam]			= "adjLeft";
 global.enemyAtkStateChange[beam]			= "none";
 global.enemyAtkCounterType[beam]			= "NA";
 global.enemyAtkParent[beam]					= "none";
 global.enemyAtkMassive[beam]				= false;
 global.enemyAtkStatus[beam]					= "none";
 global.enemyAtkTravel[beam]					= "volley"; //attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
-global.enemyAtkBuffType[beam]				= "armor"; //strength, armor, CD, evasion
-global.enemyAtkBuffTarget[beam]				= "all enemies"; //self, grid, all enemies, all actors
-global.enemyAtkBuffValue[beam]				= 10; //can be negative to act as a nerf
+global.enemyAtkBuffType[beam]				= "none"; //strength, armor, CD, evasion
+global.enemyAtkBuffTarget[beam]				= "self"; //self, grid, all enemies, all actors
+global.enemyAtkBuffValue[beam]				= 1; //can be negative to act as a nerf
 global.enemyAtkPushGlobal[beam]				= false;
-global.enemyAtkPush[beam]					= "none"; //north, west, east, south (north is push when relative, south is pull when relative)
-global.enemyAtkPushForce[beam]				= 0; //max cells to push
+global.enemyAtkPush[beam]					= "north"; //north, west, east, south (north is push when relative, south is pull when relative)
+global.enemyAtkPushForce[beam]				= 2; //max cells to push
 global.enemyAtkObstacleCreate[beam]			= "none"; //use none as string
 
 

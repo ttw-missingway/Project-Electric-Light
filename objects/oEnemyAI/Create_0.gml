@@ -23,6 +23,6 @@ for (i=0; i<13; i++){
 	
 enemyAttackOrder = ds_queue_create();
 
-for (i=0; i<=10; i++){
+for (i=0; i<10; i++){
 	if global.enemyInSlot[i] != empty{
 			ds_queue_enqueue(enemyAttackOrder, i);}}

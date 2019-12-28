@@ -12,7 +12,7 @@ if keyboard_check_pressed(keyA){
 			for (i=0;i<3;i++){
 				if global.actorInSlot[i] != empty{
 					ds_list_add(listOfTargets,global.actorInSlot[i]);}}
-			for (i=0;i<11;i++){
+			for (i=0;i<10;i++){
 				if global.enemyInSlot[i] != empty{
 					ds_list_add(listOfTargets,global.enemyInSlot[i]);}}
 			randomSelection = irandom_range(1, ds_list_size(listOfTargets))-1;
@@ -28,8 +28,8 @@ if keyboard_check_pressed(keyA){
 		if hitSuccess = true{
 			
 			if targetAllyOrEnemy = "enemy"{
-				var baseDamage = floor(
-					(global.actorStrength[argument0] * global.atkDmgMod[argument1]) - global.enemyArmor[enemyTargetted]);
+				 baseDamage = floor(max(0,
+					(global.actorStrength[argument0] * global.atkDmgMod[argument1]) - global.enemyArmor[enemyTargetted]));
 		
 		
 				if global.enemyState[enemyTargetted] = "guard" {
@@ -54,7 +54,7 @@ if keyboard_check_pressed(keyA){
 					global.enemyHP[enemyTargetted]								-= baseDamage;}}
 					
 			if targetAllyOrEnemy = "ally"{	
-				var baseDamage = floor(
+				 baseDamage = floor(
 					(global.actorStrength[argument0] * global.atkDmgMod[argument1]) - global.actorArmor[enemyTargetted]);
 		
 		

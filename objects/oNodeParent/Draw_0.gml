@@ -8,6 +8,12 @@ switch ds_grid_get(oGridController.newGrid,cellx,celly){
 	case myEnemy2:		{drawEnemiesNode(myEnemy2); break;}
 	case myEnemy3:		{drawEnemiesNode(myEnemy3); break;}
 	case myEnemy4:		{drawEnemiesNode(myEnemy4); break;}
+	case myEnemy5:		{drawEnemiesNode(myEnemy5); break;}
+	case myEnemy6:		{drawEnemiesNode(myEnemy6); break;}
+	case myEnemy7:		{drawEnemiesNode(myEnemy7); break;}
+	case myEnemy8:		{drawEnemiesNode(myEnemy8); break;}
+	case myEnemy9:		{drawEnemiesNode(myEnemy9); break;}
+	case myEnemy10:		{drawEnemiesNode(myEnemy10); break;}
 	case myChar2:
 	case myChar:		{sprite_index = sNodePlayer; break;}
 	case crate:			{sprite_index = sNodeCrate; break;}}

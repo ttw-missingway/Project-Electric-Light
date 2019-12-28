@@ -62,7 +62,7 @@ for (i=0;i<=2;i++){
 
 //Enemies
 
-for (i=0;i<=10;i++){
+for (i=0;i<=9;i++){
 	
 	draw_set_color(c_red);
 	draw_set_alpha(0.8);

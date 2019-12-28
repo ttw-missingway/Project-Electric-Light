@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0e9792d6-1418-4780-b6eb-92c7b5ed05e2",
+            "Value": {
+                "id": "fc8f8467-5b02-4f1c-b451-ecb5fb64f4be",
+                "resourcePath": "scripts\/translateRelativeGridX\/translateRelativeGridX.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "14a05ead-1a11-4060-a366-6c4ca4bebe0d",
             "Value": {
                 "id": "c4c058eb-3f90-414f-a751-34871a79de14",
@@ -444,6 +452,14 @@
                 "id": "da54db56-fa69-493c-88a5-4f03e8afd912",
                 "resourcePath": "objects\/oNodeX1\/oNodeX1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "693674e1-4347-4446-967b-47ddeb8d247b",
+            "Value": {
+                "id": "d9e608c9-550b-463a-b096-6b4f3730dd81",
+                "resourcePath": "scripts\/healthAndDeath\/healthAndDeath.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -911,6 +927,14 @@
             }
         },
         {
+            "Key": "d9f38d4b-f10f-406e-8a16-863d3fa4b498",
+            "Value": {
+                "id": "95884760-2375-4176-8515-1d31ec47d30e",
+                "resourcePath": "scripts\/translateRelativeGridY\/translateRelativeGridY.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "da668742-6b1c-4b67-a704-8efa750cd56c",
             "Value": {
                 "id": "a0b96b85-2043-430e-8d8f-48d8e40cb821",
@@ -1067,11 +1091,13 @@
         "4be5f6df-13e8-42ee-aea7-01aee15d1bfc",
         "3e92cc4a-95e5-440d-a467-ae774439e4ec",
         "88fa80e9-363b-47e5-aa25-abc7df0c9f69",
+        "693674e1-4347-4446-967b-47ddeb8d247b",
         "9d5ce254-b874-4382-b830-2ba9e213f664",
         "218275dd-1348-4745-a02f-d82683ce84ee",
         "f640783e-d81a-4f8a-a192-6ef46ed171ad",
         "458cc7cc-d00b-4f80-9ab4-1e46325f31c1",
         "91682a4e-5808-4968-b039-037f8b27002f",
+        "000a3938-4239-4b8b-8964-a7b9b4619225",
         "f7912509-9f43-43a3-b477-5b667c264357",
         "ca866b98-a1a3-4e4b-beeb-7c2f654f454b",
         "1528bf2e-afa2-4710-b39d-56fd6a258fbb",
@@ -1079,7 +1105,8 @@
         "9f95ea8c-b5cc-488d-b9fe-638f7efc4287",
         "96d1b4ad-d5b1-474b-b9c2-67b67f1c692a",
         "27ea7756-3a86-4c61-9081-ee1c49914162",
-        "000a3938-4239-4b8b-8964-a7b9b4619225",
+        "0e9792d6-1418-4780-b6eb-92c7b5ed05e2",
+        "d9f38d4b-f10f-406e-8a16-863d3fa4b498",
         "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
         "97249c5e-8749-4db6-8d56-24c87fadcaab",
         "c53868e9-9339-4da0-b57f-11117826b915",
