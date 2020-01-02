@@ -2,10 +2,13 @@
 
 global.actorKeyword[myChar]					= "myChar";
 global.actorHPStart[myChar]					= 10;
-global.actorStrengthStart[myChar]			= 3;
+global.actorStrengthStart[myChar]			= 1;
 global.actorArmorStart[myChar]				= 1;
+global.actorEvasionStart[myChar]			= 0.0;
+global.actorCDReductionStart[myChar]		= 0;
 global.actorZodiac[myChar]					= "oak";
 global.actorGuard[myChar]					= 2;
+
 
 ///My Char 2
 

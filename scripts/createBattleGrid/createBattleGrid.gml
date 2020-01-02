@@ -13,18 +13,14 @@ for (h = 0; h<= ds_grid_height(newGrid); h++){
 for (w = 0; w<= ds_grid_width(newGrid); w++){
 	ds_grid_set(newGrid, w, 0, noAccess);}
 
-ds_grid_set(newGrid, global.actorPositionX[myChar], global.actorPositionY[myChar], myChar);
-ds_grid_set(newGrid, global.actorPositionX[myChar2], global.actorPositionY[myChar2], myChar2);
-ds_grid_set(newGrid, global.enemyPositionX[myEnemy], global.enemyPositionY[myEnemy], myEnemy);
-ds_grid_set(newGrid, global.enemyPositionX[myEnemy2], global.enemyPositionY[myEnemy2], myEnemy2);
-ds_grid_set(newGrid, global.enemyPositionX[myEnemy3], global.enemyPositionY[myEnemy3], myEnemy3);
+for (i=0; i<3; i++){
+	if global.actorInSlot[i] != empty{
+		ds_grid_set(newGrid, global.actorPositionX[global.actorInSlot[i]], global.actorPositionY[global.actorInSlot[i]], global.actorInSlot[i]);}}
 
-ds_grid_set(newGrid, global.enemyPositionX[myEnemy5], global.enemyPositionY[myEnemy5], myEnemy5);
-ds_grid_set(newGrid, global.enemyPositionX[myEnemy6], global.enemyPositionY[myEnemy6], myEnemy6);
-ds_grid_set(newGrid, global.enemyPositionX[myEnemy7], global.enemyPositionY[myEnemy7], myEnemy7);
-ds_grid_set(newGrid, global.enemyPositionX[myEnemy8], global.enemyPositionY[myEnemy8], myEnemy8);
-ds_grid_set(newGrid, global.enemyPositionX[myEnemy9], global.enemyPositionY[myEnemy9], myEnemy9);
-ds_grid_set(newGrid, global.enemyPositionX[myEnemy10], global.enemyPositionY[myEnemy10], myEnemy10);
+
+for (i=0; i<10; i++){
+	if global.enemyInSlot[i] != empty{
+		ds_grid_set(newGrid, global.enemyPositionX[global.enemyInSlot[i]], global.enemyPositionY[global.enemyInSlot[i]], global.enemyInSlot[i]);}}
 
 
 //ds_grid_set(newGrid, 1, 1, crate);

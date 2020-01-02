@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "adb8487c-791d-4597-b9b6-ab7aecf8ba30",
+            "Value": {
+                "id": "d7d665c3-1ec5-4889-997d-0deea3a35417",
+                "resourcePath": "scripts\/createStatsEnemyOnField\/createStatsEnemyOnField.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ae57fdef-ca34-4322-90b8-f5b780c67d92",
             "Value": {
                 "id": "fff87106-2d8c-4be8-b1d5-e111d926fe5c",
@@ -868,6 +876,22 @@
                 "id": "c49c0d2f-eb0b-427b-91a0-472fa8d0e80e",
                 "resourcePath": "sprites\/sGridContr\/sGridContr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf6fbdd0-196b-4f6e-b373-325a0b93eeeb",
+            "Value": {
+                "id": "5817155d-f08d-474a-9866-8a3b208408ea",
+                "resourcePath": "scripts\/defineZodiacMod\/defineZodiacMod.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bffb64ee-8d39-46b3-8260-e0cb2c04f7e4",
+            "Value": {
+                "id": "155bf84d-a7b9-4cec-be7d-d8963d5aad5e",
+                "resourcePath": "scripts\/createEnemyOnField\/createEnemyOnField.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1112,13 +1136,13 @@
         }
     ],
     "script_order": [
-        "3d2f9132-714c-4858-903a-cb089d461317",
-        "891302a9-1906-4d0f-becb-666e5ae1869c",
-        "824a57a6-404c-4f65-8bc6-4a77e3ed2a6b",
         "d7fadbfa-310d-4767-8845-86f1547c8e83",
+        "891302a9-1906-4d0f-becb-666e5ae1869c",
         "33df5d14-6558-4939-b149-0b2a2c9b46d2",
-        "413543a8-3f6f-47b3-beb5-5b692fe42147",
         "7084541c-baa7-41cb-936a-bbe0c46bb0f5",
+        "824a57a6-404c-4f65-8bc6-4a77e3ed2a6b",
+        "413543a8-3f6f-47b3-beb5-5b692fe42147",
+        "3d2f9132-714c-4858-903a-cb089d461317",
         "a6ec5262-b849-4080-b88c-ea345d599896",
         "4be5f6df-13e8-42ee-aea7-01aee15d1bfc",
         "3e92cc4a-95e5-440d-a467-ae774439e4ec",
@@ -1143,6 +1167,9 @@
         "3fc8636c-fece-4f86-950c-a4b3b25e18d7",
         "600b1f08-6802-4056-ac30-468e60323c1b",
         "1bc8fa52-34bc-45aa-b813-5171de516239",
+        "bffb64ee-8d39-46b3-8260-e0cb2c04f7e4",
+        "adb8487c-791d-4597-b9b6-ab7aecf8ba30",
+        "bf6fbdd0-196b-4f6e-b373-325a0b93eeeb",
         "2e215e0d-edd3-4fbe-b24b-ea9f5aefc698",
         "97249c5e-8749-4db6-8d56-24c87fadcaab",
         "c53868e9-9339-4da0-b57f-11117826b915",

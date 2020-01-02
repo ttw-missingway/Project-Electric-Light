@@ -28,8 +28,16 @@ if keyboard_check_pressed(keyA){
 		if hitSuccess = true{
 			
 			if targetAllyOrEnemy = "enemy"{
+				
+				var zodiacMod = 1; //1 for no change, multiplicative
+				
+				if global.atkDmgType[argument1] = "magic"{
+					zodiacMod = defineZodiacMod(argument1, enemyTargetted);
+					baseDamage = (max(0,
+					(global.atkDmgFlat[argument1]) * zodiacMod));}
+				else{	
 				 baseDamage = floor(max(0,
-					(global.actorStrength[argument0] * global.atkDmgMod[argument1]) - global.enemyArmor[enemyTargetted]));
+					(global.actorStrength[argument0] * global.atkDmgMod[argument1]) - global.enemyArmor[enemyTargetted]));}
 		
 		
 				if global.enemyState[enemyTargetted] = "guard" {

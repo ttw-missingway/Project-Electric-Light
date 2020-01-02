@@ -24,7 +24,6 @@ global.enemyAtkGridY[genMelee,0]				= 2;*/
 totalRecipients = 0;
 
 
-
 for (j=0; j<13; j++){
 	
 	damageRecipient[j] = 0;}

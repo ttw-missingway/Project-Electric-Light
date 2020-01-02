@@ -70,12 +70,12 @@ global.enemyAtkMassive[beam]				= false;
 global.enemyAtkStatus[beam]					= "none";
 global.enemyAtkTravel[beam]					= "volley"; //attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
 global.enemyAtkBuffType[beam]				= "none"; //strength, armor, CD, evasion
-global.enemyAtkBuffTarget[beam]				= "self"; //self, grid, all enemies, all actors
 global.enemyAtkBuffValue[beam]				= 1; //can be negative to act as a nerf
 global.enemyAtkPushGlobal[beam]				= false;
 global.enemyAtkPush[beam]					= "north"; //north, west, east, south (north is push when relative, south is pull when relative)
 global.enemyAtkPushForce[beam]				= 2; //max cells to push
 global.enemyAtkObstacleCreate[beam]			= "none"; //use none as string
+global.enemyAtkCreate[beam]					= "none"; //MUST bu "none" if not creating enemy, VERY IMPORTANT
 
 
 //Target Cells
@@ -100,29 +100,33 @@ global.enemyAtkDmgCD[heal]					= 8*second;
 global.enemyAtkPreCD[heal]					= 2*second;
 global.enemyAtkActive[heal]					= true;
 global.enemyAtkDmgType[heal]				= "magical";	//magical or physical
-global.enemyAtkDestination[heal]			= "adjLeft";	//adjLeft, adjRight, random, match, parallel
+global.enemyAtkMagicType[heal]				= "moon";		//moon, sun, lamp, elec
+global.enemyAtkDestination[heal]			= "random";		//adjLeft, adjRight, random, match, parallel
 global.enemyAtkStateChange[heal]			= "none";		//guard, counter, dead, 
 global.enemyAtkCounterType[heal]			= "NA";
 global.enemyAtkMassive[heal]				= false;
 global.enemyAtkMelee[heal]					= 0;			//use to prevent enemy from using this move unless it will hit
 global.enemyAtkStatus[heal]					= "none";		//burn, blind, madness, paralyze
 global.enemyAtkTravel[heal]					= "volley";		//attack can travel through its cells (affects blocking and positioning of players) as beeline, or it can happen instantaneously to all affected cells (ignores positioning effects) as volley, single cells should stay volley for ease of computing
-global.enemyAtkBuffType[heal]				= "strength";	//strength, armor, CD, evasion
-global.enemyAtkBuffValue[heal]				= -1;			//can be negative to act as a nerf
+global.enemyAtkBuffType[heal]				= "none";		//strength, armor, CD, evasion
+global.enemyAtkBuffValue[heal]				= 0;			//can be negative to act as a nerf
 global.enemyAtkPushGlobal[heal]				= false;
 global.enemyAtkPush[heal]					= "none";		//north, west, east, south (north is push when relative, south is pull when relative)
 global.enemyAtkPushForce[heal]				= 0;			//max cells to push
 global.enemyAtkObstacleCreate[heal]			= "none";		//use none as string
 global.enemyAtkHealAmount[heal]				= 0;
+global.enemyAtkCreate[heal]					= "none";		//use string and look for class of enemy
 
 
 //Target Cells
-global.enemyAtkSupport[heal]				= true;		//if true enemy targets other enemies
+global.enemyAtkSupport[heal]				= false;		//if true enemy targets other enemies
 global.enemyAtkSupportTarget[heal]			= "none"		//all enemies (all), position 0 (boss), 1 random enemy (random), self (self)
-global.enemyAtkGridRelative[heal]			= false;		//0 is the relative lane, 1 is shallow, 4 is deep on the x axis.
-global.enemyAtkGridMaxCells[heal]			= 0;
-global.enemyAtkGridX[heal, 0]				= 0;
+global.enemyAtkGridRelative[heal]			= true;			//0 is the relative lane, 1 is shallow, 4 is deep on the x axis.
+global.enemyAtkGridMaxCells[heal]			= 2;
+global.enemyAtkGridX[heal, 0]				= 1;
 global.enemyAtkGridY[heal, 0]				= 0;
+global.enemyAtkGridX[heal, 1]				= 2;
+global.enemyAtkGridY[heal, 1]				= 0;
 
 ////////////////////////////////////////////
 /***********     Beeline    ********////////

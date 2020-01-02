@@ -13,7 +13,8 @@
 #macro		myEnemy9	608
 #macro		myEnemy10	609
 #macro		myEnemy11	610
-#macro		ltAtk		700
+#macro		myBoss		700
+#macro		ltAtk		500
 
 #macro		second		60
 #macro		empty		69

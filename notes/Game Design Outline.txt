@@ -11,7 +11,7 @@ Through The Woods Game Design Outline
 -The actor will then become ‘active’ while performing the action and will not be able to be selected until no longer active.
 -All actors have a strain meter that builds as the actor blocks incoming damage with defending. The strain meter will wait once receiving strain and then slowly decrease as strain is added. If the strain meter is filled up completely the shield breaks and the actor is stunned. Certain special moves require a certain level of strain to perform and will reset the bar to 0 once performed successfully.
 -When any actor is taking their action, for that duration, all actors are inactive (this gives the feel of a turn based RPG).
--All actions have a cool down and the player must wait for the cool down to expire before the actor can be used.
+-All actions have a cool down and the player must wait for the cool down to expire before the actor can be used. The actor can still be moved however.
 -All cool down timers are paused while actions occur and resume once the action has been performed.
 -Magic and big enemy attacks must be channelled. The cool down for these are generally pretty low but the actor must wait until the channel time expires before the move is performed. Big enemy attacks have indicators on which squares will be affected.
 -The player may obtain from giving an actor an action for however long the player likes, the AI however will always perform an action as soon as its cool downs expire

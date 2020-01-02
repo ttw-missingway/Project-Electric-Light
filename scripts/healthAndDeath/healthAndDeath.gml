@@ -2,7 +2,11 @@ for (i=0; i<10; i++){
 	if global.enemyInSlot[i] != empty{
 		global.enemyHP[global.enemyInSlot[i]] = clamp(global.enemyHP[global.enemyInSlot[i]],0,global.enemyHPStart[global.enemyInSlot[i]]);
 		if global.enemyHP[global.enemyInSlot[i]] = 0{
-			if global.enemyAtkSupport = false{
+			if global.enemyDeathAttack[global.enemyInSlot[i]] != "none"{
+				global.enemyAttackInProgress = true;
+				enemyPerformAttack(global.enemyDeathAttack[global.enemyInSlot[i]], global.enemyInSlot[i], i);
+				global.enemyDeathAttack[global.enemyInSlot[i]] = "none";}
+			if global.enemyAtkSupport[global.enemyAttackLoadedInSlot[i]] = false{
 				for (j=0; j<global.enemyAtkGridMaxCells[global.enemyAttackLoadedInSlot[i]]; j++){
 					global.highlightTable[translateRelativeGridX(global.enemyAttackLoadedInSlot[i], global.enemyInSlot[i], j), translateRelativeGridY(global.enemyAttackLoadedInSlot[i], global.enemyInSlot[i], j)] = false;
 					global.highlightTableBee[translateRelativeGridX(global.enemyAttackLoadedInSlot[i], global.enemyInSlot[i], j), translateRelativeGridY(global.enemyAttackLoadedInSlot[i], global.enemyInSlot[i], j)] = false;}}
@@ -15,11 +19,9 @@ for (i=0; i<10; i++){
 			global.enemyPositionY[global.enemyInSlot[i]] = 69;
 			global.enemyAttackInProgress = false;
 			global.enemyAttackLoadedInSlot[i] = empty;}}}
-		
+
 for (i=0; i<3; i++){
 	if global.actorInSlot[i] != empty{
 		global.actorHP[global.actorInSlot[i]] = clamp(global.actorHP[global.actorInSlot[i]],0,global.actorHPStart[global.actorInSlot[i]]);
 		if global.actorHP[global.actorInSlot[i]] = 0{
 			global.actorState[global.enemyInSlot[i]] = "dead";}}}
-
-

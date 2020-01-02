@@ -14,7 +14,10 @@ if m != undefined{
 
 
 		if global.enemyAttackPerformInSlot[m] = true {
-			enemyPerformAttack(global.enemyAttackLoadedInSlot[m], global.enemyInSlot[m], m);
+			if global.enemyAtkCreate[global.enemyAttackLoadedInSlot[m]] = "none"{
+				enemyPerformAttack(global.enemyAttackLoadedInSlot[m], global.enemyInSlot[m], m);}
+			else{
+				createEnemyOnField(global.enemyAtkCreate[global.enemyAttackLoadedInSlot[m]], m);}
 			global.enemyAttackPerformInSlot[m] = false;
 			ds_queue_dequeue(oEnemyAI.enemyAttackOrder);}}
 	else{

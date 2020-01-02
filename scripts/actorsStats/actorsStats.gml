@@ -3,15 +3,15 @@
 //*********//
 
 global.actorKeyword[myChar]				= "myChar";
-global.actorHP[myChar]					= 10;
-global.actorStrength[myChar]			= 3;
+global.actorHP[myChar]					= global.actorHPStart[myChar];
+global.actorStrength[myChar]			= global.actorStrengthStart[myChar];
+global.actorArmor[myChar]				= global.actorArmorStart[myChar];
+global.actorEvasion[myChar]				= global.actorEvasionStart[myChar];
+global.actorCDReduction[myChar]			= global.actorCDReductionStart[myChar];
 global.actorStrain[myChar]				= 0;
+global.actorState[myChar]				= "none";
 global.actorStatus[myChar]				= "none";
 global.actorDmgMod[myChar]				= 0;
-global.actorArmor[myChar]				= 0;
-global.actorRegen[myChar]				= 0;
-global.actorHaste[myChar]				= 1;		//is a ratio where 1 is normal, less than 1 is slowed, more than 1 is sped up
-global.actorAutoLife[myChar]			= 0;		//binary, 1 yes, 0 no
 global.actorRange[myChar]				= "melee";	//not sure this is fluid, we'll see.
 global.actorSeal[myChar]				= "none";
 global.actorZodiac[myChar]				= "sword";
@@ -22,9 +22,7 @@ global.actorAbilitySlot[myChar,2]		= "Pyra Minor"; //basic lamp light attack
 global.actorAbilitySlot[myChar,3]		= "Auto-Regen"; //passive ability
 global.actorPositionX[myChar]			= 2;
 global.actorPositionY[myChar]			= 2;
-global.actorState[myChar]				= "none";
-global.actorEvasion[myChar]				= 0.0;
-global.actorCDReduction[myChar]			= 0;
+
 
 //*********//
 //*MyChar2**//
