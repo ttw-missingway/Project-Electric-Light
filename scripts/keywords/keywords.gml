@@ -13,12 +13,21 @@
 #macro		myEnemy9	608
 #macro		myEnemy10	609
 #macro		myEnemy11	610
+#macro		wolf1		611
+#macro		wolf2		612
+#macro		fireBat		613
+#macro		fireBat2	614
+#macro		madnessMoth1	615
+#macro		madnessMoth2	616
+#macro		rainbowMoth1	617
+#macro		rainbowMoth2	618
 #macro		myBoss		700
-#macro		ltAtk		500
+#macro		gevaudan	701
+#macro		ltAtk		400
 
 #macro		second		60
 #macro		empty		69
-#macro		highlight	420
+#macro		highlight	690
 
 //Enemy Movement
 #macro		bow			0
@@ -37,6 +46,10 @@
 #macro		genHeal			508
 #macro		beam			509
 #macro		heal			510
+#macro		wolfDash		511
+#macro		fireSwoop		512
+#macro		howl			513
+#macro		dustAttack		514
 
 //grid
 #macro		vacant			100

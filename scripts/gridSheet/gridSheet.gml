@@ -100,8 +100,7 @@ global.cellKeyword[myChar2]					= "myChar2";
 
 //MY ENEMY
 
-for (i=myEnemy; i<=myEnemy11; i++){
-	global.cellKeyword[i]					= "MyEnemy" + string(i-myEnemy);
+for (i=myEnemy; i<=rainbowMoth2; i++){
 	global.cellEnemyTargetClass[i]			= "targetable";
 	global.cellPlayerTargetClass[i]			= "targetable";
 	global.cellPlayerMovementClass[i]		= "unmoveable";
@@ -109,4 +108,12 @@ for (i=myEnemy; i<=myEnemy11; i++){
 	global.cellObstacleClass[i]				= "unbreakable";
 	global.cellMainClass[i]					= "enemy";}
 
-
+global.cellKeyword[myEnemy]					= "myEnemy";
+global.cellKeyword[fireBat]					= "fireBat";
+global.cellKeyword[fireBat2]				= "fireBat2";
+global.cellKeyword[wolf1]					= "wolf1";
+global.cellKeyword[wolf2]					= "wolf2";
+global.cellKeyword[madnessMoth1]			= "madnessMoth1";
+global.cellKeyword[madnessMoth2]			= "madnessMoth2";
+global.cellKeyword[rainbowMoth1]			= "rainbowMoth1";
+global.cellKeyword[rainbowMoth2]			= "rainbowMoth2";

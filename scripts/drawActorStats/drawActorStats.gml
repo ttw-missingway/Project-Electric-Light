@@ -57,40 +57,11 @@ for (i=0;i<=2;i++){
 	draw_text(x + newColumn*(i+1), y + newLine*6, "Armor: " + string(
 		global.actorArmor[global.actorInSlot[i]]));	
 		
+	draw_text(x + newColumn*(i+1), y + newLine*7, "X: " + string(
+		global.actorPositionX[global.actorInSlot[i]]));	
+		
+	draw_text(x + newColumn*(i+1), y + newLine*8, "Y: " + string(
+		global.actorPositionY[global.actorInSlot[i]]));	
+		
 		
 	draw_set_alpha(1);}
-
-//Enemies
-
-for (i=0;i<=9;i++){
-	
-	draw_set_color(c_red);
-	draw_set_alpha(0.8);
-	
-	if global.enemyInSlot[i] != empty{
-	
-	draw_text(x + newColumn*(i+4), y, "Enemy " + string(i+1) + ":" + string(
-		global.enemyKeyword[
-			global.enemyInSlot[i]]));
-		
-	draw_text(x + newColumn*(i+4), y + newLine, "HP: " + string(
-		global.enemyHP[
-			global.enemyInSlot[i]]));
-		
-	draw_text(x + newColumn*(i+4), y + newLine*2, "CD: " + string(
-		global.enemyCDInSlot[i]));
-		
-	draw_text(x + newColumn*(i+4), y + newLine*3, "Strength: " + string(
-		global.enemyStrength[global.enemyInSlot[i]]));
-		
-	draw_text(x + newColumn*(i+4), y + newLine*4, "CDR: " + string(
-		global.enemyCDReduction[global.enemyInSlot[i]]));		
-		
-	draw_text(x + newColumn*(i+4), y + newLine*5, "Evasion: " + string(
-		global.enemyEvasion[global.enemyInSlot[i]]));	
-		
-	draw_text(x + newColumn*(i+4), y + newLine*6, "Armor: " + string(
-		global.enemyArmor[global.enemyInSlot[i]]));	}
-		
-	draw_set_alpha(1);
-	draw_set_color(c_white);}

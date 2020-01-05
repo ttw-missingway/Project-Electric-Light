@@ -12,6 +12,8 @@ for (h = 0; h<= ds_grid_height(newGrid); h++){
 	
 for (w = 0; w<= ds_grid_width(newGrid); w++){
 	ds_grid_set(newGrid, w, 0, noAccess);}
+	
+loadEnemySet("cave");
 
 for (i=0; i<3; i++){
 	if global.actorInSlot[i] != empty{
@@ -22,12 +24,6 @@ for (i=0; i<10; i++){
 	if global.enemyInSlot[i] != empty{
 		ds_grid_set(newGrid, global.enemyPositionX[global.enemyInSlot[i]], global.enemyPositionY[global.enemyInSlot[i]], global.enemyInSlot[i]);}}
 
-
-//ds_grid_set(newGrid, 1, 1, crate);
-
-ds_grid_set(newGrid, 2, 3, crate);
-
-ds_grid_set(newGrid, 4, 2, crate);
 
 
 ds_grid_set(newGrid, 0, 0, oob);

@@ -14,29 +14,31 @@ for (j=0; j<13; j++){
 
 for (i=0; i<global.enemyAtkGridMaxCells[argument0]; i++){
 	
+	var getTargetX = 69;
+	var getTargetY = 69;
 	
 	if global.enemyAtkGridRelative[argument0] = false{
 		
-		var getTargetX = global.enemyAtkGridX[argument0, i];
-		var getTargetY = global.enemyAtkGridY[argument0, i];}
+		getTargetX = global.enemyAtkGridX[argument0, i];
+		getTargetY = global.enemyAtkGridY[argument0, i];}
 		
 	else {
 		
 		switch global.enemyFace[argument1]{
 			
 			case "bow": {
-				var getTargetX = global.enemyPositionX[argument1] + global.enemyAtkGridY[argument0, i];
-				var getTargetY = global.enemyPositionY[argument1] + global.enemyAtkGridX[argument0, i];
+				getTargetX = global.enemyPositionX[argument1] + global.enemyAtkGridY[argument0, i];
+				getTargetY = global.enemyPositionY[argument1] + global.enemyAtkGridX[argument0, i];
 				break;}
 				
 			case "port": {
-				var getTargetX = global.enemyAtkGridX[argument0, i];
-				var getTargetY = global.enemyPositionY[argument1] + global.enemyAtkGridY[argument0, i];
+				getTargetX = global.enemyAtkGridX[argument0, i];
+				getTargetY = global.enemyPositionY[argument1] + global.enemyAtkGridY[argument0, i];
 				break;}
 				
 			case "starboard": {
-				var getTargetX = max(0, global.enemyPositionX[argument1] - global.enemyAtkGridX[argument0, i]);
-				var getTargetY = max(0, global.enemyPositionY[argument1] - global.enemyAtkGridY[argument0, i]);			
+				getTargetX = max(0, global.enemyPositionX[argument1] - global.enemyAtkGridX[argument0, i]);
+				getTargetY = max(0, global.enemyPositionY[argument1] - global.enemyAtkGridY[argument0, i]);			
 				break;}}}
 				
 	if global.enemyAtkTravel[argument0] = "volley"{

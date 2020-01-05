@@ -14,4 +14,4 @@ for (i=0; i<10; i++){
 	draw_text(x - xoffset + xdraw * i, y+112, "State: " + string(global.enemyState[global.enemyInSlot[i]]));}
 	
 	draw_text(xdraw, 0, "head: " + string(ds_queue_head(enemyAttackOrder)));
-	draw_text(xdraw, 16, "bugtest: " + string(global.enemyInSlot[0]));
+	draw_text(xdraw, 16, "bugtest: " + string(bugTest));

@@ -213,18 +213,41 @@ ds_list_add(global.enemyAttackList[myEnemy9], heal);
 
 global.enemyHP[myEnemy10]						= 10;
 global.enemyStrength[myEnemy10]					= 3;
-global.enemyArmor[myEnemy10]						= 1;
-global.enemyState[myEnemy10]						= "none";
+global.enemyArmor[myEnemy10]					= 1;
+global.enemyState[myEnemy10]					= "none";
 global.enemyStatus[myEnemy10]					= "none";
 global.enemyFace[myEnemy10]						= "none";
-global.enemyPositionX[myEnemy10]					= 0;
-global.enemyPositionY[myEnemy10]					= 0;
+global.enemyPositionX[myEnemy10]				= 0;
+global.enemyPositionY[myEnemy10]				= 0;
 global.enemyCounterType[myEnemy10]				= "flat";
 global.enemyEvasion[myEnemy10]					= 0.0; //percentage
 global.enemyCDReduction[myEnemy10]				= 1;
 
 
-global.enemyMassiveCD[myEnemy10]					= 3;
+global.enemyMassiveCD[myEnemy10]				= 3;
 
 global.enemyAttackList[myEnemy10]				= ds_list_create();
 ds_list_add(global.enemyAttackList[myEnemy10], heal);
+
+//**********//
+//*Gevaudan*//
+//**********//
+
+global.enemyHP[gevaudan]						= global.enemyHPStart[gevaudan];
+global.enemyStrength[gevaudan]					= global.enemyStrengthStart[gevaudan];
+global.enemyArmor[gevaudan]						= global.enemyArmorStart[gevaudan];
+global.enemyCDReduction[gevaudan]				= global.enemyCDReductionStart[gevaudan];
+global.enemyEvasion[gevaudan]					= global.enemyEvasionStart[gevaudan];
+global.enemyState[gevaudan]						= "none";
+global.enemyStatus[gevaudan]					= "none";
+global.enemyFace[gevaudan]						= "none";
+global.enemyPositionX[gevaudan]					= 0;
+global.enemyPositionY[gevaudan]					= 0;
+global.enemyCounterType[gevaudan]				= "flat";
+global.enemyMassiveCD[gevaudan]					= 3;
+
+global.enemyAttackList[gevaudan]				= ds_list_create();
+ds_list_add(global.enemyAttackList[gevaudan], howl);
+
+
+
