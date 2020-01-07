@@ -13,7 +13,7 @@ for (h = 0; h<= ds_grid_height(newGrid); h++){
 for (w = 0; w<= ds_grid_width(newGrid); w++){
 	ds_grid_set(newGrid, w, 0, noAccess);}
 	
-loadEnemySet("cave");
+loadEnemySet("garden");
 
 for (i=0; i<3; i++){
 	if global.actorInSlot[i] != empty{

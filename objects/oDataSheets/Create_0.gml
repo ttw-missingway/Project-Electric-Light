@@ -7,3 +7,4 @@ keywords();
 gridSheet();
 enemySheet();
 actorSheet();
+initializeSystemVariables();

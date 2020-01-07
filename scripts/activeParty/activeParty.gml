@@ -1,3 +1,8 @@
+global.actorHoverOverSlot = 0;			//used to highlight
+global.actorSelectedInSlot = 0;			//used to highlight
+global.actorHovering = false;
+global.actorSelected = false;
+
 global.actorInSlot[0] = myChar;
 global.actorActiveInSlot[0] = true;
 global.actorCDInSlot[0] = 0;

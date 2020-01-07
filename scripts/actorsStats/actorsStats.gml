@@ -16,10 +16,10 @@ global.actorRange[myChar]				= "melee";	//not sure this is fluid, we'll see.
 global.actorSeal[myChar]				= "none";
 global.actorZodiac[myChar]				= "sword";
 global.actorLink[myChar]				= "none";
-global.actorAbilitySlot[myChar,0]		= "Light Attack"; //Attack strings should be stylized how they will be used in game
-global.actorAbilitySlot[myChar,1]		= "Guard";
-global.actorAbilitySlot[myChar,2]		= "Pyra Minor"; //basic lamp light attack
-global.actorAbilitySlot[myChar,3]		= "Auto-Regen"; //passive ability
+global.actorAbilitySlot[myChar,0]		= ltAtk; //Attack strings should be stylized how they will be used in game
+global.actorAbilitySlot[myChar,1]		= guard;
+global.actorAbilitySlot[myChar,2]		= luna; //basic lamp light attack
+global.actorAbilitySlot[myChar,3]		= cloak; //passive ability
 global.actorPositionX[myChar]			= 2;
 global.actorPositionY[myChar]			= 2;
 

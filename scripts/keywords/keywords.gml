@@ -24,6 +24,9 @@
 #macro		myBoss		700
 #macro		gevaudan	701
 #macro		ltAtk		400
+#macro		guard		401
+#macro		luna		402
+#macro		cloak		403
 
 #macro		second		60
 #macro		empty		69

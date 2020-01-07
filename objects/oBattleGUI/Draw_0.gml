@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-drawActorStats();
+//drawActorStats();
+drawMenu();
+draw_text(x, y-32, "bugTest: " + string(bugTest));
 
 /*
 	if global.enemyActiveInSlot[0] = false{

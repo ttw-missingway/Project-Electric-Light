@@ -4,7 +4,9 @@ if !global.attackInProgress && !global.gameplayFreeze{
 			global.actorActiveInSlot[0] = false;
 				global.actorCDInSlot[0]--;}}
 	else{
-		global.actorActiveInSlot[0] = true;
+		if global.actorInSlot[1] != empty{
+			if global.actorState[global.actorInSlot[1]] != "dead"{
+				global.actorActiveInSlot[0] = true;}}
 		global.actorCDInSlot[0] = -1;}
 		
 	if global.actorCDInSlot[1] > 0 {
@@ -12,7 +14,9 @@ if !global.attackInProgress && !global.gameplayFreeze{
 			global.actorActiveInSlot[1] = false;
 				global.actorCDInSlot[1]--;}}
 	else{
-		global.actorActiveInSlot[1] = true;
+		if global.actorInSlot[1] != empty{
+			if global.actorState[global.actorInSlot[1]] != "dead"{
+				global.actorActiveInSlot[1] = true;}}
 		global.actorCDInSlot[1] = -1;}
 		
 	if global.actorCDInSlot[2] > 0 {
@@ -20,7 +24,9 @@ if !global.attackInProgress && !global.gameplayFreeze{
 			global.actorActiveInSlot[2] = false;
 				global.actorCDInSlot[2]--;}}
 	else{
-		global.actorActiveInSlot[2] = true;
+		if global.actorInSlot[2] != empty{
+			if global.actorState[global.actorInSlot[2]] != "dead"{
+				global.actorActiveInSlot[2] = true;}}
 		global.actorCDInSlot[2] = -1;}}
 	
 //Clean this up sometime, this can be made to be much more efficient

@@ -4,6 +4,6 @@
 //TIMERS CODE
 actorTimers();
 enemyTimers();
-
+inputBufferTimer();
 
 actorStatusCalculator();

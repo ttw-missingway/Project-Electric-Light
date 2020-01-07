@@ -1,4 +1,4 @@
-
+if global.inputActive = true{
 
 if keyboard_check_pressed(keyLeft){
 	if ds_grid_get(oGridController.newGrid,global.actorPositionX[argument0]-1,global.actorPositionY[argument0]) = vacant{
@@ -24,8 +24,7 @@ if keyboard_check_pressed(keyDown){
 		ds_grid_set(oGridController.newGrid,global.actorPositionX[argument0],global.actorPositionY[argument0], vacant);
 		global.actorPositionY[argument0]++;}}
 		
-if keyboard_check_pressed(keyB){
-	battleState = "actorSelect";}
-	
-if keyboard_check_pressed(keyA){
-	battleState = "actorAttack";}
+if keyboard_check_pressed(keyB)||keyboard_check_pressed(keyA){
+	global.inputActive = false;
+	global.inputBuffer += 5;
+	global.menuState = "actorAct";}}

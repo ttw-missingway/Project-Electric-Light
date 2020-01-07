@@ -9,6 +9,7 @@ switch battleState {
 			moveSelectedActor(global.actorInSlot[global.activeSlot]);}
 		break;}
 	case "actorAttack": {
-		if global.actorStatus[global.actorInSlot[global.activeSlot]] != "stunned"{
-			actorAbility(global.actorInSlot[global.activeSlot], ltAtk, myEnemy);}
+		if !global.attackInProgress{ 
+			if global.actorStatus[global.actorInSlot[global.activeSlot]] != "stunned"{
+				actorAbility(global.actorInSlot[global.activeSlot], ltAtk, myEnemy);}}
 		break;}}

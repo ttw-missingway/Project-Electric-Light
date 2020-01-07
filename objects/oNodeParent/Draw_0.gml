@@ -8,7 +8,11 @@ switch global.cellMainClass[ds_grid_get(oGridController.newGrid,cellx,celly)]{
 		if ds_grid_get(oGridController.newGrid,cellx,celly) = noAccess{
 			sprite_index = sNodeNoAccess;} break;}
 	case "enemy":		{drawEnemiesNode(myEnemy); break;}
-	case "player":		{sprite_index = sNodePlayer; break;}
+	case "player":		{
+		if global.actorHovering = true && global.actorInSlot[global.actorHoverOverSlot] = ds_grid_get(oGridController.newGrid,cellx,celly) {sprite_index = sNodePlayerHover;}
+		else if global.actorSelected = true && global.actorInSlot[global.actorSelectedInSlot] = ds_grid_get(oGridController.newGrid,cellx,celly) {sprite_index = sNodePlayerSelect;}
+		else {sprite_index = sNodePlayer;}
+		break;}
 	case "obstacle":	{sprite_index = sNodeCrate; break;}}
 	
 if global.highlightTable[cellx,celly] = true {sprite_index = sNodeHighlight;}
