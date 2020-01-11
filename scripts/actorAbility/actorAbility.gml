@@ -1,7 +1,6 @@
 ///actorAbility(actor, attack, target);
 if global.inputActive = true{
 
-if keyboard_check_pressed(keyA){
 	if global.actorActiveInSlot[global.activeSlot] = true{
 		
 		enemyTargetted = argument2
@@ -84,4 +83,4 @@ if keyboard_check_pressed(keyA){
 		global.actorCDInSlot[global.activeSlot]			= global.atkCD[argument1];
 		global.inputActive = false;
 		global.inputBuffer += 5;
-		battleState = "actorSelect";}}}
+		battleState = "actorSelect";}}

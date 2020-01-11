@@ -3,7 +3,7 @@
 ////////////////////////////////////////////
 
 global.atkKeyword[ltAtk]		= "Light Attack";
-global.atkDmgMod[ltAtk]			= 1; //percentage of atk stat used in attack
+global.atkDmgMod[ltAtk]			= 4; //percentage of atk stat used in attack
 global.atkDmgFlat[ltAtk]		= 10; //used with magic attacks
 global.atkCD[ltAtk]				= 10*second;
 global.atkActive[ltAtk]			= true;
@@ -24,7 +24,7 @@ global.atkActive[guard]			= true;
 global.atkDmgType[guard]		= "magic";
 global.atkMagicType[guard]		= "elec";
 global.atkHitRate[guard]		= 255;
-global.atkTargetClass[guard]	= "single ally";
+global.atkTargetClass[guard]	= "all enemies";
 
 ////////////////////////////////////////////
 /************* Luna ***************/
@@ -38,7 +38,7 @@ global.atkActive[luna]			= true;
 global.atkDmgType[luna]			= "magic";
 global.atkMagicType[luna]		= "moon";
 global.atkHitRate[luna]			= 255;
-global.atkTargetClass[luna]		= "single volley";
+global.atkTargetClass[luna]		= "all other allies";
 
 ////////////////////////////////////////////
 /************* cloak ***************/
@@ -52,4 +52,4 @@ global.atkActive[cloak]			= true;
 global.atkDmgType[cloak]		= "magic";
 global.atkMagicType[cloak]		= "lamp";
 global.atkHitRate[cloak]		= 255;
-global.atkTargetClass[cloak]		= "all allies";
+global.atkTargetClass[cloak]	= "self";

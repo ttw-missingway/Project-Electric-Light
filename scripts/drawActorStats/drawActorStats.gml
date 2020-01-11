@@ -1,10 +1,10 @@
 var newLine = 16;
 var newColumn = 124;
 
-draw_text(x, y, "State: \n" + string(
+draw_text(x+64, y, "State: \n" + string(
 	oPlayerInterface.battleState));
 	
-draw_text(x, y + newLine*3, "Selected Actor: \n" + string(
+draw_text(x+64, y + newLine*3, "Selected Actor: \n" + string(
 	global.actorKeyword[
 		global.actorInSlot[
 			global.activeSlot]]));

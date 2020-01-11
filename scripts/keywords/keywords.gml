@@ -21,6 +21,7 @@
 #macro		madnessMoth2	616
 #macro		rainbowMoth1	617
 #macro		rainbowMoth2	618
+#macro		allEnemies		619
 #macro		myBoss		700
 #macro		gevaudan	701
 #macro		ltAtk		400
@@ -63,6 +64,7 @@
 #macro		pit				105
 
 //actors
+#macro		allAllies		200
 #macro		art				201
 #macro		aisling			202
 #macro		nicoli			203
@@ -76,3 +78,4 @@
 #macro		giles			211
 #macro		diedre			212
 #macro		unit			213
+#macro		allOtherAllies	214

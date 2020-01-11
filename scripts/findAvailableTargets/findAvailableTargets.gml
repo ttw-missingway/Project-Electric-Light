@@ -16,7 +16,6 @@ option[9] = empty;
 switch global.atkTargetClass[argument1]{
 	case "single melee":{
 		maxOptions = 0;
-		for (i=0; i<3; i++){
 			for (j=0; j<3; j++){
 				
 				//Bow enemy
@@ -30,13 +29,9 @@ switch global.atkTargetClass[argument1]{
 						if option[j] = empty{
 							option[j] = ds_grid_get(oGridController.newGrid, global.actorPositionX[argument0], 0);
 							readOption[option[j]] = global.cellKeyword[option[j]];
-							j++;
-							if j = 0{
-								maxOptions++;}
-							else{
-								if option[j-1] != option[j]{
-									maxOptions++;}}}}}
-							
+							maxOptions++;
+							j++;}}}
+						
 				//Port enemy			
 				if ds_grid_get(oGridController.newGrid, 0, global.actorPositionY[argument0]) != noAccess{
 					clearPath = 0;
@@ -48,12 +43,8 @@ switch global.atkTargetClass[argument1]{
 						if option[j] = empty{
 							option[j] = ds_grid_get(oGridController.newGrid, 0, global.actorPositionY[argument0]);
 							readOption[option[j]] = global.cellKeyword[option[j]];
-							j++;
-							if j = 0{
-								maxOptions++;}
-							else{
-								if option[j-1] != option[j]{
-									maxOptions++;}}}}}
+							maxOptions++;
+							j++;}}}
 							
 				//Starboard enemy			
 				if ds_grid_get(oGridController.newGrid, 5, global.actorPositionY[argument0]) != noAccess{
@@ -67,12 +58,10 @@ switch global.atkTargetClass[argument1]{
 						if option[j] = empty{
 							option[j] = ds_grid_get(oGridController.newGrid, 5, global.actorPositionY[argument0]);
 							readOption[option[j]] = global.cellKeyword[option[j]];
-							if j = 0{
-								maxOptions++;}
-							else{
-								if option[j-1] != option[j]{
-									maxOptions++;}}}}}
-					}}
+							maxOptions++;
+							j++;}}}
+				break;
+					}
 		break;}
 		
 	case "single volley":{
@@ -89,7 +78,7 @@ switch global.atkTargetClass[argument1]{
 		
 	case "all enemies":{
 		maxOptions = 1;
-		option[0] = 0;
+		option[0] = allEnemies;
 		readOption[option[0]] = "all enemies";
 		break;}	
 		
@@ -107,7 +96,20 @@ switch global.atkTargetClass[argument1]{
 		
 	case "all allies":{
 		maxOptions = 1;
-		option[0] = 1;
+		option[0] = allAllies;
 		readOption[option[0]] = "all allies";
 		break;}	
+		
+	case "self":{
+		maxOptions = 1;
+		option[0] = actorSelection;
+		readOption[option[0]] = global.cellKeyword[actorSelection];
+		break;}
+		
+	case "all other allies":{
+		maxOptions = 1;
+		option[0] = allOtherAllies;
+		readOption[option[0]] = "all other allies";
+		break;}
+		
 } 

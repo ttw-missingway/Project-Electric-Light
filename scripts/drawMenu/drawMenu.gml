@@ -16,12 +16,14 @@ option[8] = empty;
 option[9] = empty;
 
 
+
 for (i=0; i<10; i++){
 	readOption[option[i]] = "error";}
 
 
 switch global.menuState {
 	case "actorSelect":{
+		slotSelection = 0;
 		maxOptions = 0;
 		global.actorHovering = true;
 		global.actorHoverOverSlot = optionSlot;
@@ -44,6 +46,7 @@ switch global.menuState {
 			global.actorSelected = true;
 			global.actorSelectedInSlot = optionSlot;
 			actorSelection = global.actorInSlot[optionSlot];
+			slotSelection = optionSlot;
 			global.menuState = "actorAct";
 			optionSlot = 0;}
 		break;}
@@ -58,12 +61,22 @@ switch global.menuState {
 		readOption[option[2]] = "wait";
 		if keyboard_check_pressed(keyUp)||keyboard_check_pressed(keyLeft){
 			if optionSlot > 0{
-				optionSlot--;}}
+				optionSlot--;}
+			if readOption[option[optionSlot]] = "attack"{
+				if global.actorActiveInSlot[slotSelection] = false{
+					optionSlot--;}}}
 		if keyboard_check_pressed(keyDown)||keyboard_check_pressed(keyRight){
 			if optionSlot < maxOptions-1{
-				optionSlot++;}}
+				optionSlot++;}
+			if readOption[option[optionSlot]] = "attack"{
+				if global.actorActiveInSlot[slotSelection] = false{
+					optionSlot++;}}}
 		if keyboard_check_pressed(keyA){
-			global.menuState = readOption[option[optionSlot]];
+			if readOption[option[optionSlot]] = "attack"{
+				if global.actorActiveInSlot[slotSelection] = true{
+					global.menuState = readOption[option[optionSlot]];}}
+			else{
+				global.menuState = readOption[option[optionSlot]];}
 			optionSlot = 0;}
 		if keyboard_check_pressed(keyB){
 			global.menuState = "actorSelect";
@@ -116,16 +129,28 @@ switch global.menuState {
 			if optionSlot < maxOptions-1{
 				optionSlot++;}}
 		if keyboard_check_pressed(keyA){
-			global.menuState = "targetSelect";
+			global.menuState = "performAbility";
+			enemySelected = option[optionSlot];
 			optionSlot = 0;}
 		if keyboard_check_pressed(keyB){
 			global.menuState = "actorAct";
 			optionSlot = 0;}
-		break;}}
+		break;}
 		
+	case "performAbility":{
+		maxOptions = 0;
+		actorAbility(actorSelection, attackSelected, enemySelected);
+		global.menuState = "actorSelect";
+		optionSlot = 0;
+		break;}}
+
+bugTest = maxOptions;
 draw_text(x, y-16, global.menuState);	
 for (i=0; i<maxOptions; i++){	
 	if optionSlot != i{
 		draw_set_alpha(0.5);}
+	if global.actorActiveInSlot[slotSelection] = false{
+			if readOption[option[i]] = "attack"{
+				draw_set_alpha(0.2);}}
 	draw_text(x, y+16*i, readOption[option[i]]);
 	draw_set_alpha(1);}

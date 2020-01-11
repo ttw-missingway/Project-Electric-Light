@@ -3,7 +3,8 @@
 //drawActorStats();
 drawMenu();
 draw_text(x, y-32, "bugTest: " + string(bugTest));
-
+drawActorStats();
+draw_text(oPlayerInterface.x, oPlayerInterface.y+48, slotSelection);
 /*
 	if global.enemyActiveInSlot[0] = false{
 		draw_text(836,70,string(global.enemyPreCDInSlot[0]));}
